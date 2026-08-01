@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Name</title>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <!-- theme -->
+        <script>
+            (() => {
+                try {
+                    const theme = localStorage.getItem("theme") || "system";
+                    document.documentElement.dataset.theme = theme;
+                } catch (error) {
+                    document.documentElement.dataset.theme = "system";
+                }
+            })();
+        </script>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <!-- preload crumbs -->
+        <link rel="preload" href="/assets/lib/crumbs.css" as="style">
+        <!-- main css -->
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">
+        <!-- icon -->
+        <link rel="stylesheet" href="assets/icon/crumbsicon.css">
+        <!-- CSS AOS -->
+        <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+        <!-- glightbox -->
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" /> -->
+        <!-- flickity -->
+        <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+        <!-- Maplibre -->
+        <!-- <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+        <link href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet" /> -->
+    </head>
+    <body>
+        <nav id="navbar">
+            <div class="wrapper">
+                <input type="checkbox" id="nav-toggle" name="toggle navbar">
+            
+                <div class="nav-brand">
+                    <a href="#mainHeader">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1888 1888">
+                            <g>
+                                <path fill="currentColor" d="M237 382l287 -166 287 -165c84,-49 181,-49 266,0l287 165 113 65 -886 512c86,37 189,34 276,-17l734 -423 50 29c84,49 133,133 133,231l0 331 0 331c0,98 -49,182 -133,231l-287 165 -287 166c-85,49 -182,49 -266,0l-287 -166 -11 -6 610 -351c87,-51 141,-138 152,-232l-886 512 -152 -88c-85,-49 -133,-133 -133,-231l0 -331 0 -331c0,-98 48,-182 133,-231z"/>
+                                <rect fill="none" width="1888" height="1888"/>
+                            </g>
+                        </svg>
+                        <!-- <div>
+                            <span>splendid</span>
+                        </div> -->
+                    </a>
+                </div>
+
+                <div id="menus" class="nav-menu">
+                    <div class="logo-nav-mobile">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1888 1888">
+                            <g>
+                                <path fill="currentColor" d="M237 382l287 -166 287 -165c84,-49 181,-49 266,0l287 165 113 65 -886 512c86,37 189,34 276,-17l734 -423 50 29c84,49 133,133 133,231l0 331 0 331c0,98 -49,182 -133,231l-287 165 -287 166c-85,49 -182,49 -266,0l-287 -166 -11 -6 610 -351c87,-51 141,-138 152,-232l-886 512 -152 -88c-85,-49 -133,-133 -133,-231l0 -331 0 -331c0,-98 48,-182 133,-231z"/>
+                                <rect fill="none" width="1888" height="1888"/>
+                            </g>
+                        </svg>
+                        <div>
+                            <span>splendid</span>
+                        </div>
+                    </div>
+
+                    <label for="nav-toggle" class="close-menu">
+                        <i class="ci ci-cancel-01"></i>
+                    </label>
+
+                    <ul>                        
+                        <li>
+                            <a href="#mainHeader" class="nav-link active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav-link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#why" class="nav-link">Why Us</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="theme-toggle theme-toggle-mobile" role="group" aria-label="Theme mode">
+                        <button type="button" data-theme-value="light" aria-pressed="false">light</button>
+                        <button type="button" data-theme-value="dark" aria-pressed="false">dark</button>
+                        <button type="button" data-theme-value="system" aria-pressed="false">system</button>
+                    </div>
+                </div>
+
+                <div class="theme-toggle theme-toggle-desktop" role="group" aria-label="Theme mode">
+                    <button type="button" data-theme-value="light" aria-pressed="false">light</button>
+                    <button type="button" data-theme-value="dark" aria-pressed="false">dark</button>
+                    <button type="button" data-theme-value="system" aria-pressed="false">system</button>
+                </div>
+                
+                <label for="nav-toggle" class="open-menu">
+                    <i class="ci ci-menu-01"></i>
+                </label>
+            </div>
+            
+            <div class="nav-layer trans"></div>
+        </nav>
+        
+        <header id="mainHeader">
+            <div class="wrapper">
+                <div class="hero-txt">
+                    <h1>We Build Digital Solutions That <span class="highlight">Drive Impact</span></h1>
+                    <h4>We are a passionate team of developers and designers building modern web and mobile experiences for startups and growing businesses.</h4>
+                    <div class="hero-btns">
+                        <a href="#projects" class="hero-btn-primary">View Our Work <i class="ci-arrow-right-02-round"></i></a>
+                        <a href="#contact" class="hero-btn-outline">Let's Collaborate</a>
+                    </div>
+                </div>
+                <div class="hero-img-wrap">
+                    <div class="hero-glow"></div>
+                    <img src="images/sp-hero-image-light.webp" alt="Digital Solutions Mockup" class="hero-img">
+                </div>
+            </div>
+        </header>
+
+        <section id="partners">
+            <p class="partners-title">Trusted by startups and companies</p>
+            <div class="partners-list">
+                <div class="partner-item">
+                    <svg class="partner-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                    <span>Leafy</span>
+                </div>
+                <div class="partner-item">
+                    <svg class="partner-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="7" cy="17" r="3.5"/><circle cx="17" cy="17" r="3.5"/><circle cx="12" cy="7.5" r="3.5"/></svg>
+                    <span>kanba</span>
+                </div>
+                <div class="partner-item">
+                    <svg class="partner-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19C19.9853 19 22 16.9853 22 14.5C22 12.1564 20.2064 10.2312 17.9 10.0243C17.4339 6.58986 14.4746 4 10.875 4C6.91255 4 3.7 7.21255 3.7 11.175C3.7 11.5367 3.72688 11.892 3.77884 12.2386C2.17646 13.0645 1 14.733 1 16.6667C1 19.3333 3.16667 21.5 5.83333 21.5H17.5V19Z"/></svg>
+                    <span>cloudly</span>
+                </div>
+                <div class="partner-item">
+                    <svg class="partner-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 6v7a4 4 0 0 0 4 4h2a4 4 0 0 0 4-4V6"/></svg>
+                    <span>Lucid</span>
+                </div>
+                <div class="partner-item">
+                    <svg class="partner-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L20 6.5V17.5L12 22L4 17.5V6.5L12 2Z"/><circle cx="12" cy="12" r="3"/></svg>
+                    <span>Sitemark</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="wrapper">
+                <div class="about-txt">
+                    <p class="subtitle">About Us</p>
+                    <p class="title">Building With Passion, Delivering With Purpose</p>
+                    <p class="desc">NovaCode is a digital product studio focused on creating high-quality websites, web apps, and digital experiences. We combine design, technology, and strategy to help businesses grow in the digital world.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                            </div>
+                            <div class="stat-info">
+                                <h3>20+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                        </div>
+
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            </div>
+                            <div class="stat-info">
+                                <h3>10+</h3>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <div class="stat-info">
+                                <h3>3+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-img-wrap">
+                    <img src="images/sp-about-image.webp" alt="NovaCode Team Collaboration" class="about-img">
+                    <div class="about-floating-card">
+                        <div class="card-badge-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <p>We turn ideas into digital products that people love.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="wrapper">
+                <div class="projects-header">
+                    <p class="subtitle">Our Projects</p>
+                    <p class="title">Selected Works We’re Proud Of</p>
+                    <p class="desc">A showcase of our best work, demonstrating our expertise in web development and digital solutions.</p>
+                </div>
+
+                <div class="project-timeline">
+                    <a href="#" class="timeline-item" aria-label="View details for Dashboard Management System">
+                        <div class="timeline-media">
+                            <img src="images/sp-project-image-placeholder.jpg" alt="Dashboard Management System project preview">
+                        </div>
+
+                        <div class="timeline-marker"></div>
+
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <i class="ci-calendar-03"></i>
+                                Mei 2024
+                            </div>
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">Dashboard Management System</h3>
+                                <span class="timeline-link-hint" aria-hidden="true">
+                                    <i class="ci-arrow-up-right-02-round"></i>
+                                </span>
+                            </div>
+                            <p class="timeline-desc">Aplikasi dashboard untuk monitoring dan manajemen data secara real-time dengan visualisasi interaktif.</p>
+                            <div class="timeline-tags">
+                                <span>Vue.js</span>
+                                <span>Tailwind CSS</span>
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="timeline-item" aria-label="View details for Website Company Profile">
+                        <div class="timeline-media">
+                            <img src="images/sp-project-image-placeholder.jpg" alt="Website Company Profile project preview">
+                        </div>
+                        
+                        <div class="timeline-marker"></div>
+
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <i class="ci-calendar-03"></i>
+                                Maret 2024
+                            </div>
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">Website Company Profile</h3>
+                                <span class="timeline-link-hint" aria-hidden="true">
+                                    <i class="ci-arrow-up-right-02-round"></i>
+                                </span>
+                            </div>
+                            <p class="timeline-desc">Website company profile modern dan responsif untuk meningkatkan brand awareness dan kredibilitas perusahaan.</p>
+                            <div class="timeline-tags">
+                                <span>Next.js</span>
+                                <span>Tailwind CSS</span>
+                                <span>Framer Motion</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="timeline-item" aria-label="View details for Mobile Application">
+                        <div class="timeline-media">
+                            <img src="images/sp-project-image-placeholder.jpg" alt="Mobile Application project preview">
+                        </div>
+                        
+                        <div class="timeline-marker"></div>
+
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <i class="ci-calendar-03"></i>
+                                Januari 2024
+                            </div>
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">Mobile Application</h3>
+                                <span class="timeline-link-hint" aria-hidden="true">
+                                    <i class="ci-arrow-up-right-02-round"></i>
+                                </span>
+                            </div>
+                            <p class="timeline-desc">Aplikasi mobile untuk memudahkan pengguna dalam mengakses layanan dimanapun dan kapanpun.</p>
+                            <div class="timeline-tags">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Firebase</span>
+                                <span>REST API</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="why">
+            <div class="wrapper">
+                <div class="why-header">
+                    <p class="subtitle">Why Choose Us</p>
+                    <p class="title">Your Vision, Our Expertise</p>
+                    <p class="desc">Kami membantu bisnis membangun produk digital yang rapi, cepat, mudah dikembangkan, dan siap bertumbuh bersama kebutuhan pengguna.</p>
+                </div>
+                <div class="why-list">
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="ci-web-design-01"></i>
+                        </div>
+                        <h3>Modern & Clean Design</h3>
+                        <p>Interface yang nyaman dipakai, mudah dipahami, dan tetap membawa karakter brand Anda.</p>
+                    </div>
+
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="ci-laptop-performance"></i>
+                        </div>
+                        <h3>Performance Focused</h3>
+                        <p>Website dan aplikasi dibangun cepat, stabil, dan optimal untuk pengalaman pengguna terbaik.</p>
+                    </div>
+
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="ci-security-check"></i>
+                        </div>
+                        <h3>Reliable & Transparent</h3>
+                        <p>Komunikasi jelas, proses kerja terarah, dan progress yang mudah dipantau dari awal sampai akhir.</p>
+                    </div>
+
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="ci-headset"></i>
+                        </div>
+                        <h3>Ongoing Support</h3>
+                        <p>Kami tetap mendampingi setelah launch agar produk terus terawat dan siap berkembang.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="wrapper">
+                <div class="contact-cta">
+                    <div class="contact-cta-icon">
+                        <i class="ci-message-02"></i>
+                    </div>
+                    <p class="subtitle">Let's Work Together</p>
+                    <h2>Ready to build something amazing together?</h2>
+                    <p>Tell us what you want to create, and we will help turn the idea into a digital product that is clear, reliable, and ready to grow.</p>
+                    <a href="#" class="contact-cta-btn" aria-label="Start a project conversation on WhatsApp">
+                        <i class="ci-whatsapp"></i>
+                        Start a Conversation
+                        <i class="ci-arrow-right-02-round"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="wrapper">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1888 1888">
+                        <g>
+                            <path fill="currentColor" d="M237 382l287 -166 287 -165c84,-49 181,-49 266,0l287 165 113 65 -886 512c86,37 189,34 276,-17l734 -423 50 29c84,49 133,133 133,231l0 331 0 331c0,98 -49,182 -133,231l-287 165 -287 166c-85,49 -182,49 -266,0l-287 -166 -11 -6 610 -351c87,-51 141,-138 152,-232l-886 512 -152 -88c-85,-49 -133,-133 -133,-231l0 -331 0 -331c0,-98 48,-182 133,-231z"/>
+                            <rect fill="none" width="1888" height="1888"/>
+                        </g>
+                    </svg>
+                    <span>splendid</span>
+                </div>
+
+                <p class="copyright">Copyright &copy; <span id="year"></span> Splendid <b>All Rights Reserved.</b></p>
+            </div>
+        </footer>
+
+        <!-- Back To Top -->
+        <!-- <button onclick="backToTop()" id="bttBtn">
+            <i class="ci-arrow-up-01-round"></i>
+        </button> -->
+        
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+
+        <!-- main js -->
+        <script src="/assets/js/main.js"></script>
+        <!-- crumbs -->
+        <script src="/assets/lib/crumbs.js"></script>
+
+        <!-- AOS -->
+        <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 700,
+                easing: 'ease-out-cubic',
+                once: false,
+                offset: 80
+            });
+        </script> -->
+
+        <!-- glightbox -->
+        <!-- <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+        <script type="text/javascript">
+            const lightbox = GLightbox({ 
+                loop: true
+            });
+        </script> -->
+
+        <!-- Flickity -->
+        <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
+    </body>
+</html>

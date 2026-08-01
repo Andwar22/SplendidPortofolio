@@ -1,0 +1,420 @@
+/* MOBILE VIEW FIRST */
+
+/* ############## TABLET UP ############## */
+@media (width >= 768px) {
+    /* #region ====== GENERAL ====== */
+        :root {
+            --max-page: 100%;
+            --main-padding-x: 5rem;
+            --section-padding-y: 6rem;
+        }
+
+        .title {
+            font-size: 2.75rem;
+        }
+        .desc {
+            font-size: 1.1rem;
+        }
+    /* #endregion ====================== */
+    
+    /* #region ====== NAVBAR ====== */
+        .nav-brand {
+            svg {
+                height: 42px;
+            }
+            span {
+                font-size: 1.5rem;
+            }
+        }
+    /* #endregion ====================== */
+
+    /* #region ====== FOOTER ====== */
+        footer {
+            .wrapper {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .copyright {
+                b {
+                    display: inline-block;
+                }
+            }
+        }
+    /* #endregion ====================== */
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>  INDEX  <<<<<<<<<<<<<<<<<<<<<<<<< */
+
+    /* #region ====== MAIN HEADER ====== */
+        .hero-txt {
+            h1 {
+                font-size: 3rem;
+            }
+            h4 {
+                font-size: 1.1rem;
+                max-width: 90%;
+            }
+        }
+        .hero-btns {
+            flex-direction: row;
+            align-items: center;
+            width: fit-content;
+        }
+    /* #endregion ====================== */
+
+    /* #region ====== ABOUT ====== */
+        .about-stats {
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 1.5rem;
+        }
+    /* #endregion ====================== */
+
+    /* #region ====== PROJECTS ====== */
+        .project-timeline {
+            gap: 2.25rem;
+            padding-left: 0;
+
+            &::before {
+                top: 1.25rem;
+                bottom: 1.25rem;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .timeline-item {
+            grid-template-columns: minmax(0, .5fr) 2rem minmax(0, 1fr);
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .timeline-marker {
+            position: relative;
+            left: unset;
+        }
+
+        .timeline-media {
+            grid-column: 1;
+            border-radius: 1.05rem;
+        }
+        
+        .timeline-content {
+            grid-column: 3;
+            padding: 1.5rem;
+            border-radius: 1.05rem;
+        }
+
+        .timeline-title {
+            font-size: 1.55rem;
+        }
+        .timeline-item:is(:hover, :focus-visible) {
+            outline: none;
+
+            .timeline-media,
+            .timeline-content {
+                border-color: hsl(from var(--primary) h s l / .38);
+                box-shadow: 0 22px 48px -22px hsl(from var(--primary) h s l / .38);
+            }
+
+            .timeline-media img {
+                transform: scale(1.04);
+            }
+
+            .timeline-content {
+                transform: translateY(-3px);
+            }
+
+            .timeline-link-hint {
+                color: var(--putih);
+                background-color: var(--primary);
+                transform: translate(2px, -2px);
+            }
+        }
+    /* #endregion ====================== */
+
+    /* #region ====== WHY ====== */
+        .why-list {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1.25rem;
+        }
+
+        .why-item {
+            padding: 1.5rem;
+        }
+    /* #endregion ====================== */
+
+    /* #region ====== CONTACT ====== */
+        .contact-cta {
+            padding: 3rem 2rem;
+        }
+    /* #endregion ====================== */
+}
+
+/* ############## DESKTOP UP ############## */
+@media (width >= 1025px) {
+  /* #region ====== GENERAL ====== */
+        :root {
+            --max-page: 100%;
+            --main-padding-x: clamp(4rem, 6vw, 8rem);
+        }
+    /* #endregion ====================== */
+    
+    /* #region ====== NAVBAR ====== */
+        #navbar {
+            padding: 1rem var(--main-padding-x);
+        }
+        #navbar .wrapper {
+            gap: 2rem;
+        }
+        .nav-menu {
+            flex: 1;
+            position: unset;
+            inset: unset;
+            display: unset;
+            flex-direction: unset;
+            gap: 0;
+            padding: 0;
+            background-color: transparent;
+            opacity: 1;
+            pointer-events: all;            
+            container-type: inline-size;
+            container-name: navmenu-container;
+
+            &::before,
+            &::after {
+                display: none;
+            }
+        }
+        .nav-menu ul {
+            flex: unset;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav-menu ul li {
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
+            
+            .nav-link {
+                position: relative;
+                display: inline-block;
+                width: -webkit-fit-content;
+                width: -moz-fit-content;
+                width: fit-content;
+                color: var(--txt-primary);
+                font-size: 1rem;
+                font-weight: 500;
+                text-transform: capitalize;
+                line-height: 1;
+                vertical-align: middle;
+                white-space: nowrap;
+                padding: .5rem 1rem;
+                background-color: transparent;
+                border-radius: 3rem;
+
+                &:is(:hover, :active, .active) {
+                    color: var(--primary) !important;
+                }
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    bottom: -4px;
+                    width: 50%;
+                    height: 2.5px;
+                    background-color: var(--primary);
+                    border-radius: 3rem;
+                    transform: translateX(-50%) scaleX(0);
+                    transform-origin: center left;
+                    transition: var(--anim);
+                }
+                &.active::before {
+                    transform: translateX(-50%) scaleX(1);
+                }
+                &::after {
+                    display: none;
+                }
+            }
+        }
+
+        .open-menu,
+        .close-menu,
+        .logo-nav-mobile {
+            display: none;
+        }
+        .cta {
+            display: inline-block;
+        }
+        .theme-toggle-desktop {
+            display: inline-grid;
+            flex: 0 0 auto;
+        }
+        .theme-toggle-mobile {
+            display: none;
+        }
+    /* #endregion ====================== */
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>  INDEX  <<<<<<<<<<<<<<<<<<<<<<<<< */
+
+    /* #region ====== MAIN HEADER ====== */
+        #mainHeader {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 2rem;
+
+            .wrapper {
+                display: grid;
+                grid-template-columns: 1.05fr 0.95fr;
+                align-items: center;
+                gap: 3rem;
+                flex: 1;
+            }
+            .hero-partners {
+                margin-top: 2.5rem;
+                padding-bottom: 3.5rem;
+            }
+        }
+
+        .hero-txt {
+            h1 {
+                font-size: clamp(2.8rem, 3.6vw, 4rem);
+                margin-bottom: 1.5rem;
+            }
+            h4 {
+                font-size: 1.125rem;
+                max-width: 600px;
+                margin-bottom: 2.5rem;
+            }
+        }
+
+        .hero-img-wrap {
+            .hero-glow {
+                width: 95%;
+                height: 95%;
+                filter: blur(60px);
+            }
+            .hero-img {
+                max-width: 100%;
+                transform: scale(1.05);
+            }
+        }
+
+        .hero-partners {
+            .partners-list {
+                gap: 2rem 4.5rem;
+            }
+        }
+    /* #endregion ====================== */
+
+    /* #region ====== ABOUT ====== */
+        #about {
+            .wrapper {
+                display: grid;
+                grid-template-columns: 1.05fr 0.95fr;
+                align-items: center;
+                gap: 4rem;
+            }
+        }
+
+        .about-img-wrap {
+            .about-floating-card {
+                bottom: 2rem;
+                left: -2.5rem;
+                padding: 1rem 1.5rem;
+                max-width: 340px;
+            }
+        }
+    /* #endregion ====================== */
+
+    /* #region ====== PROJECTS ====== */
+        #projects {
+            .wrapper {
+                gap: 4rem;
+            }
+        }
+
+        .timeline-media {
+            height: 90%;
+        }
+        .timeline-marker {
+            font-size: 1.15rem;
+        }
+
+        .timeline-content {
+            padding: 1.55rem;
+        }
+
+        .timeline-title {
+            font-size: 1.65rem;
+        }
+
+        .timeline-desc {
+            max-width: 620px;
+        }
+    /* #endregion ====================== */
+
+    /* #region ====== WHY ====== */
+        #why {
+            .wrapper {
+                gap: 4rem;
+            }
+        }
+
+        .why-list {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 1.5rem;
+        }
+
+        .why-item {
+            min-height: 260px;
+            padding: 1.65rem;
+        }
+    /* #endregion ====================== */
+
+    /* #region ====== CONTACT ====== */
+        .contact-cta {
+            padding: 4rem 2.5rem;
+            border-radius: 1.5rem;
+
+            h2 {
+                font-size: clamp(2.8rem, 4vw, 4rem);
+            }
+
+            > p:not(.subtitle) {
+                font-size: 1.08rem;
+            }
+        }
+    /* #endregion ====================== */
+}
+
+/* ############## TV / ULTRAWIDE UP ############## */
+@media (width >= 1800px) {
+    /* #region ====== GENERAL ====== */
+        :root {
+            --content-max: 1480px;
+            --main-padding-x: 8rem;
+            --section-padding-y: 7.5rem;
+        }
+    /* #endregion ====================== */
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>  INDEX  <<<<<<<<<<<<<<<<<<<<<<<<< */
+
+    /* #region ====== MAIN HEADER ====== */
+        #mainHeader {
+            min-height: 820px;
+        }
+    /* #endregion ====================== */
+}
+
+@media (width >= 2200px) {
+    /* #region ====== GENERAL ====== */
+        :root {
+            --max-page: 1920px;
+            --content-max: 1500px;
+        }
+    /* #endregion ====================== */
+}
