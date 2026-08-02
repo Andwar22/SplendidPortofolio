@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Name</title>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <!-- theme -->
+        <script>
+            (() => {
+                try {
+                    const theme = localStorage.getItem("theme") || "system";
+                    document.documentElement.dataset.theme = theme;
+                } catch (error) {
+                    document.documentElement.dataset.theme = "system";
+                }
+            })();
+        </script>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <!-- preload crumbs -->
+        <link rel="preload" href="/assets/lib/crumbs.css" as="style">
+        <!-- main css -->
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">
+        <!-- icon -->
+        <link rel="stylesheet" href="/assets/icon/crumbsicon.css">
+    </head>
+    <body>
+        <header id="portoHeader">
+            <div class="wrapper">
+                <div class="proj-title">
+
+                </div>
+                <div class="proj-devices">
+                    <div class="frame-laptop">
+                        <img src="/images/sp-img-frame-laptop.webp" draggable="false" alt="laptop">
+                        <div class="frame-content" data-helper-video-player>
+                            <video data-helper-video muted playsinline
+                                preload="none"
+                                poster="/images/sp-project-image-placeholder.jpg">
+                                <source src="https://rv-affiliate.azureedge.net/rv-membership/videos/header-video2.mp4" type="video/mp4" media="(max-width: 767px)">
+                                <source src="https://rv-affiliate.azureedge.net/rv-membership/videos/header-video2.mp4" type="video/mp4" media="(min-width: 768px)">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-controls" aria-label="video controls" data-helper-video-toggle></div>
+                        </div>
+                    </div>
+                    
+                    <div class="frame-tablet">
+                        <img src="/images/sp-img-frame-tablet.webp" draggable="false" alt="laptop">
+                        <div class="frame-content">
+                            <video data-helper-video muted playsinline
+                                preload="none"
+                                poster="/images/sp-project-image-placeholder.jpg">
+                                <source src="https://rv-affiliate.azureedge.net/rv-membership/videos/header-video2.mp4" type="video/mp4" media="(max-width: 767px)">
+                                <source src="https://rv-affiliate.azureedge.net/rv-membership/videos/header-video2.mp4" type="video/mp4" media="(min-width: 768px)">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-controls" aria-label="video controls" data-helper-video-toggle></div>
+                        </div>
+                    </div>
+                    
+                    <div class="frame-hp">
+                        <img src="/images/sp-img-frame-hp.webp" draggable="false" alt="laptop">
+                        <div class="frame-content">
+                            <img src="/images/sp-project-image-placeholder.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="proj-meta">
+
+                </div>
+            </div>
+        </header>
+        
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+
+        <!-- main js -->
+        <script src="/assets/js/main.js"></script>
+        <!-- crumbs -->
+        <script src="/assets/lib/crumbs.js"></script>
+    </body>
+</html>

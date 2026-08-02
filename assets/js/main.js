@@ -1,6 +1,6 @@
 
 // ==========================================================
-// 01. VENDOR SETUP
+// VENDOR SETUP
 // ==========================================================
 
 // Register plugin GSAP.
@@ -14,7 +14,7 @@ if (hasGsap()) {
 const LENIS_CDN_SRC = "https://unpkg.com/lenis@1/dist/lenis.min.js";
 
 // ==========================================================
-// 02. MAIN INITIALIZER
+// MAIN INITIALIZER
 // ==========================================================
 
 // Jalankan semua fitur utama setelah struktur HTML siap.
@@ -25,12 +25,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   // initBackToTop();
   // initNavbarOnScroll();
   initSmoothAnchors();
+  initHelperVideoPlayer();
   initAnimations();
 });
 
 
 // ==========================================================
-// 03. VENDOR CHECKERS
+// VENDOR CHECKERS
 // ==========================================================
 
 // Cek apakah user meminta animasi dikurangi dari setting browser/OS.
@@ -54,7 +55,7 @@ function hasScrollToPlugin() {
 }
 
 // ==========================================================
-// 04. LENIS SMOOTH SCROLL
+// LENIS SMOOTH SCROLL
 // ==========================================================
 
 // Inisialisasi Lenis sebagai smooth scroll utama jika dependency tersedia.
@@ -132,7 +133,7 @@ function loadLenisScript() {
 }
 
 // ==========================================================
-// 05. SCROLL HELPERS
+// SCROLL HELPERS
 // ==========================================================
 
 // Pintu utama untuk scroll halus: pakai Lenis, GSAP, atau fallback native.
@@ -193,7 +194,7 @@ function getScrollTargetTop(target) {
 }
 
 // ==========================================================
-// 06. THEME TOGGLE
+// THEME TOGGLE
 // ==========================================================
 
 // Atur pilihan tema light, dark, atau system dan simpan ke localStorage.
@@ -243,7 +244,7 @@ function initThemeToggle() {
 }
 
 // ==========================================================
-// 07. NAVIGATION
+// NAVIGATION
 // ==========================================================
 
 // Pasang fungsi global untuk tombol back to top di HTML.
@@ -336,7 +337,64 @@ function initNavbarMobile() {
 }
 
 // ==========================================================
-// 08. FOOTER HELPERS
+// FOOTER HELPERS
+// ==========================================================
+
+function initHelperVideoPlayer() {
+  const videos = document.querySelectorAll("video[data-helper-video]");
+  if (!videos.length) return;
+
+  const setButtonState = (button, isPaused) => {
+    if (!button) return;
+
+    button.innerHTML = isPaused ? `<i class="ci-play"></i>` : `<i class="ci-pause"></i>`;
+    button.setAttribute("aria-label", isPaused ? "Play video" : "Pause video");
+    button.setAttribute("aria-pressed", String(!isPaused));
+  };
+
+  const getToggleButton = (video) => {
+    const player = video.closest("[data-helper-video-player], .frame-content, .video-player");
+    if (!player) return null;
+
+    return player.querySelector("[data-helper-video-toggle], .toggle-video");
+  };
+
+  const playVideo = (video) => video.play().catch(() => {
+    const resumeOnInteraction = () => video.play().catch(() => {});
+    document.addEventListener("click", resumeOnInteraction, { once: true });
+    document.addEventListener("touchstart", resumeOnInteraction, { once: true });
+  });
+
+  videos.forEach((video) => {
+    if (video.dataset.helperVideoReady === "true") return;
+    video.dataset.helperVideoReady = "true";
+
+    const toggleButton = getToggleButton(video);
+    setButtonState(toggleButton, video.paused);
+
+    if (video.autoplay) {
+      if (video.readyState >= 2) playVideo(video);
+      else video.addEventListener("canplay", () => playVideo(video), { once: true });
+    }
+
+    video.addEventListener("play", () => setButtonState(toggleButton, false));
+    video.addEventListener("pause", () => setButtonState(toggleButton, true));
+
+    if (!toggleButton) return;
+
+    toggleButton.addEventListener("click", () => {
+      if (video.paused) {
+        playVideo(video);
+        return;
+      }
+
+      video.pause();
+    });
+  });
+}
+
+// ==========================================================
+// FOOTER HELPERS
 // ==========================================================
 
 // Isi tahun copyright secara otomatis.
@@ -349,7 +407,7 @@ function getYear() {
 }
 
 // ==========================================================
-// 09. GSAP ANIMATIONS
+// GSAP ANIMATIONS
 // ==========================================================
 
 // Kelompokkan animasi GSAP berdasarkan ukuran layar.
