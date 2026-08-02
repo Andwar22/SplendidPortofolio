@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initThemeToggle();
   await initLenis();
   initNavbarMobile();
-  // initBackToTop();
+  initBackToTop();
   // initNavbarOnScroll();
   initSmoothAnchors();
   initHelperVideoPlayer();
@@ -248,11 +248,11 @@ function initThemeToggle() {
 // ==========================================================
 
 // Pasang fungsi global untuk tombol back to top di HTML.
-// function initBackToTop() {
-//   window.backToTop = function () {
-//     smoothScrollTo(0);
-//   };
-// }
+function initBackToTop() {
+  window.backToTop = function () {
+    smoothScrollTo(0);
+  };
+}
 
 // Sembunyikan navbar saat scroll turun jauh, tampilkan lagi saat scroll naik.
 // function initNavbarOnScroll() {

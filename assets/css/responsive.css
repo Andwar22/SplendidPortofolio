@@ -109,12 +109,6 @@
             .timeline-content {
                 transform: translateY(-3px);
             }
-
-            .timeline-link-hint {
-                color: var(--putih);
-                background-color: var(--primary);
-                transform: translate(2px, -2px);
-            }
         }
     /* #endregion ====================== */
 
@@ -155,15 +149,16 @@
 
     /* #region ====== DETAIL PORTO ====== */
         #portoHeader {
-            .wrapper {
-                gap: 3rem;
-            }
             .proj-meta {
                 grid-template-columns: repeat(3, 1fr);
+                gap: 1rem;
+                margin-top: 1.25rem;
             }
             .meta-item {
-                flex-direction: column;
-                align-items: flex-start;
+                padding: 1rem;
+                background-color: hsl(from var(--primary) h s l / .05);
+                border: 1px solid hsl(from var(--primary) h s l / .1);
+                border-radius: 1rem;
 
                 div {
                     flex-direction: column;
@@ -174,6 +169,40 @@
                     color: var(--txt-secondary);
                     font-size: .85rem;
                 }
+            }
+        }
+
+        #portoPreview {
+            .wrapper {
+                gap: 4rem;
+            }
+            .proj-devices {
+                grid-template-columns: 1fr 1fr;
+                align-items: flex-end;
+            }
+            .wrap-devices:first-child {
+                grid-column: span 2;
+            }
+            .frame-title {
+                margin-top: 1.75rem;
+            }
+
+            .frame-laptop {
+                max-width: 900px;
+            }        
+            .frame-tablet {
+                max-height: 500px;
+            }        
+            .frame-hp {
+                max-height: 450px;
+            }
+        }
+
+        #portoMoreScreen {
+            .tiles {
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                justify-content: center;
+                gap: 2rem;
             }
         }
     /* #endregion ====================== */
@@ -416,12 +445,6 @@
                 grid-template-columns: 1fr 1fr;
                 gap: 3rem;
             }
-            .proj-meta {
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                width: calc(50% - 3rem);
-            }
         }
 
         #portoDescription {
@@ -435,35 +458,6 @@
                 > div {
                     margin-top: .65rem;
                 }
-            }
-        }
-
-        #portoPreview {
-            .wrapper {
-                gap: 4rem;
-            }
-            .title {
-                text-align: center;
-            }
-            .proj-devices {
-                grid-template-columns: 1fr 1fr;
-                align-items: flex-end;
-            }
-            .wrap-devices:first-child {
-                grid-column: span 2;
-            }
-            .frame-title {
-                margin-top: 1.75rem;
-            }
-
-            .frame-laptop {
-                max-width: 900px;
-            }        
-            .frame-tablet {
-                max-height: 500px;
-            }        
-            .frame-hp {
-                max-height: 450px;
             }
         }
     /* #endregion ====================== */

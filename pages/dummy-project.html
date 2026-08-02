@@ -27,6 +27,8 @@
         <link rel="stylesheet" href="/assets/css/responsive.css">
         <!-- icon -->
         <link rel="stylesheet" href="/assets/icon/crumbsicon.css">
+        <!-- glightbox -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
     </head>
     <body>
         <nav id="portoNav">
@@ -39,7 +41,7 @@
                 <div class="cr-dropdown" aria-label="Theme mode" title="Theme mode">
                     <button id="crDropdownActionsToggle" class="cr-btn cr-drop-toggle cr-icon" type="button" aria-label="More options" aria-haspopup="true" aria-expanded="true" aria-controls="crDropdownActionsMenu">
                         <i class="ci-sun-03"></i>
-                        <i class="ci-moon"></i>
+                        <i class="ci-moon-2"></i>
                         <i class="ci-computer-settings"></i>
                     </button>
                     <ul id="crDropdownActionsMenu" class="cr-drop-menu" aria-labelledby="crDropdownActionsToggle" aria-hidden="false">
@@ -50,7 +52,7 @@
                         </li>
                         <li>
                             <button class="cr-drop-item" type="button" data-theme-value="dark" aria-pressed="false">
-                                <i class="ci-moon"></i> Dark
+                                <i class="ci-moon-2"></i> Dark
                             </button>
                         </li>
                         <li>
@@ -66,34 +68,35 @@
 
         <header id="portoHeader">
             <div class="wrapper">
+                <div class="proj-devices">
+                    <img src="/images/sp-img-hero-light.webp" alt="top screen">
+                </div>
+                
                 <div class="proj-title">
                     <p class="subtitle">website development</p>
                     <p class="title">project title</p>
                     <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eum velit laboriosam ipsa ea. Repellendus velit voluptatibus magnam officiis expedita itaque ad, quisquam excepturi labore suscipit id molestias illum, unde exercitationem facere recusandae sunt veritatis. Rerum harum voluptatibus earum tempore!</p>
-                </div>
-                <div class="proj-devices">
-                    <img src="/images/sp-img-hero-light.webp" alt="top screen">
-                </div>
-                <div class="proj-meta">
-                    <div class="meta-item">
-                        <i class="ci-source-code"></i>
-                        <div>
-                            <p>type</p>
-                            <p>website pwa</p>
+                    <div class="proj-meta">
+                        <div class="meta-item">
+                            <i class="ci-source-code"></i>
+                            <div>
+                                <p>type</p>
+                                <p>website pwa</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="meta-item">
-                        <i class="ci-clock-05"></i>
-                        <div>
-                            <p>year</p>
-                            <p>2002 - Now</p>
+                        <div class="meta-item">
+                            <i class="ci-clock-05"></i>
+                            <div>
+                                <p>year</p>
+                                <p>2002 - Now</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="meta-item">
-                        <i class="ci-checkmark-badge-01"></i>
-                        <div>
-                            <p>status</p>
-                            <p>ongoing</p>
+                        <div class="meta-item">
+                            <i class="ci-checkmark-badge-01"></i>
+                            <div>
+                                <p>status</p>
+                                <p>ongoing</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,7 +204,44 @@
 
         <section id="portoMoreScreen">
             <div class="wrapper">
-                <p class="title">More screeens</p>
+                <p class="title">more screens</p>
+                <div class="tiles">
+                    <a href="/images/sp-project-image-placeholder.jpg" class="glightbox"
+                        data-title=""
+                        data-description=""
+                        data-width="auto"
+                        data-height="600px">
+                        <img src="/images/sp-project-image-placeholder.jpg" alt="image" loading="lazy" />
+                    </a>
+                    <a href="/images/sp-project-image-placeholder.jpg" class="glightbox"
+                        data-title=""
+                        data-description=""
+                        data-width="auto"
+                        data-height="600px">
+                        <img src="/images/sp-project-image-placeholder.jpg" alt="image" loading="lazy" />
+                    </a>
+                    <a href="/images/sp-project-image-placeholder.jpg" class="glightbox"
+                        data-title=""
+                        data-description=""
+                        data-width="auto"
+                        data-height="600px">
+                        <img src="/images/sp-project-image-placeholder.jpg" alt="image" loading="lazy" />
+                    </a>
+                    <a href="/images/sp-project-image-placeholder.jpg" class="glightbox"
+                        data-title=""
+                        data-description=""
+                        data-width="auto"
+                        data-height="600px">
+                        <img src="/images/sp-project-image-placeholder.jpg" alt="image" loading="lazy" />
+                    </a>
+                    <a href="/images/sp-project-image-placeholder.jpg" class="glightbox"
+                        data-title=""
+                        data-description=""
+                        data-width="auto"
+                        data-height="600px">
+                        <img src="/images/sp-project-image-placeholder.jpg" alt="image" loading="lazy" />
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -239,16 +279,27 @@
             </div>
         </footer>
         
+        <!-- Back To Top -->
+        <button onclick="backToTop()" id="bttBtn">
+            <i class="ci-arrow-up-01-round"></i>
+        </button>
+
         <!-- Jquery -->
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <!-- GSAP -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
-
         <!-- main js -->
         <script src="/assets/js/main.js"></script>
         <!-- crumbs -->
         <script src="/assets/lib/crumbs.js"></script>
+        <!-- glightbox -->
+        <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+        <script type="text/javascript">
+            const lightbox = GLightbox({ 
+                loop: false
+            });
+        </script>
     </body>
 </html>
