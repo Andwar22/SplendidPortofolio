@@ -17,6 +17,8 @@
         }
     /* #endregion ====================== */
     
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>  INDEX  <<<<<<<<<<<<<<<<<<<<<<<<< */
+
     /* #region ====== NAVBAR ====== */
         .nav-brand {
             svg {
@@ -27,24 +29,6 @@
             }
         }
     /* #endregion ====================== */
-
-    /* #region ====== FOOTER ====== */
-        footer {
-            .wrapper {
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-            }
-            
-            .copyright {
-                b {
-                    display: inline-block;
-                }
-            }
-        }
-    /* #endregion ====================== */
-
-    /* >>>>>>>>>>>>>>>>>>>>>>>>>  INDEX  <<<<<<<<<<<<<<<<<<<<<<<<< */
 
     /* #region ====== MAIN HEADER ====== */
         .hero-txt {
@@ -150,6 +134,49 @@
             padding: 3rem 2rem;
         }
     /* #endregion ====================== */
+
+    /* #region ====== FOOTER ====== */
+        footer {
+            .wrapper {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .copyright {
+                b {
+                    display: inline-block;
+                }
+            }
+        }
+    /* #endregion ====================== */
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>  PAGES  <<<<<<<<<<<<<<<<<<<<<<<<< */
+
+    /* #region ====== DETAIL PORTO ====== */
+        #portoHeader {
+            .wrapper {
+                gap: 3rem;
+            }
+            .proj-meta {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .meta-item {
+                flex-direction: column;
+                align-items: flex-start;
+
+                div {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 0;
+                }
+                p:first-child {
+                    color: var(--txt-secondary);
+                    font-size: .85rem;
+                }
+            }
+        }
+    /* #endregion ====================== */
 }
 
 /* ############## DESKTOP UP ############## */
@@ -161,10 +188,9 @@
         }
     /* #endregion ====================== */
     
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>  INDEX  <<<<<<<<<<<<<<<<<<<<<<<<< */
+
     /* #region ====== NAVBAR ====== */
-        #navbar {
-            padding: 1rem var(--main-padding-x);
-        }
         #navbar .wrapper {
             gap: 2rem;
         }
@@ -248,16 +274,7 @@
         .cta {
             display: inline-block;
         }
-        .theme-toggle-desktop {
-            display: inline-grid;
-            flex: 0 0 auto;
-        }
-        .theme-toggle-mobile {
-            display: none;
-        }
     /* #endregion ====================== */
-
-    /* >>>>>>>>>>>>>>>>>>>>>>>>>  INDEX  <<<<<<<<<<<<<<<<<<<<<<<<< */
 
     /* #region ====== MAIN HEADER ====== */
         #mainHeader {
@@ -386,6 +403,67 @@
 
             > p:not(.subtitle) {
                 font-size: 1.08rem;
+            }
+        }
+    /* #endregion ====================== */
+    
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>  PAGES  <<<<<<<<<<<<<<<<<<<<<<<<< */
+
+    /* #region ====== DETAIL PORTO ====== */
+        #portoHeader {
+            .wrapper {
+                position: relative;
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+            }
+            .proj-meta {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: calc(50% - 3rem);
+            }
+        }
+
+        #portoDescription {
+            .details-list {
+                grid-template-columns: 1fr 1fr;
+            }
+            .details-item {
+                flex-direction: row;
+                align-items: flex-start;
+                
+                > div {
+                    margin-top: .65rem;
+                }
+            }
+        }
+
+        #portoPreview {
+            .wrapper {
+                gap: 4rem;
+            }
+            .title {
+                text-align: center;
+            }
+            .proj-devices {
+                grid-template-columns: 1fr 1fr;
+                align-items: flex-end;
+            }
+            .wrap-devices:first-child {
+                grid-column: span 2;
+            }
+            .frame-title {
+                margin-top: 1.75rem;
+            }
+
+            .frame-laptop {
+                max-width: 900px;
+            }        
+            .frame-tablet {
+                max-height: 500px;
+            }        
+            .frame-hp {
+                max-height: 450px;
             }
         }
     /* #endregion ====================== */

@@ -90,23 +90,38 @@
                             <a href="#contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
+                </div>
 
-                    <div class="theme-toggle theme-toggle-mobile" role="group" aria-label="Theme mode">
-                        <button type="button" data-theme-value="light" aria-pressed="false">light</button>
-                        <button type="button" data-theme-value="dark" aria-pressed="false">dark</button>
-                        <button type="button" data-theme-value="system" aria-pressed="false">system</button>
+                <div class="nav-actions">
+                    <div class="cr-dropdown" aria-label="Theme mode" title="Theme mode">
+                        <button id="crDropdownActionsToggle" class="cr-btn cr-drop-toggle cr-icon" type="button" aria-label="More options" aria-haspopup="true" aria-expanded="true" aria-controls="crDropdownActionsMenu">
+                            <i class="ci-sun-03"></i>
+                            <i class="ci-moon"></i>
+                            <i class="ci-computer-settings"></i>
+                        </button>
+                        <ul id="crDropdownActionsMenu" class="cr-drop-menu" aria-labelledby="crDropdownActionsToggle" aria-hidden="false">
+                            <li>
+                                <button class="cr-drop-item" type="button" data-theme-value="light" aria-pressed="false">
+                                    <i class="ci-sun-03"></i> Light
+                                </button>
+                            </li>
+                            <li>
+                                <button class="cr-drop-item" type="button" data-theme-value="dark" aria-pressed="false">
+                                    <i class="ci-moon"></i> Dark
+                                </button>
+                            </li>
+                            <li>
+                                <button class="cr-drop-item" type="button" data-theme-value="system" aria-pressed="false">
+                                    <i class="ci-computer-settings"></i> System
+                                </button>
+                            </li>
+                        </ul>
                     </div>
+                    
+                    <label for="nav-toggle" class="open-menu">
+                        <i class="ci ci-menu-01"></i>
+                    </label>
                 </div>
-
-                <div class="theme-toggle theme-toggle-desktop" role="group" aria-label="Theme mode">
-                    <button type="button" data-theme-value="light" aria-pressed="false">light</button>
-                    <button type="button" data-theme-value="dark" aria-pressed="false">dark</button>
-                    <button type="button" data-theme-value="system" aria-pressed="false">system</button>
-                </div>
-                
-                <label for="nav-toggle" class="open-menu">
-                    <i class="ci ci-menu-01"></i>
-                </label>
             </div>
             
             <div class="nav-layer trans"></div>
