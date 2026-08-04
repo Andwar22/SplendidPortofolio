@@ -21,7 +21,7 @@
             --secondary: light-dark(#8B6CFF, #A66CFF);
             --accent-blue: light-dark(#6D8CFF, #4F8BFF);
             
-            --surface: light-dark(#ffffff, #121524);
+            --surface: light-dark(#ffffff, #171b2c);
             --main-bg: light-dark(#F7F8FC, #090B15);
             --txt-primary: light-dark(#111827, #F4F5F9);
             --txt-secondary: light-dark(#6B7280, #A6ACC9);
@@ -33,11 +33,11 @@
             --garis: #E7EAF6;
 
             /* status */
-            --red: #dc3545;
-            --green: #4caf50;
-            --orange: #ffc107;
-            --blue: #2196f3;
-            --purple: #673ab7;
+            --red: light-dark(#dc2626, #ef4444);
+            --green: light-dark(#16a34a, #22c55e);
+            --orange: light-dark(#f59e0b, #fbbf24);
+            --blue: light-dark(#2563eb, #3b82f6);
+            --purple: light-dark(#7c3aed, #8b5cf6);
             
             /*others*/
             --shadow: light-dark(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25));
@@ -900,27 +900,25 @@
         transition: transform var(--anim), border-color var(--anim), box-shadow var(--anim);
     }
 
-    .timeline-date {
-        display: inline-flex;
-        align-items: center;
-        gap: 2rem;
-        color: var(--primary);
-        font-size: .9rem;
-        font-weight: 600;
-        line-height: 1.2;
-        text-transform: capitalize;
-        margin-bottom: 1rem;
-
-        i {
-            margin-right: .5rem;
-        }
-    }
     .timeline-heading {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 1rem;
-        margin-bottom: .5rem;
+        margin-bottom: .75rem;
+
+        p {
+            width: fit-content;
+            color: var(--surface);
+            font-size: .7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: .3rem .75rem;
+            background-color: var(--primary);
+            border-radius: 999px;
+        }
+        p.done {
+            background-color: var(--green);
+        }
+        p.soon {
+            background-color: var(--orange);
+        }
     }
     .timeline-title {
         color: var(--txt-primary);
@@ -931,6 +929,23 @@
         letter-spacing: 0;
         text-transform: capitalize;
         margin: 0;
+    }
+    .timeline-date {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: .5rem 2rem;
+        font-size: .9rem;
+        font-weight: 600;
+        line-height: 1.2;
+        text-transform: capitalize;
+        margin-bottom: .75rem;
+        
+        i {
+            color: var(--primary);
+            margin-right: .75rem;
+        }
     }
     .timeline-desc {
         color: var(--txt-secondary);
@@ -943,7 +958,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(23px, 1fr));
         gap: .75rem;
-        margin-top: 1.5rem;
+        margin-top: 1.25rem;
 
         img {
             width: 100%;
@@ -1373,8 +1388,23 @@
             }
         }
 
-        .subtitle {
+        .status {
+            width: fit-content;
+            color: var(--surface);
+            font-size: .75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: .3rem .75rem;
             margin-bottom: 1.25rem;
+            background-color: var(--primary);
+            border-radius: 999px;
+            
+            &.done {
+                background-color: var(--green);
+            }
+            &.soon {
+                background-color: var(--orange);
+            }
         }
         .title {
             margin-bottom: .35rem;

@@ -93,6 +93,9 @@
         .timeline-title {
             font-size: 1.55rem;
         }
+        .timeline-date {
+            gap: .5rem 6%;
+        }
         .timeline-item:is(:hover, :focus-visible) {
             outline: none;
 
@@ -382,9 +385,6 @@
             }
         }
 
-        .timeline-media {
-            height: 90%;
-        }
         .timeline-marker {
             font-size: 1.15rem;
         }
