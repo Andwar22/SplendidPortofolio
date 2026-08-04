@@ -832,8 +832,9 @@
         width: 100%;
         height: 100%;
         border-radius: 1rem 1rem 0 0;
+        transition: var(--anim);
         overflow: hidden;
-
+        
         img {
             width: 100%;
             height: 100%;
@@ -902,19 +903,24 @@
     .timeline-date {
         display: inline-flex;
         align-items: center;
-        gap: .75rem;
+        gap: 2rem;
         color: var(--primary);
         font-size: .9rem;
-        font-weight: 800;
+        font-weight: 600;
         line-height: 1.2;
+        text-transform: capitalize;
         margin-bottom: 1rem;
+
+        i {
+            margin-right: .5rem;
+        }
     }
     .timeline-heading {
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         gap: 1rem;
-        margin-bottom: .75rem;
+        margin-bottom: .5rem;
     }
     .timeline-title {
         color: var(--txt-primary);
@@ -923,6 +929,7 @@
         font-weight: 800;
         line-height: 1.22;
         letter-spacing: 0;
+        text-transform: capitalize;
         margin: 0;
     }
     .timeline-desc {
@@ -1226,7 +1233,6 @@
         z-index: 10;
         
         .wrapper {
-            position: relative;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -1299,11 +1305,87 @@
             display: grid;
             gap: 3rem;
         }
+        .proj-devices {
+            position: relative;
+            display: grid;
+            align-items: flex-end;
+        }
+        :is(.frame-laptop, .frame-tablet, .frame-hp) {
+            isolation: isolate;
+
+            > img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                pointer-events: none;
+            }
+            .frame-content {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #4caf50;
+                overflow: hidden;
+                z-index: -1;
+            }
+            .frame-content > img {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+                object-position: center;
+            }
+        }
+        .frame-laptop {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+
+            .frame-content {
+                top: 7.2%;
+                bottom: 13.2%;
+                width: 80%;
+            }
+        }        
+        .frame-tablet {
+            position: absolute;
+            bottom: 0;
+            height: 70%;
+            aspect-ratio: 10 / 16;
+
+            .frame-content {
+                top: 4%;
+                bottom: 4.2%;
+                width: 91%;
+                border-radius: .25rem;
+            }
+        }        
+        .frame-hp {
+            position: absolute;
+            left: 15%;
+            bottom: 0;
+            height: 50%;
+            aspect-ratio: 10 / 16;
+
+            .frame-content {
+                top: 2%;
+                bottom: 2%;
+                width: 70%;
+                border-radius: .75rem;
+            }
+        }
+
+        .subtitle {
+            margin-bottom: 1.25rem;
+        }
+        .title {
+            margin-bottom: .35rem;
+        }
+        .desc {
+            margin-bottom: 2rem;
+        }
         .proj-meta {
             display: grid;
             grid-template-columns: 1fr;
             gap: .75rem;
-            margin-top: 1.5rem;
         }
         .meta-item {
             display: flex;
@@ -1440,15 +1522,15 @@
             .frame-content > img {
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
             }
             video {
                 display: block;
                 width: 100%;
                 max-width: 100%;
                 height: 100%;
-                -o-object-fit: cover;
-                   object-fit: cover;
+                -o-object-fit: contain;
+                   object-fit: contain;
             }
             .video-controls {
                 position: absolute;
@@ -1484,9 +1566,9 @@
             aspect-ratio: 16 / 9;
 
             .frame-content {
-                top: 4.5%;
-                bottom: 10%;                
-                width: 73.8%;
+                top: 7.3%;
+                bottom: 13.2%;
+                width: 80%;
             }
         }        
         .frame-tablet {
@@ -1495,9 +1577,9 @@
             aspect-ratio: 10 / 16;
 
             .frame-content {
-                top: 3%;
-                bottom: 3.4%;
-                width: 88.3%;
+                top: 4%;
+                bottom: 4.2%;
+                width: 91%;
                 border-radius: .25rem;
             }
         }        
@@ -1536,11 +1618,16 @@
         .glightbox {
             width: 100%;
             aspect-ratio: 7 / 5;
+            overflow: hidden;
 
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                transition: var(--anim);
+            }
+            &:hover img {
+                transform: scale(1.05);
             }
         }
     }

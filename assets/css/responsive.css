@@ -98,16 +98,11 @@
 
             .timeline-media,
             .timeline-content {
-                border-color: hsl(from var(--primary) h s l / .38);
                 box-shadow: 0 22px 48px -22px hsl(from var(--primary) h s l / .38);
-            }
-
-            .timeline-media img {
-                transform: scale(1.04);
-            }
-
-            .timeline-content {
                 transform: translateY(-3px);
+            }
+            .timeline-media img {
+                transform: scale(1.02);
             }
         }
     /* #endregion ====================== */
@@ -160,6 +155,9 @@
                 border: 1px solid hsl(from var(--primary) h s l / .1);
                 border-radius: 1rem;
 
+                i {
+                    font-size: 1.75rem;
+                }
                 div {
                     flex-direction: column;
                     align-items: flex-start;
@@ -167,7 +165,8 @@
                 }
                 p:first-child {
                     color: var(--txt-secondary);
-                    font-size: .85rem;
+                    font-size: .75rem;
+                    margin-bottom: .15rem;
                 }
             }
         }
@@ -200,7 +199,7 @@
 
         #portoMoreScreen {
             .tiles {
-                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
                 justify-content: center;
                 gap: 2rem;
             }
