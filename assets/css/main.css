@@ -1357,7 +1357,7 @@
             .frame-content {
                 top: 7.2%;
                 bottom: 13.2%;
-                width: 80%;
+                width: 80.1%;
             }
         }        
         .frame-tablet {
@@ -1367,9 +1367,9 @@
             aspect-ratio: 10 / 16;
 
             .frame-content {
-                top: 4%;
-                bottom: 4.2%;
-                width: 91%;
+                top: 7%;
+                bottom: 7%;
+                width: 92%;
                 border-radius: .25rem;
             }
         }        
@@ -1598,7 +1598,7 @@
             .frame-content {
                 top: 7.3%;
                 bottom: 13.2%;
-                width: 80%;
+                width: 80.2%;
             }
         }        
         .frame-tablet {
@@ -1607,9 +1607,9 @@
             aspect-ratio: 10 / 16;
 
             .frame-content {
-                top: 4%;
-                bottom: 4.2%;
-                width: 91%;
+                top: 7%;
+                bottom: 7%;
+                width: 92%;
                 border-radius: .25rem;
             }
         }        

@@ -70,7 +70,7 @@
 
         .timeline-item {
             grid-template-columns: minmax(0, .5fr) 2rem minmax(0, 1fr);
-            align-items: center;
+            align-items: flex-start;
             gap: 2rem;
         }
 
@@ -80,8 +80,13 @@
         }
 
         .timeline-media {
+            height: fit-content;
             grid-column: 1;
             border-radius: 1.05rem;
+
+            img {
+                height: fit-content;
+            }
         }
         
         .timeline-content {
