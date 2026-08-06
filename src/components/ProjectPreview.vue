@@ -8,16 +8,7 @@
           :key="i"
           class="wrap-devices"
         >
-          <div :class="`frame-${preview.type}`">
-            <img
-              :src="frameSrc(preview.type)"
-              draggable="false"
-              :alt="preview.type"
-            />
-            <div class="frame-content" data-helper-video-player>
-              <img :src="preview.src" alt="devices" />
-            </div>
-          </div>
+          <DeviceFrame :type="preview.type" :media="preview.media" />
           <p class="frame-title">{{ preview.label }}</p>
         </div>
       </div>
@@ -26,16 +17,9 @@
 </template>
 
 <script setup>
+import DeviceFrame from './DeviceFrame.vue'
+
 defineProps({
   project: { type: Object, required: true }
 })
-
-function frameSrc(type) {
-  const map = {
-    laptop: '/images/sp-img-frame-laptop.webp',
-    tablet: '/images/sp-img-frame-tablet.webp',
-    hp: '/images/sp-img-frame-hp.webp'
-  }
-  return map[type] || ''
-}
 </script>

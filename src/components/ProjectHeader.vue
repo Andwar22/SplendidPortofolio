@@ -2,12 +2,10 @@
   <header id="portoHeader">
     <div class="wrapper">
       <div class="proj-devices">
-        <div class="frame-laptop">
-          <img src="/images/sp-img-frame-laptop.webp" draggable="false" alt="laptop" />
-          <div class="frame-content">
-            <img :src="project.previewImg" alt="preview" />
-          </div>
-        </div>
+        <DeviceFrame
+          type="laptop"
+          :media="{ kind: 'img', src: project.previewImg }"
+        />
       </div>
 
       <div class="proj-title">
@@ -44,6 +42,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import DeviceFrame from './DeviceFrame.vue'
 
 const props = defineProps({
   project: { type: Object, required: true }

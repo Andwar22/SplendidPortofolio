@@ -33,7 +33,7 @@
       description: ''
     })),
     devicePreviews: [
-      { type: 'laptop', src: '/images/proj-imi/sp-img-prj-imi-01.webp', label: 'desktop screen' }
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-imi/sp-img-prj-imi-01.webp' } },
     ],
     pageFile: 'imi-project'
   },
@@ -69,7 +69,28 @@
       description: ''
     })),
     devicePreviews: [
-      { type: 'laptop', src: '/images/proj-rvadm/sp-img-prj-rvadm-laptop-01.webp', label: 'desktop screen' }
+      {
+        type: 'laptop', label: 'walkthrough video', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-laptop-01.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'walkthrough tablet', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-tablet-01.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      }
     ],
     pageFile: 'revo-admin-project'
   },
@@ -102,7 +123,7 @@
       description: ''
     })),
     devicePreviews: [
-      { type: 'laptop', src: '/images/proj-sayang/sp-img-prj-sbun-01.webp', label: 'desktop screen' }
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-sayang/sp-img-prj-sbun-01.webp' } }
     ],
     pageFile: 'sayang-bunda-project'
   },
@@ -134,7 +155,7 @@
       description: ''
     })),
     devicePreviews: [
-      { type: 'laptop', src: '/images/proj-tav/sp-img-prj-tav-03.webp', label: 'desktop screen' }
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-tav/sp-img-prj-tav-03.webp' } }
     ],
     pageFile: 'tav-project'
   },
@@ -164,7 +185,7 @@
       description: ''
     })),
     devicePreviews: [
-      { type: 'laptop', src: '/images/proj-tree/sp-img-prj-tree.webp', label: 'desktop screen' }
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-tree/sp-img-prj-tree.webp' } }
     ],
     pageFile: 'tree-project'
   },
@@ -187,7 +208,7 @@
     ],
     gallery: [],
     devicePreviews: [
-      { type: 'laptop', src: '/images/sp-project-img-more-screen-placeholder.webp', label: 'desktop screen' }
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/sp-project-img-more-screen-placeholder.webp' } }
     ],
     pageFile: 'dummy-project'
   },
