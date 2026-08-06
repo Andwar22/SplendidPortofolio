@@ -1,7 +1,7 @@
 <template>
   <nav id="navbar" ref="navbarRef">
     <div class="wrapper">
-      <input type="checkbox" id="nav-toggle" v-model="menuOpen" />
+      <input ref="navToggleRef" type="checkbox" id="nav-toggle" v-model="menuOpen" />
 
       <div class="nav-brand">
         <a href="/" @click.prevent="scrollTo('#mainHeader')">
@@ -15,7 +15,7 @@
           <div><span>splendid</span></div>
         </div>
 
-        <label for="nav-toggle" class="close-menu" @click="menuOpen = false">
+        <label for="nav-toggle" class="close-menu" @click.prevent="closeMenu">
           <i class="ci ci-cancel-01"></i>
         </label>
 
@@ -53,8 +53,15 @@ const router = useRouter()
 const route = useRoute()
 const { scrollToSelector } = useScrollTo()
 
+const navToggleRef = ref(null)
 const menuOpen = ref(false)
 const activeSection = ref('#mainHeader')
+
+function closeMenu() {
+  menuOpen.value = false
+  // Explicitly uncheck — belt-and-suspenders for CSS :checked rules
+  if (navToggleRef.value) navToggleRef.value.checked = false
+}
 
 const links = [
   { hash: '#mainHeader', label: 'Home' },
@@ -65,7 +72,7 @@ const links = [
 ]
 
 function navigateTo(hash) {
-  menuOpen.value = false
+  closeMenu()
   activeSection.value = hash
 
   if (route.path !== '/') {

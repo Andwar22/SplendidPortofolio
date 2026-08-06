@@ -1,8 +1,8 @@
 <template>
-  <div class="cr-dropdown" aria-label="Theme mode" title="Theme mode">
+  <div class="cr-dropdown theme" aria-label="Theme mode" title="Theme mode">
     <button
       ref="toggleRef"
-      class="cr-btn cr-drop-toggle cr-icon"
+      class="cr-drop-toggle cr-icon"
       type="button"
       aria-label="More options"
       aria-haspopup="true"

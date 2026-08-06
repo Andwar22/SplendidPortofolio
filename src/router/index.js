@@ -25,7 +25,8 @@ const router = createRouter({
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) return savedPosition
-    if (to.hash) {
+    // Only scroll to hash on in-app navigation — fresh page loads always go to top
+    if (to.hash && from.name) {
       return { el: to.hash, behavior: 'smooth' }
     }
     return { top: 0 }

@@ -2,6 +2,7 @@
   <router-link
     :to="linkTo"
     class="timeline-item"
+    :id="'project-' + project.slug"
     :aria-label="`View details for ${project.title}`"
   >
     <div class="timeline-media">
@@ -41,7 +42,7 @@ const props = defineProps({
 
 const linkTo = computed(() =>
   props.project.pageFile
-    ? { name: 'project-detail', params: { slug: props.project.slug } }
+    ? { name: 'project-detail', params: { slug: props.project.slug }, query: { ref: props.project.slug } }
     : '/'
 )
 
