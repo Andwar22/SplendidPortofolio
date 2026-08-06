@@ -163,26 +163,6 @@
     .lenis.lenis-stopped {
         overflow: clip;
     }
-
-    .glightbox-clean .gslide-description {
-        background: var(--surface) !important;
-    }
-    .glightbox-clean .gslide-title {
-        color: var(--txt-primary) !important;
-        font-family: var(--font-second) !important;
-        font-size: 1.25rem !important;
-        font-weight: 600 !important;
-        margin-bottom: 0 !important;
-    }
-    .glightbox-clean .gslide-desc {
-        margin-top: .35rem !important;
-        color: var(--txt-secondary) !important;
-    }
-
-    .maplibregl-ctrl-attrib.maplibregl-compact,
-    .maplibregl-ctrl-attrib.maplibregl-compact-show {
-        visibility: hidden !important;
-    }
 /* #endregion ====================== */
 
 /* #region ====== SCROLLBAR ====== */
@@ -1645,10 +1625,15 @@
             display: grid;
             gap: 1.5rem;
         }
-        .glightbox {
+        .gallery-tile {
             width: 100%;
             aspect-ratio: 7 / 5;
             overflow: hidden;
+            padding: 0;
+            margin: 0;
+            border: none;
+            background: none;
+            cursor: pointer;
 
             img {
                 width: 100%;
@@ -1658,6 +1643,11 @@
             }
             &:hover img {
                 transform: scale(1.05);
+            }
+            &:focus-visible {
+                outline: 2px solid var(--primary);
+                outline-offset: 3px;
+                border-radius: 4px;
             }
         }
     }
