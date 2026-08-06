@@ -1063,7 +1063,7 @@
         position: relative;
         width: 100%;
         margin: 0 auto;
-        padding: var(--section-padding-y) var(--main-padding-x) 0;
+        padding: var(--section-padding-y) var(--main-padding-x);
     }
 
     .contact-cta {
