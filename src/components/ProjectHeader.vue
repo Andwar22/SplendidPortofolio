@@ -3,8 +3,10 @@
     <div class="wrapper">
       <div class="proj-devices">
         <DeviceFrame
-          type="laptop"
-          :media="{ kind: 'img', src: project.previewImg }"
+          v-for="(device, i) in devices"
+          :key="i"
+          :type="device.type"
+          :media="device.media"
         />
       </div>
 
@@ -46,6 +48,12 @@ import DeviceFrame from './DeviceFrame.vue'
 
 const props = defineProps({
   project: { type: Object, required: true }
+})
+
+// Use headerDevices if defined, otherwise fall back to a single laptop with previewImg
+const devices = computed(() => {
+  if (props.project.headerDevices?.length) return props.project.headerDevices
+  return [{ type: 'laptop', media: { kind: 'img', src: props.project.previewImg } }]
 })
 
 const statusClass = computed(() => ({

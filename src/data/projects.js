@@ -699,7 +699,12 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-laptop-01.webp',
+    previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop-01.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet-01.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp-01.webp' } }
+    ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
     features: [
@@ -715,17 +720,12 @@
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: Array.from({ length: 3 }, (_, i) => ({
-      src: `/images/proj-rvadm/sp-img-prj-rvadm-${String(i + 1).padStart(2, '0')}.webp`,
-      title: '',
-      description: ''
-    })),
     devicePreviews: [
       {
-        type: 'laptop', label: 'walkthrough video', media: {
+        type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: '/images/proj-rvadm/sp-img-prj-rvadm-laptop-01.webp',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-laptop-01.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
@@ -733,10 +733,21 @@
         }
       },
       {
-        type: 'tablet', label: 'walkthrough tablet', media: {
+        type: 'tablet', label: 'tablet preview', media: {
           kind: 'video',
           src: '',
-          poster: '/images/proj-rvadm/sp-img-prj-rvadm-tablet-01.webp',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet-01.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp-01.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
@@ -744,6 +755,11 @@
         }
       }
     ],
+    gallery: Array.from({ length: 2 }, (_, i) => ({
+      src: `/images/proj-rvadm/sp-img-prj-rvadm-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
     pageFile: 'revo-admin-project'
   },
   {

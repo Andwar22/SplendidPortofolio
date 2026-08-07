@@ -190,9 +190,6 @@
             .wrap-devices:first-child {
                 grid-column: span 2;
             }
-            .frame-title {
-                margin-top: 1.75rem;
-            }
 
             .frame-laptop {
                 max-width: 900px;
