@@ -7,19 +7,69 @@
   //   type: 'web app',
   //   coreTech: 'Unknown',
   //   year: 'Unknown',
-  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-  //   challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //   features: ['Lorem ipsum dolor sit amet consectetur.'],
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+  //   shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+  //   previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop-01.webp',
+  //   headerDevices: [
+  //     { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp' } },
+  //     { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
+  //     { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
+  //   ],
+  //   challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+  //   solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+  //   features: [
+  //     'Lorem ipsum dolor sit amet consectetur.',
+  //     'Lorem ipsum dolor sit amet consectetur adipisicing.'
+  //   ],
   //   tools: [
-  //     { name: 'unknown', src: '/images/tools/unknown.png' }
+  //     { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+  //     { name: '.net', src: '/images/tools/dotnet.svg' },
+  //     { name: 'c#', src: '/images/tools/csharp.svg' },
+  //     { name: 'sql server', src: '/images/tools/sql-server.svg' },
+  //     { name: 'html', src: '/images/tools/html5.svg' },
+  //     { name: 'css', src: '/images/tools/css_old.svg' },
+  //     { name: 'javascript', src: '/images/tools/javascript.svg' }
   //   ],
-  //   gallery: [],
   //   devicePreviews: [
-  //     { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/sp-project-img-more-screen-placeholder.webp' } }
+  //     {
+  //       type: 'laptop', label: 'laptop preview', media: {
+  //         kind: 'video',
+  //         src: '',
+  //         poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-laptop.webp',
+  //         muted: true,
+  //         autoplay: false,
+  //         preload: 'none',
+  //         sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+  //       }
+  //     },
+  //     {
+  //       type: 'tablet', label: 'tablet preview', media: {
+  //         kind: 'video',
+  //         src: '',
+  //         poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp',
+  //         muted: true,
+  //         autoplay: false,
+  //         preload: 'none',
+  //         sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+  //       }
+  //     },
+  //     {
+  //       type: 'hp', label: 'mobile preview', media: {
+  //         kind: 'video',
+  //         src: '',
+  //         poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp',
+  //         muted: true,
+  //         autoplay: false,
+  //         preload: 'none',
+  //         sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+  //       }
+  //     }
   //   ],
+  //   gallery: Array.from({ length: 2 }, (_, i) => ({
+  //     src: `/images/proj-rvadm/sp-img-prj-rvadm-${String(i + 1).padStart(2, '0')}.webp`,
+  //     title: '',
+  //     description: ''
+  //   })),
   //   pageFile: 'dummy-project'
   // },
 
@@ -557,6 +607,8 @@
     devicePreviews: [],
     pageFile: null
   },
+
+  // revo member area
   {
     slug: 'revolution-member-area',
     title: 'revolution member area',
@@ -567,143 +619,11 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
-    tools: [
-      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
-      { name: '.net', src: '/images/tools/dotnet.svg' },
-      { name: 'c#', src: '/images/tools/csharp.svg' },
-      { name: 'sql server', src: '/images/tools/sql-server.svg' },
-      { name: 'html', src: '/images/tools/html5.svg' },
-      { name: 'css', src: '/images/tools/css_old.svg' },
-      { name: 'javascript', src: '/images/tools/javascript.svg' }
-    ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
-  },
-  {
-    slug: 'hamilku-admin',
-    title: 'hamilku admin',
-    status: 'finished',
-    statusLabel: 'finished',
-    type: 'web app',
-    coreTech: 'blazor',
-    year: '2022 - 2025',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
-    tools: [
-      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
-      { name: '.net', src: '/images/tools/dotnet.svg' },
-      { name: 'c#', src: '/images/tools/csharp.svg' },
-      { name: 'sql server', src: '/images/tools/sql-server.svg' },
-      { name: 'html', src: '/images/tools/html5.svg' },
-      { name: 'css', src: '/images/tools/css_old.svg' },
-      { name: 'javascript', src: '/images/tools/javascript.svg' }
-    ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
-  },
-  {
-    slug: 'hamilku-nakes',
-    title: 'hamilku nakes',
-    status: 'finished',
-    statusLabel: 'finished',
-    type: 'web app',
-    coreTech: 'blazor',
-    year: '2022 - 2025',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
-    tools: [
-      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
-      { name: '.net', src: '/images/tools/dotnet.svg' },
-      { name: 'c#', src: '/images/tools/csharp.svg' },
-      { name: 'sql server', src: '/images/tools/sql-server.svg' },
-      { name: 'html', src: '/images/tools/html5.svg' },
-      { name: 'css', src: '/images/tools/css_old.svg' },
-      { name: 'javascript', src: '/images/tools/javascript.svg' }
-    ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
-  },
-  {
-    slug: 'hamilku',
-    title: 'hamilku',
-    status: 'finished',
-    statusLabel: 'finished',
-    type: 'web app',
-    coreTech: 'blazor',
-    year: '2022 - 2025',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
-    tools: [
-      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
-      { name: '.net', src: '/images/tools/dotnet.svg' },
-      { name: 'c#', src: '/images/tools/csharp.svg' },
-      { name: 'sql server', src: '/images/tools/sql-server.svg' },
-      { name: 'html', src: '/images/tools/html5.svg' },
-      { name: 'css', src: '/images/tools/css_old.svg' },
-      { name: 'javascript', src: '/images/tools/javascript.svg' }
-    ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
-  },
-  {
-    slug: 'property-share-unit',
-    title: 'property share unit',
-    status: 'finished',
-    statusLabel: 'finished',
-    type: 'landing page',
-    coreTech: 'javascript',
-    year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
-    tools: [
-      { name: 'vs code', src: '/images/tools/vscode.svg' },
-      { name: 'html', src: '/images/tools/html5.svg' },
-      { name: 'css', src: '/images/tools/css_old.svg' },
-      { name: 'javascript', src: '/images/tools/javascript.svg' }
-    ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
-  },
-  {
-    slug: 'revo-admin',
-    title: 'Revolution property admin',
-    status: 'ongoing',
-    statusLabel: 'ongoing',
-    type: 'web app',
-    coreTech: 'blazor',
-    year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop-01.webp',
+    previewImg: '/images/proj-mmbr/sp-img-prj-mmbr-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop-01.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet-01.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp-01.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-04.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -725,7 +645,286 @@
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-laptop-01.webp',
+          poster: '/images/proj-mmbr/sp-img-prj-mmbr-04.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-mmbr/sp-img-prj-mmbr-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-mmbr/sp-img-prj-mmbr-head-hp.webp',
+        }
+      }
+    ],
+    gallery: Array.from({ length: 10 }, (_, i) => ({
+      src: `/images/proj-mmbr/sp-img-prj-mmbr-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'member-area-project'
+  },
+
+  // hamilku admin
+  {
+    slug: 'hamilku-admin',
+    title: 'hamilku admin',
+    status: 'finished',
+    statusLabel: 'finished',
+    type: 'web app',
+    coreTech: 'blazor',
+    year: '2022 - 2025',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    previewImg: '/images/proj-hmlad/sp-img-prj-hmlad-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-hmlad/sp-img-prj-hmlad-01.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
+    tools: [
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
+    ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'img',
+          src: '/images/proj-hmlad/sp-img-prj-hmlad-01.webp'
+        }
+      }
+    ],
+    gallery: Array.from({ length: 1 }, (_, i) => ({
+      src: `/images/proj-hmlad/sp-img-prj-hmlad-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'hamilku-admin-project'
+  },
+
+  // hamilku nakes
+  {
+    slug: 'hamilku-nakes',
+    title: 'hamilku nakes',
+    status: 'finished',
+    statusLabel: 'finished',
+    type: 'web app',
+    coreTech: 'blazor',
+    year: '2022 - 2025',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    previewImg: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
+    tools: [
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
+    ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-tablet.webp'
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-hp.webp'
+        }
+      }
+    ],
+    gallery: Array.from({ length: 5 }, (_, i) => ({
+      src: `/images/proj-hmlnk/sp-img-prj-hmlnk-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'hamilku-nakes-project'
+  },
+
+  // hamilku
+  {
+    slug: 'hamilku',
+    title: 'hamilku',
+    status: 'finished',
+    statusLabel: 'finished',
+    type: 'web app',
+    coreTech: 'blazor',
+    year: '2022 - 2025',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    previewImg: '/images/proj-hml/sp-img-prj-hml-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-01.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
+    tools: [
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
+    ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-hml/sp-img-prj-hml-01.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-hml/sp-img-prj-hml-head-tablet.webp'
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-hml/sp-img-prj-hml-head-hp.webp'
+        }
+      }
+    ],
+    gallery: Array.from({ length: 5 }, (_, i) => ({
+      src: `/images/proj-hml/sp-img-prj-hml-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'hamilku-project'
+  },
+
+  // property share unit
+  {
+    slug: 'property-share-unit',
+    title: 'property share unit',
+    status: 'finished',
+    statusLabel: 'finished',
+    type: 'landing page',
+    coreTech: 'javascript',
+    year: '2022',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    previewImg: '/images/proj-propsu/sp-img-prj-propsu.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-propsu/sp-img-prj-propsu.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
+    tools: [
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
+    ],
+    devicePreviews: [
+      { type: 'laptop', label: 'laptop preview', media: { kind: 'img', src: '/images/proj-propsu/sp-img-prj-propsu.webp' } }
+    ],
+    gallery: Array.from({ length: 1 }, (_, i) => ({
+      src: `/images/proj-propsu/sp-img-prj-propsu.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'property-share-unit-project'
+  },
+
+  // revo admin
+  {
+    slug: 'revo-admin',
+    title: 'Revolution property admin',
+    status: 'ongoing',
+    statusLabel: 'ongoing',
+    type: 'web app',
+    coreTech: 'blazor',
+    year: '2022',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
+    tools: [
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
+    ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
@@ -736,7 +935,7 @@
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'video',
           src: '',
-          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet-01.webp',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
@@ -747,7 +946,7 @@
         type: 'hp', label: 'mobile preview', media: {
           kind: 'video',
           src: '',
-          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp-01.webp',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
@@ -762,6 +961,8 @@
     })),
     pageFile: 'revo-admin-project'
   },
+
+  // sayang bunda
   {
     slug: 'sayang-bunda',
     title: 'sayang bunda',
@@ -795,6 +996,8 @@
     ],
     pageFile: 'sayang-bunda-project'
   },
+
+  // imi
   {
     slug: 'imi-admin',
     title: 'IMI Admin',
@@ -833,6 +1036,8 @@
     ],
     pageFile: 'imi-project'
   },
+
+  // triyana admin view
   {
     slug: 'tav',
     title: 'triyana admin view',
@@ -865,6 +1070,8 @@
     ],
     pageFile: 'tav-project'
   },
+  
+  // tree
   {
     slug: 'tree-admin',
     title: 'TREE Admin',
