@@ -277,6 +277,8 @@
     devicePreviews: [],
     pageFile: null
   },
+
+  // triyana glamping village
   {
     slug: 'triyana-glamping-village',
     title: 'triyana glamping village',
@@ -287,10 +289,18 @@
     year: '2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'azure', src: '/images/tools/azure.svg' },
@@ -298,10 +308,36 @@
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-glmp/sp-img-prj-glmp-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-glmp/sp-img-prj-glmp-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'triyana-glamping-village-project'
   },
+
+  // njp ppn
   {
     slug: 'njp-ppn',
     title: 'NJP PPN',
@@ -312,10 +348,16 @@
     year: '2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-njpppn/sp-img-prj-njpppn-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpppn/sp-img-prj-njpppn-01.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: 'c#', src: '/images/tools/csharp.svg' },
@@ -326,10 +368,28 @@
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-njpppn/sp-img-prj-njpppn-02.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+    ],
+    gallery: Array.from({ length: 4 }, (_, i) => ({
+      src: `/images/proj-njpppn/sp-img-prj-njpppn-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'njp-ppn-project'
   },
+
+  // njp admin v2
   {
     slug: 'njp-admin-v2',
     title: 'NJP admin v2',
@@ -340,10 +400,18 @@
     year: '2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-njpblz/sp-img-prj-njpblz-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-04.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: '.net', src: '/images/tools/dotnet.svg' },
@@ -353,10 +421,40 @@
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-njpblz/sp-img-prj-njpblz-04.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-njpblz/sp-img-prj-njpblz-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-njpblz/sp-img-prj-njpblz-head-hp.webp',
+        }
+      }
+    ],
+    gallery: Array.from({ length: 4 }, (_, i) => ({
+      src: `/images/proj-njpblz/sp-img-prj-njpblz-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'njp-admin-v2-project'
   },
+
+  // siceritea
   {
     slug: 'sinceritea',
     title: 'sinceritea',
@@ -367,10 +465,18 @@
     year: '2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'azure', src: '/images/tools/azure.svg' },
@@ -378,10 +484,36 @@
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-scrt/sp-img-prj-scrt-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-scrt/sp-img-prj-scrt-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'sinceritea-project'
   },
+
+  // kemenkumham
   {
     slug: 'kemenkumham',
     title: 'kemenkumham',
@@ -392,20 +524,28 @@
     year: '2023',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-keuham/sp-img-prj-ham.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-keuham/sp-img-prj-ham.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'postman', src: '/images/tools/postman.svg' },
       { name: 'sql server', src: '/images/tools/sql-server.svg' }
     ],
-    gallery: [],
     devicePreviews: [],
-    pageFile: null
+    gallery: [],
+    pageFile: 'kemenkumham-project'
   },
+
+  // njp admin
   {
     slug: 'njp-admin',
     title: 'NJP admin',
@@ -416,23 +556,44 @@
     year: '2023 - 2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-njpwf/sp-img-prj-njpwf-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpwf/sp-img-prj-njpwf-01.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: '.net', src: '/images/tools/dotnet.svg' },
-      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'winforms', src: '/images/tools/winforms.png' },
       { name: 'sql server', src: '/images/tools/sql-server.svg' },
-      { name: 'html', src: '/images/tools/html5.svg' },
-      { name: 'css', src: '/images/tools/css_old.svg' },
-      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-njpwf/sp-img-prj-njpwf-02.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+    ],
+    gallery: Array.from({ length: 2 }, (_, i) => ({
+      src: `/images/proj-njpwf/sp-img-prj-njpwf-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'njp-admin-project'
   },
+
+  // akas penjualan
   {
     slug: 'akas-penjualan',
     title: 'akas penjualan',
@@ -443,10 +604,18 @@
     year: '2023 - 2025',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-aksfo/sp-img-prj-aksfo-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: '.net', src: '/images/tools/dotnet.svg' },
@@ -456,10 +625,40 @@
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp',
+        }
+      }
+    ],
+    gallery: Array.from({ length: 1 }, (_, i) => ({
+      src: `/images/proj-aksfo/sp-img-prj-aksfo-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'akas-penjualan-project'
   },
+
+  // akas admin
   {
     slug: 'akas-admin',
     title: 'akas admin',
@@ -470,10 +669,18 @@
     year: '2023 - 2025',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-aksbo/sp-img-prj-aksbo-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: '.net', src: '/images/tools/dotnet.svg' },
@@ -483,10 +690,40 @@
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp',
+        }
+      }
+    ],
+    gallery: Array.from({ length: 1 }, (_, i) => ({
+      src: `/images/proj-aksbo/sp-img-prj-aksbo-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'akas-admin-project'
   },
+
+  // pt. msl
   {
     slug: 'pt-msl',
     title: 'PT. MSL',
@@ -497,20 +734,54 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'html', src: '/images/tools/html5.svg' },
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-msl/sp-img-prj-msl-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-msl/sp-img-prj-msl-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'pt-msl-project'
   },
+
+  //kemenkeu
   {
     slug: 'kemenkeu',
     title: 'kemenkeu',
@@ -521,20 +792,28 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-keuham/sp-img-prj-keu.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-keuham/sp-img-prj-keu.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'postman', src: '/images/tools/postman.svg' },
       { name: 'sql server', src: '/images/tools/sql-server.svg' }
     ],
-    gallery: [],
     devicePreviews: [],
-    pageFile: null
+    gallery: [],
+    pageFile: 'kemenkeu-project'
   },
+
+  // triyana residence
   {
     slug: 'triyana-residence',
     title: 'triyana residence',
@@ -545,20 +824,54 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'html', src: '/images/tools/html5.svg' },
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-trr/sp-img-prj-trr-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-trr/sp-img-prj-trr-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'triyana-residence-project'
   },
+
+  // triyana villa
   {
     slug: 'triyana-villa',
     title: 'triyana villa',
@@ -569,20 +882,54 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'html', src: '/images/tools/html5.svg' },
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-trv/sp-img-prj-trv-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-trv/sp-img-prj-trv-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'triyana-villa-project'
   },
+
+  // revolution property
   {
     slug: 'revolution-property',
     title: 'revolution property',
@@ -593,19 +940,51 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'html', src: '/images/tools/html5.svg' },
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-rvp/sp-img-prj-rvp-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-rvp/sp-img-prj-rvp-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'revolution-property-project'
   },
 
   // revo member area
@@ -879,11 +1258,7 @@
     devicePreviews: [
       { type: 'laptop', label: 'laptop preview', media: { kind: 'img', src: '/images/proj-propsu/sp-img-prj-propsu.webp' } }
     ],
-    gallery: Array.from({ length: 1 }, (_, i) => ({
-      src: `/images/proj-propsu/sp-img-prj-propsu.webp`,
-      title: '',
-      description: ''
-    })),
+    gallery: [],
     pageFile: 'property-share-unit-project'
   },
 
@@ -1092,11 +1467,7 @@
       { name: 'winforms', src: '/images/tools/winforms.png' },
       { name: 'sql server', src: '/images/tools/sql-server.svg' }
     ],
-    gallery: Array.from({ length: 1 }, (_, i) => ({
-      src: `/images/proj-tree/sp-img-prj-tree.webp`,
-      title: '',
-      description: ''
-    })),
+    gallery: [],
     devicePreviews: [
       { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-tree/sp-img-prj-tree.webp' } }
     ],
