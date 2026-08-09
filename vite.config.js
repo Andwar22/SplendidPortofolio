@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  base: '/splendid-portofolio-vue/',
+  base: '/SplendidPortofolio/',
   plugins: [vue()],
   resolve: {
     alias: {
