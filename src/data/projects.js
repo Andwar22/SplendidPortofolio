@@ -9,11 +9,11 @@
   //   year: 'Unknown',
   //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
   //   shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-  //   previewImg: 'images/proj-rvadm/sp-img-prj-rvadm-head-laptop-01.webp',
+  //   previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop-01.webp',
   //   headerDevices: [
-  //     { type: 'laptop', media: { kind: 'img', src: 'images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp' } },
-  //     { type: 'tablet', media: { kind: 'img', src: 'images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
-  //     { type: 'hp', media: { kind: 'img', src: 'images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
+  //     { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp' } },
+  //     { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
+  //     { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
   //   ],
   //   challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
   //   solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -22,46 +22,46 @@
   //     'Lorem ipsum dolor sit amet consectetur adipisicing.'
   //   ],
   //   tools: [
-  //     { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-  //     { name: '.net', src: 'images/tools/dotnet.svg' },
-  //     { name: 'c#', src: 'images/tools/csharp.svg' },
-  //     { name: 'sql server', src: 'images/tools/sql-server.svg' },
-  //     { name: 'html', src: 'images/tools/html5.svg' },
-  //     { name: 'css', src: 'images/tools/css_old.svg' },
-  //     { name: 'javascript', src: 'images/tools/javascript.svg' }
+  //     { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+  //     { name: '.net', src: '/images/tools/dotnet.svg' },
+  //     { name: 'c#', src: '/images/tools/csharp.svg' },
+  //     { name: 'sql server', src: '/images/tools/sql-server.svg' },
+  //     { name: 'html', src: '/images/tools/html5.svg' },
+  //     { name: 'css', src: '/images/tools/css_old.svg' },
+  //     { name: 'javascript', src: '/images/tools/javascript.svg' }
   //   ],
   //   devicePreviews: [
   //     {
   //       type: 'laptop', label: 'laptop preview', media: {
   //         kind: 'video',
   //         src: '',
-  //         poster: 'images/proj-rvadm/sp-img-prj-rvadm-poster-laptop.webp',
+  //         poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-laptop.webp',
   //         muted: true,
   //         autoplay: false,
   //         preload: 'none',
-  //         sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+  //         sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
   //       }
   //     },
   //     {
   //       type: 'tablet', label: 'tablet preview', media: {
   //         kind: 'video',
   //         src: '',
-  //         poster: 'images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp',
+  //         poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp',
   //         muted: true,
   //         autoplay: false,
   //         preload: 'none',
-  //         sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+  //         sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
   //       }
   //     },
   //     {
   //       type: 'hp', label: 'mobile preview', media: {
   //         kind: 'video',
   //         src: '',
-  //         poster: 'images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp',
+  //         poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp',
   //         muted: true,
   //         autoplay: false,
   //         preload: 'none',
-  //         sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+  //         sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
   //       }
   //     }
   //   ],
@@ -84,14 +84,14 @@
     year: 'Unknown',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/sp-project-img-more-screen-placeholder.webp',
+    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
     challenge: '',
     solution: '',
     features: [],
     tools: [
-      { name: 'unknown', src: 'images/tools/unknown.png' },
-      { name: 'unknown', src: 'images/tools/unknown.png' },
-      { name: 'unknown', src: 'images/tools/unknown.png' }
+      { name: 'unknown', src: '/images/tools/unknown.png' },
+      { name: 'unknown', src: '/images/tools/unknown.png' },
+      { name: 'unknown', src: '/images/tools/unknown.png' }
     ],
     gallery: [],
     devicePreviews: [],
@@ -107,14 +107,14 @@
     year: 'Unknown',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/sp-project-img-more-screen-placeholder.webp',
+    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
     challenge: '',
     solution: '',
     features: [],
     tools: [
-      { name: 'unknown', src: 'images/tools/unknown.png' },
-      { name: 'unknown', src: 'images/tools/unknown.png' },
-      { name: 'unknown', src: 'images/tools/unknown.png' }
+      { name: 'unknown', src: '/images/tools/unknown.png' },
+      { name: 'unknown', src: '/images/tools/unknown.png' },
+      { name: 'unknown', src: '/images/tools/unknown.png' }
     ],
     gallery: [],
     devicePreviews: [],
@@ -130,16 +130,16 @@
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/sp-project-img-more-screen-placeholder.webp',
+    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
     challenge: '',
     solution: '',
     features: [],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'azure', src: 'images/tools/azure.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'azure', src: '/images/tools/azure.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     gallery: [],
     devicePreviews: [],
@@ -155,19 +155,19 @@
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/sp-project-img-more-screen-placeholder.webp',
+    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
     challenge: '',
     solution: '',
     features: [],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'maui', src: 'images/tools/maui.png' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'maui', src: '/images/tools/maui.png' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     gallery: [],
     devicePreviews: [],
@@ -183,17 +183,17 @@
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/sp-project-img-more-screen-placeholder.webp',
+    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
     challenge: '',
     solution: '',
     features: [],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'azure', src: 'images/tools/azure.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'azure', src: '/images/tools/azure.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     gallery: [],
     devicePreviews: [],
@@ -209,16 +209,16 @@
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/sp-project-img-more-screen-placeholder.webp',
+    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
     challenge: '',
     solution: '',
     features: [],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'azure', src: 'images/tools/azure.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'azure', src: '/images/tools/azure.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     gallery: [],
     devicePreviews: [],
@@ -234,18 +234,18 @@
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/sp-project-img-more-screen-placeholder.webp',
+    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
     challenge: '',
     solution: '',
     features: [],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     gallery: [],
     devicePreviews: [],
@@ -261,17 +261,17 @@
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/sp-project-img-more-screen-placeholder.webp',
+    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
     challenge: '',
     solution: '',
     features: [],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'azure', src: 'images/tools/azure.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'azure', src: '/images/tools/azure.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     gallery: [],
     devicePreviews: [],
@@ -289,11 +289,11 @@
     year: '2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
+    previewImg: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-glmp/sp-img-prj-glmp-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-glmp/sp-img-prj-glmp-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-glmp/sp-img-prj-glmp-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -302,34 +302,34 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'azure', src: 'images/tools/azure.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'azure', src: '/images/tools/azure.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
+          poster: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-glmp/sp-img-prj-glmp-head-tablet.webp',
+          src: '/images/proj-glmp/sp-img-prj-glmp-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-glmp/sp-img-prj-glmp-head-hp.webp',
+          src: '/images/proj-glmp/sp-img-prj-glmp-head-hp.webp',
         }
       }
     ],
@@ -348,9 +348,9 @@
     year: '2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-njpppn/sp-img-prj-njpppn-01.webp',
+    previewImg: '/images/proj-njpppn/sp-img-prj-njpppn-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-njpppn/sp-img-prj-njpppn-01.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpppn/sp-img-prj-njpppn-01.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -359,25 +359,25 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'maui', src: 'images/tools/maui.png' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'maui', src: '/images/tools/maui.png' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-njpppn/sp-img-prj-njpppn-02.webp',
+          poster: '/images/proj-njpppn/sp-img-prj-njpppn-02.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
     ],
@@ -400,11 +400,11 @@
     year: '2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-njpblz/sp-img-prj-njpblz-01.webp',
+    previewImg: '/images/proj-njpblz/sp-img-prj-njpblz-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-njpblz/sp-img-prj-njpblz-04.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-njpblz/sp-img-prj-njpblz-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-njpblz/sp-img-prj-njpblz-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-04.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -413,36 +413,36 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-njpblz/sp-img-prj-njpblz-04.webp',
+          poster: '/images/proj-njpblz/sp-img-prj-njpblz-04.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-njpblz/sp-img-prj-njpblz-head-tablet.webp',
+          src: '/images/proj-njpblz/sp-img-prj-njpblz-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-njpblz/sp-img-prj-njpblz-head-hp.webp',
+          src: '/images/proj-njpblz/sp-img-prj-njpblz-head-hp.webp',
         }
       }
     ],
@@ -465,11 +465,11 @@
     year: '2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-scrt/sp-img-prj-scrt-head-laptop.webp',
+    previewImg: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-scrt/sp-img-prj-scrt-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-scrt/sp-img-prj-scrt-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-scrt/sp-img-prj-scrt-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -478,34 +478,34 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'azure', src: 'images/tools/azure.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'azure', src: '/images/tools/azure.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-scrt/sp-img-prj-scrt-head-laptop.webp',
+          poster: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-scrt/sp-img-prj-scrt-head-tablet.webp',
+          src: '/images/proj-scrt/sp-img-prj-scrt-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-scrt/sp-img-prj-scrt-head-hp.webp',
+          src: '/images/proj-scrt/sp-img-prj-scrt-head-hp.webp',
         }
       }
     ],
@@ -524,9 +524,9 @@
     year: '2023',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-keuham/sp-img-prj-ham.webp',
+    previewImg: '/images/proj-keuham/sp-img-prj-ham.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-keuham/sp-img-prj-ham.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-keuham/sp-img-prj-ham.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -535,10 +535,10 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'postman', src: 'images/tools/postman.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'postman', src: '/images/tools/postman.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' }
     ],
     devicePreviews: [],
     gallery: [],
@@ -556,9 +556,9 @@
     year: '2023 - 2024',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-njpwf/sp-img-prj-njpwf-01.webp',
+    previewImg: '/images/proj-njpwf/sp-img-prj-njpwf-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-njpwf/sp-img-prj-njpwf-01.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpwf/sp-img-prj-njpwf-01.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -567,21 +567,21 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'winforms', src: 'images/tools/winforms.png' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'winforms', src: '/images/tools/winforms.png' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-njpwf/sp-img-prj-njpwf-02.webp',
+          poster: '/images/proj-njpwf/sp-img-prj-njpwf-02.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
     ],
@@ -604,11 +604,11 @@
     year: '2023 - 2025',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-aksfo/sp-img-prj-aksfo-01.webp',
+    previewImg: '/images/proj-aksfo/sp-img-prj-aksfo-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -617,36 +617,36 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp',
+          poster: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp',
+          src: '/images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp',
+          src: '/images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp',
         }
       }
     ],
@@ -669,11 +669,11 @@
     year: '2023 - 2025',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-aksbo/sp-img-prj-aksbo-01.webp',
+    previewImg: '/images/proj-aksbo/sp-img-prj-aksbo-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -682,36 +682,36 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp',
+          poster: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp',
+          src: '/images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp',
+          src: '/images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp',
         }
       }
     ],
@@ -734,11 +734,11 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-msl/sp-img-prj-msl-head-laptop.webp',
+    previewImg: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-msl/sp-img-prj-msl-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-msl/sp-img-prj-msl-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-msl/sp-img-prj-msl-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -747,33 +747,33 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-msl/sp-img-prj-msl-head-laptop.webp',
+          poster: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-msl/sp-img-prj-msl-head-tablet.webp',
+          src: '/images/proj-msl/sp-img-prj-msl-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-msl/sp-img-prj-msl-head-hp.webp',
+          src: '/images/proj-msl/sp-img-prj-msl-head-hp.webp',
         }
       }
     ],
@@ -792,9 +792,9 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-keuham/sp-img-prj-keu.webp',
+    previewImg: '/images/proj-keuham/sp-img-prj-keu.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-keuham/sp-img-prj-keu.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-keuham/sp-img-prj-keu.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -803,10 +803,10 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'postman', src: 'images/tools/postman.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'postman', src: '/images/tools/postman.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' }
     ],
     devicePreviews: [],
     gallery: [],
@@ -824,11 +824,11 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-trr/sp-img-prj-trr-head-laptop.webp',
+    previewImg: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-trr/sp-img-prj-trr-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-trr/sp-img-prj-trr-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-trr/sp-img-prj-trr-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -837,33 +837,33 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-trr/sp-img-prj-trr-head-laptop.webp',
+          poster: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-trr/sp-img-prj-trr-head-tablet.webp',
+          src: '/images/proj-trr/sp-img-prj-trr-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-trr/sp-img-prj-trr-head-hp.webp',
+          src: '/images/proj-trr/sp-img-prj-trr-head-hp.webp',
         }
       }
     ],
@@ -882,11 +882,11 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-trv/sp-img-prj-trv-head-laptop.webp',
+    previewImg: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-trv/sp-img-prj-trv-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-trv/sp-img-prj-trv-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-trv/sp-img-prj-trv-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -895,33 +895,33 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-trv/sp-img-prj-trv-head-laptop.webp',
+          poster: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-trv/sp-img-prj-trv-head-tablet.webp',
+          src: '/images/proj-trv/sp-img-prj-trv-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-trv/sp-img-prj-trv-head-hp.webp',
+          src: '/images/proj-trv/sp-img-prj-trv-head-hp.webp',
         }
       }
     ],
@@ -940,11 +940,11 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
+    previewImg: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-rvp/sp-img-prj-rvp-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-rvp/sp-img-prj-rvp-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-rvp/sp-img-prj-rvp-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -953,33 +953,33 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
+          poster: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-rvp/sp-img-prj-rvp-head-tablet.webp',
+          src: '/images/proj-rvp/sp-img-prj-rvp-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-rvp/sp-img-prj-rvp-head-hp.webp',
+          src: '/images/proj-rvp/sp-img-prj-rvp-head-hp.webp',
         }
       }
     ],
@@ -998,11 +998,11 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-mmbr/sp-img-prj-mmbr-01.webp',
+    previewImg: '/images/proj-mmbr/sp-img-prj-mmbr-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-mmbr/sp-img-prj-mmbr-04.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-mmbr/sp-img-prj-mmbr-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-mmbr/sp-img-prj-mmbr-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-04.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -1011,36 +1011,36 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-mmbr/sp-img-prj-mmbr-04.webp',
+          poster: '/images/proj-mmbr/sp-img-prj-mmbr-04.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-mmbr/sp-img-prj-mmbr-head-tablet.webp',
+          src: '/images/proj-mmbr/sp-img-prj-mmbr-head-tablet.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-mmbr/sp-img-prj-mmbr-head-hp.webp',
+          src: '/images/proj-mmbr/sp-img-prj-mmbr-head-hp.webp',
         }
       }
     ],
@@ -1063,9 +1063,9 @@
     year: '2022 - 2025',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-hmlad/sp-img-prj-hmlad-01.webp',
+    previewImg: '/images/proj-hmlad/sp-img-prj-hmlad-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-hmlad/sp-img-prj-hmlad-01.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-hmlad/sp-img-prj-hmlad-01.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -1074,19 +1074,19 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: 'images/proj-hmlad/sp-img-prj-hmlad-01.webp'
+          src: '/images/proj-hmlad/sp-img-prj-hmlad-01.webp'
         }
       }
     ],
@@ -1109,11 +1109,11 @@
     year: '2022 - 2025',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-hmlnk/sp-img-prj-hmlnk-01.webp',
+    previewImg: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-hmlnk/sp-img-prj-hmlnk-01.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-hmlnk/sp-img-prj-hmlnk-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-hmlnk/sp-img-prj-hmlnk-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -1122,36 +1122,36 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-hmlnk/sp-img-prj-hmlnk-01.webp',
+          poster: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-hmlnk/sp-img-prj-hmlnk-head-tablet.webp'
+          src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-tablet.webp'
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-hmlnk/sp-img-prj-hmlnk-head-hp.webp'
+          src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-hp.webp'
         }
       }
     ],
@@ -1174,11 +1174,11 @@
     year: '2022 - 2025',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    previewImg: 'images/proj-hml/sp-img-prj-hml-01.webp',
+    previewImg: '/images/proj-hml/sp-img-prj-hml-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-hml/sp-img-prj-hml-01.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-hml/sp-img-prj-hml-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-hml/sp-img-prj-hml-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-01.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -1187,36 +1187,36 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-hml/sp-img-prj-hml-01.webp',
+          poster: '/images/proj-hml/sp-img-prj-hml-01.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: 'images/proj-hml/sp-img-prj-hml-head-tablet.webp'
+          src: '/images/proj-hml/sp-img-prj-hml-head-tablet.webp'
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: 'images/proj-hml/sp-img-prj-hml-head-hp.webp'
+          src: '/images/proj-hml/sp-img-prj-hml-head-hp.webp'
         }
       }
     ],
@@ -1239,9 +1239,9 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-propsu/sp-img-prj-propsu.webp',
+    previewImg: '/images/proj-propsu/sp-img-prj-propsu.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-propsu/sp-img-prj-propsu.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-propsu/sp-img-prj-propsu.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -1250,13 +1250,13 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'vs code', src: 'images/tools/vscode.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
-      { type: 'laptop', label: 'laptop preview', media: { kind: 'img', src: 'images/proj-propsu/sp-img-prj-propsu.webp' } }
+      { type: 'laptop', label: 'laptop preview', media: { kind: 'img', src: '/images/proj-propsu/sp-img-prj-propsu.webp' } }
     ],
     gallery: [],
     pageFile: 'property-share-unit-project'
@@ -1273,11 +1273,11 @@
     year: '2022',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: 'images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp',
+    previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: 'images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: 'images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: 'images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
     ],
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
@@ -1286,46 +1286,46 @@
       'Lorem ipsum dolor sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-rvadm/sp-img-prj-rvadm-poster-laptop.webp',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-laptop.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'video',
           src: '',
-          poster: 'images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: 'images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
         }
       }
     ],
@@ -1348,18 +1348,18 @@
     year: '2021',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, sapiente modi sunt quo harum aut dicta sit aperiam temporibus tempora.',
     shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, sapiente modi sunt quo harum aut dicta sit aperiam temporibus tempora.',
-    previewImg: 'images/proj-sayang/sp-img-prj-sbun-01.webp',
+    previewImg: '/images/proj-sayang/sp-img-prj-sbun-01.webp',
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     features: ['Lorem ipsum dolor sit amet consectetur.'],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     gallery: Array.from({ length: 9 }, (_, i) => ({
       src: `/images/proj-sayang/sp-img-prj-sbun-${String(i + 1).padStart(2, '0')}.webp`,
@@ -1367,7 +1367,7 @@
       description: ''
     })),
     devicePreviews: [
-      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: 'images/proj-sayang/sp-img-prj-sbun-01.webp' } }
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-sayang/sp-img-prj-sbun-01.webp' } }
     ],
     pageFile: 'sayang-bunda-project'
   },
@@ -1383,7 +1383,7 @@
     year: '2021',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eum velit laboriosam ipsa ea. Repellendus velit voluptatibus magnam officiis expedita itaque ad, quisquam excepturi labore suscipit id molestias illum, unde exercitationem facere recusandae sunt veritatis. Rerum harum voluptatibus earum tempore!',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsa voluptates ab consectetur sit dolores aliquam blanditiis! Aspernatur, consequatur dolorem!',
-    previewImg: 'images/proj-imi/sp-img-prj-imi-02.webp',
+    previewImg: '/images/proj-imi/sp-img-prj-imi-02.webp',
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi numquam exercitationem repudiandae quod odit perferendis recusandae delectus impedit rerum maxime soluta laborum dignissimos, illo sequi! Alias eius in error voluptate ex doloribus commodi voluptatibus odio dolores placeat nemo fugit consequuntur repellendus, totam provident. Voluptates.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus, assumenda sed iure obcaecati maiores, aliquam totam minima quisquam autem adipisci consequatur eius, temporibus officia facere itaque nemo recusandae. Dignissimos.',
     features: [
@@ -1393,13 +1393,13 @@
       'Lorem ipsum dolor, sit amet consectetur adipisicing.'
     ],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' },
-      { name: 'javascript', src: 'images/tools/javascript.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
     gallery: Array.from({ length: 9 }, (_, i) => ({
       src: `/images/proj-imi/sp-img-prj-imi-${String(i + 1).padStart(2, '0')}.webp`,
@@ -1407,7 +1407,7 @@
       description: ''
     })),
     devicePreviews: [
-      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: 'images/proj-imi/sp-img-prj-imi-01.webp' } },
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-imi/sp-img-prj-imi-01.webp' } },
     ],
     pageFile: 'imi-project'
   },
@@ -1423,17 +1423,17 @@
     year: '2020',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, nihil omnis! Nam eligendi laboriosam perspiciatis eos, iste quo libero aut?',
     shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, nihil omnis! Nam eligendi laboriosam perspiciatis eos, iste quo libero aut?',
-    previewImg: 'images/proj-tav/sp-img-prj-tav-03.webp',
+    previewImg: '/images/proj-tav/sp-img-prj-tav-03.webp',
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     features: ['Lorem ipsum dolor sit amet consectetur.'],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'c#', src: 'images/tools/csharp.svg' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' },
-      { name: 'html', src: 'images/tools/html5.svg' },
-      { name: 'css', src: 'images/tools/css_old.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'c#', src: '/images/tools/csharp.svg' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' }
     ],
     gallery: Array.from({ length: 3 }, (_, i) => ({
       src: `/images/proj-tav/sp-img-prj-tav-${String(i + 1).padStart(2, '0')}.webp`,
@@ -1441,7 +1441,7 @@
       description: ''
     })),
     devicePreviews: [
-      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: 'images/proj-tav/sp-img-prj-tav-03.webp' } }
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-tav/sp-img-prj-tav-03.webp' } }
     ],
     pageFile: 'tav-project'
   },
@@ -1457,19 +1457,19 @@
     year: '2020',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse nulla quo aliquid accusantium dolore doloribus vel. Mollitia ipsum voluptas perspiciatis?',
     shortDesc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse nulla quo aliquid accusantium dolore doloribus vel. Mollitia ipsum voluptas perspiciatis?',
-    previewImg: 'images/proj-tree/sp-img-prj-tree.webp',
+    previewImg: '/images/proj-tree/sp-img-prj-tree.webp',
     challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     features: ['Lorem ipsum dolor sit amet consectetur.'],
     tools: [
-      { name: 'visual studio', src: 'images/tools/visual-studio.svg' },
-      { name: '.net', src: 'images/tools/dotnet.svg' },
-      { name: 'winforms', src: 'images/tools/winforms.png' },
-      { name: 'sql server', src: 'images/tools/sql-server.svg' }
+      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+      { name: '.net', src: '/images/tools/dotnet.svg' },
+      { name: 'winforms', src: '/images/tools/winforms.png' },
+      { name: 'sql server', src: '/images/tools/sql-server.svg' }
     ],
     gallery: [],
     devicePreviews: [
-      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: 'images/proj-tree/sp-img-prj-tree.webp' } }
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-tree/sp-img-prj-tree.webp' } }
     ],
     pageFile: 'tree-project'
   }

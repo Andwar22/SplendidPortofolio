@@ -70,9 +70,9 @@ const isPlaying = ref(false)
 
 const frameChromeSrc = computed(() => {
   const map = {
-    laptop: 'images/sp-img-frame-laptop.webp',
-    tablet: 'images/sp-img-frame-tablet.webp',
-    hp: 'images/sp-img-frame-hp.webp'
+    laptop: '/images/sp-img-frame-laptop.webp',
+    tablet: '/images/sp-img-frame-tablet.webp',
+    hp: '/images/sp-img-frame-hp.webp'
   }
   return map[props.type] || ''
 })

@@ -17,7 +17,7 @@
         </div>
         <div class="hero-img-wrap">
           <div class="hero-glow"></div>
-          <img src="images/sp-img-hero-light.webp" alt="Digital Solutions Mockup" class="hero-img" />
+          <img src="/images/sp-img-hero-light.webp" alt="Digital Solutions Mockup" class="hero-img" />
         </div>
       </div>
     </header>
@@ -79,7 +79,7 @@
           </div>
         </div>
         <div class="about-img-wrap">
-          <img src="images/sp-img-about.webp" alt="NovaCode Team Collaboration" class="about-img" />
+          <img src="/images/sp-img-about.webp" alt="NovaCode Team Collaboration" class="about-img" />
           <div class="about-floating-card">
             <div class="card-badge-icon">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
