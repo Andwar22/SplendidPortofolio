@@ -24,11 +24,8 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
+    // On router.back(), restore the exact scroll position like a browser back button
     if (savedPosition) return savedPosition
-    // Only scroll to hash on in-app navigation — fresh page loads always go to top
-    if (to.hash && from.name) {
-      return { el: to.hash, behavior: 'smooth' }
-    }
     return { top: 0 }
   }
 })
