@@ -4,7 +4,7 @@
       <input ref="navToggleRef" type="checkbox" id="nav-toggle" v-model="menuOpen" />
 
       <div class="nav-brand">
-        <a href="/" @click.prevent="scrollTo('#mainHeader')">
+        <a :href="homeHref" @click.prevent="navigateTo('#mainHeader')">
           <SplendidLogo />
         </a>
       </div>
@@ -70,6 +70,8 @@ const links = [
   { hash: '#why', label: 'Why Us' },
   { hash: '#contact', label: 'Contact' }
 ]
+
+const homeHref = `${import.meta.env.BASE_URL}#mainHeader`
 
 function navigateTo(hash) {
   closeMenu()

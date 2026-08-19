@@ -67,12 +67,13 @@ const props = defineProps({
 
 const videoRef = ref(null)
 const isPlaying = ref(false)
+const publicAsset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
 
 const frameChromeSrc = computed(() => {
   const map = {
-    laptop: '/images/sp-img-frame-laptop.webp',
-    tablet: '/images/sp-img-frame-tablet.webp',
-    hp: '/images/sp-img-frame-hp.webp'
+    laptop: publicAsset('/images/sp-img-frame-laptop.webp'),
+    tablet: publicAsset('/images/sp-img-frame-tablet.webp'),
+    hp: publicAsset('/images/sp-img-frame-hp.webp')
   }
   return map[props.type] || ''
 })

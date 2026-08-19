@@ -1,4 +1,24 @@
-﻿export const projects = [
+const publicAsset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
+
+function withPublicAssetBase(value) {
+  if (typeof value === 'string') {
+    return value.startsWith('/images/') ? publicAsset(value) : value
+  }
+
+  if (Array.isArray(value)) {
+    return value.map(withPublicAssetBase)
+  }
+
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, item]) => [key, withPublicAssetBase(item)])
+    )
+  }
+
+  return value
+}
+
+export const projects = withPublicAssetBase([
   // {
   //   slug: 'dummy',
   //   title: 'Dummy Project',
@@ -1473,7 +1493,7 @@
     ],
     pageFile: 'tree-project'
   }
-]
+])
 
 export const detailedProjects = projects.filter(p => p.pageFile)
 
