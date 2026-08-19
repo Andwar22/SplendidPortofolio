@@ -1632,22 +1632,22 @@ export const whyItems = [
   {
     icon: 'ci-web-design-01',
     title: 'Modern & Clean Design',
-    desc: 'Interface yang nyaman dipakai, mudah dipahami, dan tetap membawa karakter brand Anda.'
+    desc: 'Interfaces that feel easy to use, simple to understand, and true to your brand.'
   },
   {
     icon: 'ci-laptop-performance',
     title: 'Performance Focused',
-    desc: 'Website dan aplikasi dibangun cepat, stabil, dan optimal untuk pengalaman pengguna terbaik.'
+    desc: 'Websites and apps built to be fast, stable, and optimized for the best possible user experience.'
   },
   {
     icon: 'ci-security-check',
     title: 'Reliable & Transparent',
-    desc: 'Komunikasi jelas, proses kerja terarah, dan progress yang mudah dipantau dari awal sampai akhir.'
+    desc: 'Clear communication, structured processes, and progress you can easily follow from start to finish.'
   },
   {
     icon: 'ci-headset',
     title: 'Ongoing Support',
-    desc: 'Kami tetap mendampingi setelah launch agar produk terus terawat dan siap berkembang.'
+    desc: 'We stay by your side after launch, keeping your product well-maintained and ready to grow.'
   }
 ]
 

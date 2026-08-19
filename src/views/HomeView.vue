@@ -5,7 +5,7 @@
       <div class="wrapper">
         <div class="hero-txt">
           <h1>We Build Digital Solutions That <span class="highlight">Drive Impact</span></h1>
-          <h4>We are a passionate team of developers and designers building modern web and mobile experiences for startups and growing businesses.</h4>
+          <h4>We're a team of developers and designers building websites and apps for startups and growing businesses. We take projects from the very first idea to launch, backed by experience since 2018.</h4>
           <div class="hero-btns">
             <a href="#projects" class="hero-btn-primary" @click.prevent="scrollToSelector('#projects')">
               View Our Work <i class="ci-arrow-right-02-round"></i>
@@ -55,7 +55,7 @@
         <div class="about-txt">
           <p class="subtitle">About Us</p>
           <p class="title">Building With Passion, Delivering With Purpose</p>
-          <p class="desc">We are digital product studio focused on creating high-quality websites, web apps, and digital experiences. We combine design, technology, and strategy to help businesses grow in the digital world.</p>
+          <p class="desc">We're a digital product studio focused on creating high-quality websites, web apps, and digital experiences. Since 2018, we've combined design, technology, and strategy to help businesses grow online and we're just as comfortable building from scratch as we are improving what's already there.</p>
           <div class="about-stats">
             <div v-for="stat in aboutStats" :key="stat.label" class="stat-item">
               <div class="stat-icon">
@@ -98,7 +98,7 @@
         <div class="projects-header">
           <p class="subtitle">Our Projects</p>
           <p class="title">Selected Works We're Proud Of</p>
-          <p class="desc">A showcase of our best work, demonstrating our expertise in web development and digital solutions.</p>
+          <p class="desc">A look at the websites and apps we're proud of a selection that best shows what we can build together.</p>
         </div>
         <div class="project-timeline">
           <ProjectCard v-for="p in projects" :key="p.slug" :project="p" />
@@ -112,7 +112,7 @@
         <div class="why-header">
           <p class="subtitle">Why Choose Us</p>
           <p class="title">Your Vision, Our Expertise</p>
-          <p class="desc">Kami membantu bisnis membangun produk digital yang rapi, cepat, mudah dikembangkan, dan siap bertumbuh bersama kebutuhan pengguna.</p>
+          <p class="desc">From idea to launch, we help businesses build digital products that are clean, fast, and ready to grow with their users.</p>
         </div>
         <div class="why-list">
           <div v-for="item in whyItems" :key="item.title" class="why-item">

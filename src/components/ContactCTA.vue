@@ -7,7 +7,7 @@
         </div>
         <p class="subtitle">Let's Work Together</p>
         <h2>Ready to build something amazing together?</h2>
-        <p>Tell us what you want to create, and we will help turn the idea into a digital product that is clear, reliable, and ready to grow.</p>
+        <p>Tell us what you want to build, and we'll help you turn it from an idea into a digital product that's clear, reliable, and ready to grow.</p>
         <a :href="whatsappLink" class="contact-cta-btn" aria-label="Start a project conversation on WhatsApp" target="_blank" rel="noopener">
           <i class="ci-whatsapp"></i>
           Start a Conversation
