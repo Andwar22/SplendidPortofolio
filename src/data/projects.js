@@ -1,3 +1,4 @@
+﻿
 const publicAsset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
 
 function withPublicAssetBase(value) {
@@ -19,9 +20,10 @@ function withPublicAssetBase(value) {
 }
 
 export const projects = withPublicAssetBase([
+
   // {
-  //   slug: 'dummy',
-  //   title: 'Dummy Project',
+  //   slug: 'sampoerna-server',
+  //   title: 'sampoerna server detection system',
   //   status: 'coming-soon',
   //   statusLabel: 'coming soon',
   //   type: 'web app',
@@ -29,122 +31,26 @@ export const projects = withPublicAssetBase([
   //   year: 'Unknown',
   //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
   //   shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-  //   previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop-01.webp',
-  //   headerDevices: [
-  //     { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp' } },
-  //     { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
-  //     { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
-  //   ],
-  //   challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-  //   solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
-  //   features: [
-  //     'Lorem ipsum dolor sit amet consectetur.',
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing.'
-  //   ],
+  //   previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
+  //   challenge: '',
+  //   solution: '',
+  //   features: [],
   //   tools: [
-  //     { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
-  //     { name: '.net', src: '/images/tools/dotnet.svg' },
-  //     { name: 'c#', src: '/images/tools/csharp.svg' },
-  //     { name: 'sql server', src: '/images/tools/sql-server.svg' },
-  //     { name: 'html', src: '/images/tools/html5.svg' },
-  //     { name: 'css', src: '/images/tools/css_old.svg' },
-  //     { name: 'javascript', src: '/images/tools/javascript.svg' }
+  //     { name: 'unknown', src: '/images/tools/unknown.png' },
+  //     { name: 'unknown', src: '/images/tools/unknown.png' },
+  //     { name: 'unknown', src: '/images/tools/unknown.png' }
   //   ],
-  //   devicePreviews: [
-  //     {
-  //       type: 'laptop', label: 'laptop preview', media: {
-  //         kind: 'video',
-  //         src: '',
-  //         poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-laptop.webp',
-  //         muted: true,
-  //         autoplay: false,
-  //         preload: 'none',
-  //         sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
-  //       }
-  //     },
-  //     {
-  //       type: 'tablet', label: 'tablet preview', media: {
-  //         kind: 'video',
-  //         src: '',
-  //         poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp',
-  //         muted: true,
-  //         autoplay: false,
-  //         preload: 'none',
-  //         sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
-  //       }
-  //     },
-  //     {
-  //       type: 'hp', label: 'mobile preview', media: {
-  //         kind: 'video',
-  //         src: '',
-  //         poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp',
-  //         muted: true,
-  //         autoplay: false,
-  //         preload: 'none',
-  //         sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
-  //       }
-  //     }
-  //   ],
-  //   gallery: Array.from({ length: 2 }, (_, i) => ({
-  //     src: `/images/proj-rvadm/sp-img-prj-rvadm-${String(i + 1).padStart(2, '0')}.webp`,
-  //     title: '',
-  //     description: ''
-  //   })),
-  //   pageFile: 'dummy-project'
+  //   gallery: [],
+  //   devicePreviews: [],
+  //   pageFile: null
   // },
 
-
-  {
-    slug: 'sampoerna-server',
-    title: 'sampoerna server detection system',
-    status: 'coming-soon',
-    statusLabel: 'coming soon',
-    type: 'web app',
-    coreTech: 'Unknown',
-    year: 'Unknown',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
-    tools: [
-      { name: 'unknown', src: '/images/tools/unknown.png' },
-      { name: 'unknown', src: '/images/tools/unknown.png' },
-      { name: 'unknown', src: '/images/tools/unknown.png' }
-    ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
-  },
-  {
-    slug: 'brasma-barsama',
-    title: 'brasma barsama',
-    status: 'coming-soon',
-    statusLabel: 'coming soon',
-    type: 'web app',
-    coreTech: 'Unknown',
-    year: 'Unknown',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
-    tools: [
-      { name: 'unknown', src: '/images/tools/unknown.png' },
-      { name: 'unknown', src: '/images/tools/unknown.png' },
-      { name: 'unknown', src: '/images/tools/unknown.png' }
-    ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
-  },
+  // revolution property v2
   {
     slug: 'revolution-property-v2',
     title: 'revolution property v2',
-    status: 'ongoing',
-    statusLabel: 'ongoing',
+    status: 'coming-soon',
+    statusLabel: 'coming soon',
     type: 'landing page',
     coreTech: 'azure',
     year: '2026',
@@ -165,6 +71,8 @@ export const projects = withPublicAssetBase([
     devicePreviews: [],
     pageFile: null
   },
+
+  // NJP archive
   {
     slug: 'njp-archive',
     title: 'NJP archive',
@@ -175,10 +83,16 @@ export const projects = withPublicAssetBase([
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-njparc/sp-img-prj-njparc-02.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-njparc/sp-img-prj-njparc-02.webp' } },
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: 'c#', src: '/images/tools/csharp.svg' },
@@ -189,10 +103,28 @@ export const projects = withPublicAssetBase([
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-njparc/sp-img-prj-njparc-01.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+        }
+      }
+    ],
+    gallery: Array.from({ length: 4 }, (_, i) => ({
+      src: `/images/proj-njparc/sp-img-prj-njparc-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'njp-archive-project'
   },
+
+  // triyana resort carangsari
   {
     slug: 'triyana-resort-carangsari',
     title: 'triyana resort carangsari',
@@ -203,22 +135,55 @@ export const projects = withPublicAssetBase([
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'azure', src: '/images/tools/azure.svg' },
-      { name: 'sql server', src: '/images/tools/sql-server.svg' },
       { name: 'html', src: '/images/tools/html5.svg' },
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-carang/sp-img-prj-carang-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-carang/sp-img-prj-carang-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'triyana-resort-carangsari-project'
   },
+
+  // triyana group
   {
     slug: 'triyana-group',
     title: 'triyana group',
@@ -229,10 +194,18 @@ export const projects = withPublicAssetBase([
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'azure', src: '/images/tools/azure.svg' },
@@ -240,10 +213,36 @@ export const projects = withPublicAssetBase([
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-tgroup/sp-img-prj-tgroup-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-tgroup/sp-img-prj-tgroup-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'triyana-group-project'
   },
+
+  // RV referral area
   {
     slug: 'rv-referral-area',
     title: 'RV referral area',
@@ -254,10 +253,18 @@ export const projects = withPublicAssetBase([
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: '.net', src: '/images/tools/dotnet.svg' },
@@ -267,10 +274,40 @@ export const projects = withPublicAssetBase([
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-rfarea/sp-img-prj-rfarea-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-rfarea/sp-img-prj-rfarea-head-hp.webp',
+        }
+      }
+    ],
+    gallery: Array.from({ length: 1 }, (_, i) => ({
+      src: `/images/proj-rfarea/sp-img-prj-rfarea-${String(i + 1).padStart(2, '0')}.webp`,
+      title: '',
+      description: ''
+    })),
+    pageFile: 'rv-referral-area-project'
   },
+
+  // RV referral partner'
   {
     slug: 'rv-referral-partner',
     title: 'RV referral partner',
@@ -281,21 +318,111 @@ export const projects = withPublicAssetBase([
     year: '2026',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
     shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    previewImg: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'azure', src: '/images/tools/azure.svg' },
-      { name: 'sql server', src: '/images/tools/sql-server.svg' },
       { name: 'html', src: '/images/tools/html5.svg' },
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rpart/sp-vid-prj-rpart-laptop.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-rpart/sp-img-prj-rpart-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-rpart/sp-img-prj-rpart-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'rv-referral-partner-project'
+  },
+
+  // rv membership
+  {
+    slug: 'rv-membership',
+    title: 'RV membership',
+    status: 'finished',
+    statusLabel: 'finished',
+    type: 'landing page',
+    coreTech: 'azure',
+    year: '2025',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    previewImg: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-hp.webp' } }
+    ],
+    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    features: [
+      'Lorem ipsum dolor sit amet consectetur.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+    ],
+    tools: [
+      { name: 'vs code', src: '/images/tools/vscode.svg' },
+      { name: 'azure', src: '/images/tools/azure.svg' },
+      { name: 'html', src: '/images/tools/html5.svg' },
+      { name: 'css', src: '/images/tools/css_old.svg' },
+      { name: 'javascript', src: '/images/tools/javascript.svg' }
+    ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-hp.webp',
+        }
+      }
+    ],
+    gallery: [],
+    pageFile: 'rv-membership-project'
   },
 
   // triyana glamping village
@@ -337,7 +464,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -397,7 +524,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
     ],
@@ -450,7 +577,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -513,7 +640,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -601,7 +728,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
     ],
@@ -654,7 +781,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -719,7 +846,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -781,7 +908,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -871,7 +998,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -929,7 +1056,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -987,7 +1114,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1048,7 +1175,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1159,7 +1286,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1224,7 +1351,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1323,29 +1450,19 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
         type: 'tablet', label: 'tablet preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp'
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp'
         }
       }
     ],
@@ -1505,6 +1622,12 @@ export const partners = [
   { name: 'Sitemark', icon: 'diamond' }
 ]
 
+export const aboutStats = [
+  { icon: 'user', value: '30+', label: 'Projects Completed' },
+  { icon: 'monitor', value: '10+', label: 'Happy Clients' },
+  { icon: 'users', value: '8+', label: 'Years Experience' }
+]
+
 export const whyItems = [
   {
     icon: 'ci-web-design-01',
@@ -1528,8 +1651,3 @@ export const whyItems = [
   }
 ]
 
-export const aboutStats = [
-  { icon: 'user', value: '20+', label: 'Projects Completed' },
-  { icon: 'monitor', value: '10+', label: 'Happy Clients' },
-  { icon: 'users', value: '3+', label: 'Years Experience' }
-]

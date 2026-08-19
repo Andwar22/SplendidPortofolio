@@ -55,7 +55,7 @@
         <div class="about-txt">
           <p class="subtitle">About Us</p>
           <p class="title">Building With Passion, Delivering With Purpose</p>
-          <p class="desc">NovaCode is a digital product studio focused on creating high-quality websites, web apps, and digital experiences. We combine design, technology, and strategy to help businesses grow in the digital world.</p>
+          <p class="desc">We are digital product studio focused on creating high-quality websites, web apps, and digital experiences. We combine design, technology, and strategy to help businesses grow in the digital world.</p>
           <div class="about-stats">
             <div v-for="stat in aboutStats" :key="stat.label" class="stat-item">
               <div class="stat-icon">

@@ -19,5 +19,5 @@
 </template>
 
 <script setup>
-const whatsappLink = 'https://wa.me/?text=Hello%20Splendid%2C%20I%20would%20like%20to%20discuss%20a%20project'
+const whatsappLink = 'https://wa.me/6281286944675/?text=Hello%20Splendid%2C%20I%20would%20like%20to%20discuss%20a%20project'
 </script>

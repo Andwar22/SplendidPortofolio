@@ -193,9 +193,9 @@
         height: 50px;
         border: none;
         outline: none;
-        color: var(--secondary);
+        color: var(--putih);
         font-size: 2.25rem;
-        background-color: var(--surface);
+        background-color: var(--primary);
         border-radius: 50%;
         box-shadow: 0 4px 10px var(--shadow);
         transform: scale(0);
@@ -209,7 +209,6 @@
         z-index: 99;
 
         &:hover {
-            color: var(--putih);
             background-color: var(--secondary);
         }
     }
@@ -1320,7 +1319,7 @@
                 position: absolute;
                 left: 50%;
                 transform: translateX(-50%);
-                background-color: var(--grey);
+                background-color: var(--txt-secondary);
                 overflow: hidden;
                 z-index: -1;
             }
@@ -1528,7 +1527,7 @@
                 position: absolute;
                 left: 50%;
                 transform: translateX(-50%);
-                background-color: var(--grey);
+                background-color: var(--txt-secondary);
                 overflow: hidden;
                 z-index: -1;
             }
