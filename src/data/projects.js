@@ -1208,17 +1208,23 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2022 - 2025',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'Hamilku Admin is the control center for the Hamilku patient and healthcare-provider apps. It helps admins monitor transactions, bookings, registered patients and providers, provider verification documents such as STR and SIP, class registrations, vouchers, and content across articles, forums, and media. The system keeps data synchronized across the Hamilku ecosystem so operations stay clear and manageable.',
+    shortDesc: 'An admin dashboard for managing Hamilku transactions, provider verification, users, bookings, vouchers, classes, and content across the app ecosystem.',
     previewImg: '/images/proj-hmlad/sp-img-prj-hmlad-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-hmlad/sp-img-prj-hmlad-01.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Hamilku Admin needed to give the internal team full control over transactions and content from both the patient app and the healthcare-provider app. Admins had to view all registered patients and providers, review provider registration data with STR and SIP documents, and keep data integrated and synchronized across the Hamilku ecosystem. The platform also had to support operational tasks such as class registration, booking management, voucher generation, and content moderation.',
+    solution: 'We built a centralized admin dashboard that brings user data, provider verification, transactions, bookings, classes, vouchers, and content management into one workflow. Data from the patient and provider apps is synchronized into the admin system, giving the team a clearer view of daily operations. The interface is structured to help admins review submissions, manage orders, publish content, and monitor activity without jumping between separate tools.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Healthcare-provider registration verification',
+      'Patient and healthcare-provider data viewer',
+      'Pregnancy class and Upgrade Class registration management',
+      'Face-to-face service booking order control',
+      'Discount voucher generation for bookings',
+      'Article content management',
+      'Forum moderation and management',
+      'Media content management'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -1254,19 +1260,27 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2022 - 2025',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'Hamilku Nakes is the healthcare-provider version of Hamilku, built for obstetricians, general practitioners, and midwives who serve patients booked through the patient app. It keeps examination data aligned between providers and patients, supports pregnancy records, screening, scoring, ultrasound photos, next-visit schedules, practice hours, certified webinars, articles, forum replies, and QR-based data transfer.',
+    shortDesc: 'A provider-focused Hamilku app for managing patient bookings, pregnancy examinations, screening, practice schedules, forums, and QR-based data transfer.',
     previewImg: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Hamilku Nakes had to support obstetricians, general practitioners, and midwives who serve patients booking through Hamilku. The main challenge was keeping data synchronized and consistent between what providers enter and what patients receive. Providers also needed a complete workflow for entering examination data, pregnancy records, screening and scoring results, ultrasound photos, next control dates, and practice schedules that can be shown to patients.',
+    solution: 'We aligned the input parameters needed by both patients and healthcare providers so shared data stays consistent across the ecosystem. Ultrasound photos are compressed and stored with blob storage to keep images lightweight when loaded in the app. We also built practice schedule management for providers, along with QR-based examination data transfer so patients can receive their results quickly and reliably.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login, account registration, and password reset',
+      'STR and SIP input during registration for provider verification by Hamilku admins',
+      'Patient data input and pregnancy record management',
+      'Screening and scoring input for patient examinations',
+      'Ultrasound photo upload with optimized image handling',
+      'Practice schedule management for patient-facing availability',
+      'Certified Upgrade Class webinars for healthcare providers',
+      'Articles and educational content',
+      'Forum access for answering pregnancy-related questions',
+      'QR code transfer for sending examination data to patients'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -1319,19 +1333,27 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2022 - 2025',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description: 'Hamilku is a patient-focused upgrade of Sayang Bunda, built for pregnant women and women planning a pregnancy. The app helps users track pregnancy data, calculate estimated due dates and gestational age from the last menstrual period, complete self-screening, and receive risk scores based on obstetric criteria and the Poedji Rochyati scoring table.',
+    shortDesc: 'A patient-focused pregnancy app for tracking gestational age, estimated due dates, self-screening, health content, bookings, and community support.',
     previewImg: '/images/proj-hml/sp-img-prj-hml-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-01.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Hamilku was developed as an upgrade from Sayang Bunda, shifting the focus from doctors to patients: pregnant women and women preparing for pregnancy. The app needed to calculate estimated due dates and gestational age automatically from pregnancy data, while also helping users complete screening tables and receive risk scores based on the conditions they experience. The information had to stay clear, practical, and easy to use for non-medical users.',
+    solution: 'We built automatic calculations for estimated delivery dates and gestational age based on the patient\'s last menstrual period. Screening tables were created from standard obstetrician references, while risk scoring follows the Poedji Rochyati scoring table. The app also supports independent screening, pregnancy records, educational media, service booking, and QR-based examination data transfer from obstetric specialists.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login, account registration, and password reset',
+      'Independent pregnancy screening for patients',
+      'Gynecology diary for personal health notes',
+      'Pregnancy classes and webinar access',
+      'Face-to-face service booking',
+      'Pregnancy data input and tracking',
+      'QR code transfer for examination data from obstetric specialists',
+      'Articles and educational content',
+      'Hamilku Media with pregnancy health videos',
+      'Pregnancy forum for community discussion'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -1384,17 +1406,19 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'javascript',
     year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'Property Share Unit is a static landing page for Triyana Group, presenting a Bali resort property investment offer through a share-unit model. The page keeps product details easy to scan, highlights the entry point of investing from around 300 thousand rupiah, and makes contact options clear so potential investors can quickly reach the team through WhatsApp, phone, or email.',
+    shortDesc: 'A responsive landing page for Triyana Group that presents Bali resort property investment details and makes investor contact options easy to find.',
     previewImg: '/images/proj-propsu/sp-img-prj-propsu.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-propsu/sp-img-prj-propsu.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Triyana Group needed a landing page that could present information about Bali resort property investment through a share-unit system. The content had to explain the product clearly while making the most important details easy for potential investors to notice. Product information and contact options needed strong visual priority, so visitors could quickly understand the offer and take the next step without searching around the page.',
+    solution: 'We built a focused static landing page that puts the core investment information front and center. The offer "investment starts from around 300 thousand rupiah" is highlighted clearly, supported by a prominent contact button that encourages visitors to reach out. The page is also designed responsively, keeping product details and contact access clear across desktop and mobile screens.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Static landing page with clear investment product information',
+      'Highlighted investment entry point starting from around 300 thousand rupiah',
+      'Contact access through WhatsApp, phone, and email',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -1418,19 +1442,24 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'Revolution Property Admin is the main back-office app for a Bali resort and property investment company. It manages online data for customers, products, assets, sales, payments, promotions, dividends, cooperative records, and reports. Since the sales scheme changes often, the app is built to stay flexible, integrate with companion apps, and keep growing without breaking existing workflows.',
+    shortDesc: 'A flexible admin app for managing resort and property investment operations, from master data and sales to reporting and companion app integrations.',
     previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'The app is used by admins at a Bali-based resort and property investment company, with all operational data stored in an online database. It acts as the main system and connects with several companion applications. The biggest challenge is the sales scheme, which changes often and usually affects the core application flow. Because the platform is still actively evolving, every new feature needs to be added carefully without disrupting existing features that the team already depends on.',
+    solution: 'We designed the application to be flexible instead of locking it into a rigid sales flow. The interface and feature structure can keep adapting as the business process grows, while existing workflows remain stable. Accurate data calculations are handled inside the system and presented through dashboards, helping admins monitor sales, assets, payments, and key business activity more easily.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Master data management for customers, products, assets, and related records',
+      'Sales management for cash and installment transactions',
+      'Resort asset management for tracking property-related operations',
+      'Promotion management to support changing sales schemes',
+      'Asset letter management for organizing important documents',
+      'E-wallet, dividend, and cooperative management',
+      'Reports and dashboards for monitoring key business data'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -1483,12 +1512,19 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2021',
-    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, sapiente modi sunt quo harum aut dicta sit aperiam temporibus tempora.',
-    shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, sapiente modi sunt quo harum aut dicta sit aperiam temporibus tempora.',
+    description: 'An obstetric care app that helps doctors track pregnancy progress in one connected system. It stores patient records in an online database, calculates estimated due dates and gestational age from the last menstrual period, generates screening tables based on standard obstetric guidelines, and computes risk scores with the Poedji Rochyati scoring system. It also supports referrals, obstetrician records, pregnancy logs, and health information for expectant mothers.',
+    shortDesc: 'An obstetric care app that automates due date calculations, pregnancy screening, and risk scoring while keeping patient records online.',
     previewImg: '/images/proj-sayang/sp-img-prj-sbun-01.webp',
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    features: ['Lorem ipsum dolor sit amet consectetur.'],
+    challenge: 'Obstetricians needed a focused application to track pregnancy progress, replacing scattered notes and manual checks with a centralized digital system. It had to store patient data online, calculate estimated due dates and gestational age automatically, generate screening tables, and produce risk scores from established criteria. The system also needed to work through a browser so doctors could review and update records from any device.',
+    solution: 'We built the application with Blazor and a responsive interface for desktops, tablets, and smartphones. Estimated due dates and gestational age are calculated from the patient\'s last menstrual period, while screening tables and Poedji Rochyati risk scores are generated automatically. All records are stored in an online database, keeping patient information consistent and accessible across the team.',
+    features: [
+      'Patient data input for complete record keeping',
+      'Pregnancy screening and scoring with automated calculations',
+      'Hospital referral feature for escalations and follow-ups',
+      'Obstetrician data input to manage provider information',
+      'Pregnancy data logging for tracking progress over time',
+      'Health information for expectant mothers'
+    ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
       { name: '.net', src: '/images/tools/dotnet.svg' },
@@ -1515,19 +1551,21 @@ export const projects = withPublicAssetBase([
     title: 'IMI Admin',
     status: 'finished',
     statusLabel: 'finished',
-    type: 'Web App',
+    type: 'web app',
     coreTech: 'blazor',
     year: '2021',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eum velit laboriosam ipsa ea. Repellendus velit voluptatibus magnam officiis expedita itaque ad, quisquam excepturi labore suscipit id molestias illum, unde exercitationem facere recusandae sunt veritatis. Rerum harum voluptatibus earum tempore!',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsa voluptates ab consectetur sit dolores aliquam blanditiis! Aspernatur, consequatur dolorem!',
+    description: 'A sales management app for a flooring service company, built to replace manual bookkeeping with a digital workflow. It centralizes supplier data, inventory, sales, and financial tracking in one browser-based platform. Built with Blazor and backed by an online database, the app keeps records consistent and easy for the team to access. Its responsive interface works across desktops, tablets, and smartphones, giving staff more flexibility in daily operations.',
+    shortDesc: 'A web app that replaces manual bookkeeping with a responsive system for managing suppliers, stock, sales, and financial records.',
     previewImg: '/images/proj-imi/sp-img-prj-imi-02.webp',
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi numquam exercitationem repudiandae quod odit perferendis recusandae delectus impedit rerum maxime soluta laborum dignissimos, illo sequi! Alias eius in error voluptate ex doloribus commodi voluptatibus odio dolores placeat nemo fugit consequuntur repellendus, totam provident. Voluptates.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus, assumenda sed iure obcaecati maiores, aliquam totam minima quisquam autem adipisci consequatur eius, temporibus officia facere itaque nemo recusandae. Dignissimos.',
+    challenge: 'The company relied on manual bookkeeping to manage sales, which made the process slow, hard to scale, and prone to inconsistencies. Moving to a digital system meant building a web app that could handle suppliers, inventory, sales, and financial tracking in one place. It also needed to be accessible from any device, so the team could work from the office or on the go without depending on a single workstation.',
+    solution: 'We built the application with Blazor, creating a responsive interface that works comfortably across smartphones, tablets, and desktops. All data is stored in an online database, keeping records consistent and available to every user. The design focuses on clarity and ease of use, making the shift from manual bookkeeping to a digital workflow smoother for the team.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, earum.',
-      'Lorem ipsum dolor sit.',
-      'Lorem ipsum dolor, sit amet consectetur adipisicing.'
+      'Multi-user support with synchronized access across the team',
+      'Supplier data entry to keep vendor information organized',
+      'Master item and stock management for accurate inventory tracking',
+      'Sales processing for quick and reliable transaction recording',
+      'Tracking of supplier payables and receivables for financial clarity',
+      'Data export to Excel for easy reporting and analysis'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -1558,11 +1596,11 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2020',
-    description: 'Tree Admin had served the business well as a desktop application, but it was time to bring it to the web. We transformed the legacy system into a responsive web platform while preserving every essential feature. The new interface works seamlessly across smartphones, tablets, and desktops, supporting multi-user access, notifications, customer data, sales, filtering, and Excel export. By reusing the existing database, all records remained intact, allowing the team to continue daily operations without interruption.',
-    shortDesc: 'A web-based upgrade of Tree Admin that brings every legacy feature to the browser, with a responsive interface and a seamless handover of existing data.',
+    description: 'Tree Admin had served the business well as a desktop app, but the team needed a more flexible web-based version. We transformed the legacy system into a responsive platform while preserving its essential features, including multi-user access, notifications, customer data, sales, filtering, and Excel export. By reusing the existing database, all records stayed intact, allowing the team to continue daily operations without interruption.',
+    shortDesc: 'A web app upgrade of Tree Admin that brings legacy features to the browser with a responsive interface and preserved existing data.',
     previewImg: '/images/proj-tav/sp-img-prj-tav-03.webp',
-    challenge: 'Tree Admin had served the business well as a desktop application, but the team needed something more flexible. The task was to upgrade it into a web-based platform, adapting every function from the legacy system to work within a completely different framework. On top of that, the new version had to be accessible from any device through a web browser, so staff could work wherever they happened to be.',
-    solution: 'We replicated every function from the legacy application in the new one, making sure nothing was lost in the move. The interface was designed to be fully responsive, adapting comfortably to smartphones, tablets, and desktops alike. To ensure a smooth transition, we kept using the legacy application\'s database, so all existing records carried over and daily data entry continued without interruption.',
+    challenge: 'Tree Admin had served the business well as a desktop application, but the team needed something more flexible. The task was to upgrade it into a web-based platform, adapting every core function from the legacy system to a different framework. The new version also had to be accessible from any device through a browser, so staff could work comfortably wherever they were.',
+    solution: 'We rebuilt the legacy application as a responsive web app while keeping the existing workflow familiar. The interface adapts comfortably to smartphones, tablets, and desktops, and the system continues using the legacy database so existing records carry over cleanly. This helped the team move to the new platform without interrupting daily data entry.',
     features: [
       'Multi-user support with synchronized access for the team',
       'Notifications to keep users informed of important updates',
@@ -1599,11 +1637,11 @@ export const projects = withPublicAssetBase([
     type: 'windows app',
     coreTech: 'winforms',
     year: '2020',
-    description: 'For years, sales were recorded manually, making the process time-consuming, error-prone, and difficult to keep consistent. We digitized the workflow into a Windows-only multi-user application, keeping data synchronized across the team. Built with WinForms, the app uses a minimalist, user-friendly interface and stores customer details, sales, correspondence, transfer proofs, and complaints in an online database. It guides users through each sales step, turning paperwork into a simple and reliable daily workflow.',
-    shortDesc: 'A Windows app that replaces manual sales recording with a simple digital workflow keeping customer data, sales, correspondence, and complaints in sync across the whole team.',
+    description: 'For years, sales were recorded manually, making the process time-consuming, error-prone, and difficult to keep consistent. We digitized the workflow into a Windows-only multi-user app that keeps data synchronized across the team. Built with WinForms, the app uses a minimalist interface and stores customer details, sales, correspondence, transfer proofs, and complaints in an online database. It turns paperwork into a simpler, more reliable daily workflow.',
+    shortDesc: 'A Windows app that replaces manual sales recording with a simple digital workflow for customer data, sales, correspondence, and complaints.',
     previewImg: '/images/proj-tree/sp-img-prj-tree.webp',
-    challenge: 'The business had long relied on manual sales recording, which made tracking transactions slow and error-prone. Moving to a digital system meant building a Windows-only application that multiple users could rely on at the same time, with data staying consistent for everyone. On top of that, the team wasn\'t used to entering data through an app, so the transition needed to feel as painless as possible.',
-    solution: 'We built the app with WinForms to meet the requirement for a desktop-only application. The UI follows a minimalist design, keeping the interface clean and easy to navigate even for users new to digital data entry. All records are stored in an online database, so every user works with the same up-to-date data no matter which device they\'re on.',
+    challenge: 'The business had long relied on manual sales recording, which made tracking transactions slow and error-prone. Moving to a digital system meant building a Windows-only application that multiple users could use at the same time while keeping data consistent for everyone. The team was also new to app-based data entry, so the transition needed to feel simple and approachable.',
+    solution: 'We built the app with WinForms to meet the requirement for a desktop-only application. The UI uses a minimalist design, keeping the interface clean and easy to navigate even for users new to digital data entry. All records are stored in an online database, so every user works with the same up-to-date data from their own device.',
     features: [
       'Multi-user support with data kept in sync across the team',
       'Notifications to keep users informed of important updates',
