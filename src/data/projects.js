@@ -49,8 +49,8 @@ export const projects = withPublicAssetBase([
   {
     slug: 'revolution-property-v2',
     title: 'revolution property v2',
-    status: 'coming-soon',
-    statusLabel: 'coming soon',
+    status: 'ongoing',
+    statusLabel: 'ongoing',
     type: 'landing page',
     coreTech: 'azure',
     year: '2026',
@@ -493,17 +493,21 @@ export const projects = withPublicAssetBase([
     type: 'windows app',
     coreTech: 'maui',
     year: '2024',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A lightweight MAUI companion app for NJP Admin v2, focused on managing VAT-based customers and invoices. Built for Windows-only use, it keeps the workflow simple and fast with a local SQLite database, reducing loading time and making daily invoice work feel responsive. The app supports customer master data, invoice handling, reports, dark mode, and single-user operation.',
+    shortDesc: 'A lightweight Windows-only MAUI companion app for managing VAT customers, invoices, reports, dark mode, and single-user workflows with local SQLite storage.',
     previewImg: '/images/proj-njpppn/sp-img-prj-njpppn-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpppn/sp-img-prj-njpppn-01.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'NJP PPN was designed as a simpler companion app for NJP Admin v2, with a narrow focus on managing customers and invoices that include VAT. The requirement was intentionally straightforward: the app only needed to run on Windows, support a single user, and feel fast during daily use. Speed was a key concern, especially for opening menus, loading invoice data, and preparing reports without unnecessary waiting.',
+    solution: 'We built the app with MAUI for a focused Windows desktop experience and used SQLite as a local database to keep data access fast and responsive. Because the workflow is single-user and limited to VAT customers, invoices, and reports, the app can stay lightweight without the overhead of online synchronization. Dark mode was added to make the interface more comfortable for longer working sessions.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login for single-user access',
+      'Customer master data management',
+      'VAT invoice management',
+      'Reports for invoice review',
+      'Local SQLite database for fast data access',
+      'Dark mode support'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -545,19 +549,28 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2024',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'NJP Admin v2 is a Blazor WebAssembly upgrade of the original Windows app, built to keep the same database, menu structure, business logic, and daily workflows while making the system installable across devices. It preserves core modules such as master data, quotations, invoices, purchases, reports, users, and printing, while adding archive data, offline mode, dark mode, and multi-user support.',
+    shortDesc: 'A Blazor WebAssembly upgrade of NJP Admin that preserves legacy workflows while adding responsive access, archive data, offline mode, dark mode, and multi-user support.',
     previewImg: '/images/proj-njpblz/sp-img-prj-njpblz-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-04.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'NJP Admin v2 had to upgrade the previous Windows-based application into a web-based system without breaking the way the team already worked. It needed to use the same database, keep the same menu structure, and preserve the functions and business logic from the desktop version. The new app also had to be installable and usable across different devices, making the workflow more flexible while keeping the transition familiar.',
+    solution: 'We rebuilt the application using Blazor WebAssembly as a PWA, allowing it to be installed and used like an app across supported devices. The interface was made responsive while keeping the familiar menu structure and logic from the Windows version. New capabilities such as archive data, offline mode, dark mode, and multi-user support were added to make the upgraded system more flexible for daily operations.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login and multi-user access',
+      'Master data management for customers, items, suppliers, brands, and related records',
+      'Quotation management',
+      'Invoice management',
+      'Purchase management',
+      'Reports for operational review',
+      'User management',
+      'Quotation and invoice printing',
+      'Archive data menu',
+      'Offline mode support',
+      'Dark mode support'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -610,19 +623,24 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'azure',
     year: '2024',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A landing page for a tea product with unique flavor variants. The page presents product information, flavor options, pricing, and contact access in a clear and friendly flow. To make the experience feel more lively, GSAP-powered animations add interactive movement while the responsive layout and dark mode keep the page comfortable to browse across devices.',
+    shortDesc: 'A responsive tea product landing page for Sinceritea, presenting unique flavors, pricing, contact options, dark mode, and GSAP animations.',
     previewImg: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Sinceritea needed a landing page that could present its tea products and unique flavor variants clearly. Product information, pricing, and contact options had to be easy to find so visitors could understand the offer and reach the team without friction. The website also needed to feel more interactive, with animation touches that made the brand experience more memorable without distracting from the main content.',
+    solution: 'We built a static landing page with a clear structure for product details, flavor variants, pricing, and contact actions. GSAP was used to add smooth website animations, giving the page a more interactive and polished feel. The layout keeps contact access through phone, WhatsApp, and email easy to reach, while responsive design and dark mode make the experience comfortable across desktop and mobile screens.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Static landing page for tea product information',
+      'Flavor variant section with clear product details',
+      'Pricing section for easy product comparison',
+      'Contact section through phone, WhatsApp, and email',
+      'GSAP powered website animations',
+      'Dark mode support',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -701,17 +719,23 @@ export const projects = withPublicAssetBase([
     type: 'windows app',
     coreTech: 'winforms',
     year: '2023 - 2024',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A Windows based admin app for a heavy equipment engine repair and maintenance company, covering services such as pump assembly and injector work. Built with WinForms, it keeps the required desktop workflow while bringing a cleaner, more modern interface, keyboard-friendly menu control, and core modules for master data, quotations, invoices, purchases, reports, users, and printing.',
+    shortDesc: 'A Windows admin app for a heavy equipment repair company, managing master data, quotations, invoices, purchases, reports, users, and printing.',
     previewImg: '/images/proj-njpwf/sp-img-prj-njpwf-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpwf/sp-img-prj-njpwf-01.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'The company needed a Windows-based application for managing repair and maintenance services for heavy equipment components such as pump assemblies and injectors. The system had to use an older desktop technology stack, but still feel more modern and comfortable to operate. Keyboard control was also important, so users could move through menus and daily workflows quickly without relying only on the mouse.',
+    solution: 'We built the application with WinForms to match the Windows desktop requirement while improving the interface with a cleaner and more modern layout. Menu flows were designed to support keyboard-based operation, helping staff work faster during data entry and transaction handling. The system also brings master data, quotations, invoices, purchasing, reports, user management, and document printing into one structured workflow.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login and user access control',
+      'Master data management for customers, items, suppliers, brands, and related records',
+      'Quotation management',
+      'Invoice management',
+      'Purchase management',
+      'Reports for operational review',
+      'User management',
+      'Quotation and invoice printing'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -749,19 +773,25 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2023 - 2025',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A sales web app for a rice milling and packaging factory, built to handle both retail and wholesale transactions. It connects with Akas Admin so customer, inventory, discount, and sales data stay synchronized across operations. The app supports sales note printing, inventory checks, and sales reports, helping the team serve customers faster and keep records accurate.',
+    shortDesc: 'A sales app for a rice milling and packaging factory, supporting retail and wholesale transactions, inventory sync, receipt printing, and reports.',
     previewImg: '/images/proj-aksfo/sp-img-prj-aksfo-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'The sales app needed to integrate and synchronize with Akas Admin so sales activity, inventory data, and customer records stayed consistent between both systems. It also had to support two different sales flows: retail transactions and wholesale transactions. On top of that, the team needed a reliable way to print sales notes after each transaction and review sales reports without relying on manual records.',
+    solution: 'We built a focused sales workflow that separates retail and wholesale transactions while keeping both connected to the same synchronized data source as Akas Admin. Discount input, inventory visibility, and customer data are handled inside the transaction flow, helping staff work faster at the point of sale. Sales note printing and reporting were added so every transaction can be documented and reviewed clearly.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login and dashboard for sales monitoring',
+      'Customer master data management',
+      'Retail sales transaction menu',
+      'Wholesale sales transaction menu',
+      'Discount input during sales transactions',
+      'Inventory menu for checking stock availability',
+      'Sales note printing',
+      'Sales report menu'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -814,19 +844,26 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2023 - 2025',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A back-office web app for a rice milling and packaging factory. It connects with the sales app and helps the team manage suppliers, items, warehouses, receipts, inventory, rice mixing, production, returns, finance records, and user access. With multi-role support for admins, finance, warehouse staff, and other teams, the app keeps factory operations organized and synchronized.',
+    shortDesc: 'A back-office app for a rice milling and packaging factory, managing inventory, mixing, production, finance, users, and sales app synchronization.',
     previewImg: '/images/proj-aksbo/sp-img-prj-aksbo-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'The admin app needed to support daily operations at a rice milling and packaging factory while staying integrated and synchronized with the sales application. The system had to include workflows for rice mixing and production, inventory management, receipts, returns, and finance records. It also needed flexible user access, so registered users could work under different roles such as admin, finance, warehouse, and other operational teams.',
+    solution: 'We built a centralized back-office system that connects operational data from sales, warehouse, production, and finance into one workflow. Inventory is organized across temporary stock, item-based stock, area-based stock, and good stock, while dedicated modules handle rice mixing and production. Role-based user management keeps each team focused on the menus and responsibilities relevant to their work.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login and dashboard for operational monitoring',
+      'Master data management for suppliers, items, and warehouses',
+      'Receipt management for incoming goods and documents',
+      'Inventory tracking for temporary stock, item stock, area stock, and good stock',
+      'Rice mixing workflow management',
+      'Production workflow management',
+      'Return management',
+      'Finance modules for journals and general ledger',
+      'User management with multi-role access'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -879,19 +916,22 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'javascript',
     year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A static landing page for a logistics and freight forwarding company serving national and international shipments. The page presents a firm, modern, and professional brand impression while explaining the company profile, service offerings, and clear contact options. With responsive layouts and dark mode support, visitors can explore the services and reach the team easily.',
+    shortDesc: 'A professional logistics landing page for PT. MSL, presenting company profile, national and international shipping services, and clear contact access.',
     previewImg: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'PT. MSL needed a landing page that looked professional, firm, and modern for a logistics company operating at national and international scale. The page had to introduce the company clearly, explain the freight and delivery services offered, and make contact access easy to find. Visitors needed to understand the company\'s credibility and quickly reach the team through phone, WhatsApp, or email.',
+    solution: 'We built a static landing page with a clean, confident visual direction and a content flow that moves from company profile to logistics services and contact actions. The layout highlights key service information while keeping the contact section visible and practical. Responsive design and dark mode support help the page feel polished and accessible across desktop and mobile screens.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Static landing page for a logistics and freight forwarding company',
+      'Company profile and service information sections',
+      'Contact section through phone, WhatsApp, and email',
+      'Responsive design for desktop and mobile browsing',
+      'Dark mode support'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -969,19 +1009,21 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'javascript',
     year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'Triyana Residence is a static landing page for a housing sales company in Kertalangu, close to Sanur Beach. The page presents the residential offer clearly, including three available house types, key specifications, location highlights, and direct contact options. With a responsive layout, visitors can explore the homes and reach the sales team easily by phone, WhatsApp, or email.',
+    shortDesc: 'A responsive landing page for Triyana Residence, presenting three house types near Sanur Beach with clear specifications and contact access.',
     previewImg: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Triyana Residence needed a landing page that could present its housing products clearly for potential buyers. The page had to explain the available house types and specifications, highlight the Kertalangu location near Sanur Beach, and make the contact path easy to find. A clear "contact us" section was essential so visitors could quickly reach the sales team after reviewing the offer.',
+    solution: 'We built a focused static landing page with a simple flow from project introduction to location, house types, specifications, and contact actions. The layout keeps product information easy to compare while giving strong visibility to phone, WhatsApp, and email options. Responsive design ensures the page stays clear and comfortable to browse across desktop and mobile screens.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Static landing page for Triyana Residence housing products',
+      'Three house type options with clear specifications',
+      'Contact section with phone, WhatsApp, and email access',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -1027,19 +1069,23 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'javascript',
     year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'Triyana Villa is a static landing page for a villa investment company offering Joint Ownership villas in Buleleng, near Lovina Beach. The page introduces the company, explains the ownership concept, and presents villa types, specifications, pricing, and contact options clearly. With responsive layouts and dark mode support, it helps potential buyers explore the offer comfortably.',
+    shortDesc: 'A responsive landing page for Triyana Villa, presenting Joint Ownership villa investments near Lovina Beach with clear pricing and contact access.',
     previewImg: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Triyana Villa needed a landing page that could present its Joint Ownership villa investment offer clearly. The page had to introduce the company, explain the product, and show villa types, specifications, and pricing in a way that felt easy for potential buyers to understand. Contact access also needed strong visibility, so visitors could quickly reach the team through phone, WhatsApp, or email.',
+    solution: 'We built a focused static landing page with a clear flow from company profile to villa product details, specifications, pricing, and contact actions. The layout highlights the information buyers need most, including the villa location near Lovina Beach and the Joint Ownership concept. Dark mode and responsive design help the page stay polished and easy to browse across desktop and mobile screens.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Static landing page for Joint Ownership villa investment',
+      'Short company profile section',
+      'Villa type, specification, and pricing information',
+      'Contact section through phone, WhatsApp, and email',
+      'Dark mode support',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -1085,19 +1131,23 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'javascript',
     year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'Revolution Property is a static landing page built to educate potential members and owners about resort property investment products. It presents the product offer, a short company profile, pricing information, and clear contact options in one focused page. With responsive layouts and dark mode support, the page keeps key investment details easy to read across devices.',
+    shortDesc: 'A responsive landing page for educating potential Revolution Property members about investment products, pricing, company profile, and contact options.',
     previewImg: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'The landing page needed to do more than show product information. It also had to introduce the company briefly, explain the investment offer clearly, and make pricing easy to find for potential members and owners. Contact access was another priority, so visitors could quickly reach the team through phone, WhatsApp, or email after understanding the product.',
+    solution: 'We created a static landing page with a clear content flow from company profile to product education, pricing, and contact actions. The layout highlights the most important investment information while keeping the contact section visible and easy to use. Dark mode and responsive design were added so the page stays comfortable to read and navigate across desktop and mobile screens.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Static landing page for investment product education',
+      'Short company profile section',
+      'Pricing section for clear investment information',
+      'Contact section through phone, WhatsApp, and email',
+      'Dark mode support',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -1143,19 +1193,24 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'Revolution Member Area is a web app for Revolution Property members and owners to monitor their resort and property investment assets. Integrated with Revolution Property Admin, it keeps sales updates, asset changes, cooperative participation, property information, learning content, and annual dividend reports synchronized so each member can access accurate, up-to-date investment data.',
+    shortDesc: 'A member portal for Revolution Property owners to track assets, properties, cooperative access, RV University content, and annual dividend reports.',
     previewImg: '/images/proj-mmbr/sp-img-prj-mmbr-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-04.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'The member area needed to integrate closely with Revolution Property Admin, the main operational system used by the admin team. Every sales input, ownership update, asset change, and related data adjustment from the admin app had to synchronize correctly to each member account. The challenge was making investment information reliable, easy to access, and always aligned with the latest admin-side data.',
+    solution: 'We built the member area around synchronized data from Revolution Property Admin, so each member sees only the assets, reports, and updates that belong to them. The dashboard gives owners a clear overview of their investment activity, while supporting property discovery, cooperative registration, RV University learning content, and annual dividend reporting in one accessible portal.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login, account creation, and password recovery',
+      'Dashboard for investment and account overview',
+      'My Assets menu for tracking owned investment assets',
+      'Property menu showing Revolution Property projects',
+      'RV University with webinar videos, tutorials, and investment guides',
+      'Cooperative menu for members who want to join the cooperative',
+      'Reports menu for viewing annual dividend income reports'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -1442,7 +1497,7 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2022',
-    description: 'Revolution Property Admin is the main back-office app for a Bali resort and property investment company. It manages online data for customers, products, assets, sales, payments, promotions, dividends, cooperative records, and reports. Since the sales scheme changes often, the app is built to stay flexible, integrate with companion apps, and keep growing without breaking existing workflows.',
+    description: 'Revolution Property Admin is the main back-office app for Revolution Property company. It manages online data for customers, products, assets, sales, payments, promotions, dividends, cooperative records, and reports. Since the sales scheme changes often, the app is built to stay flexible, integrate with companion apps, and keep growing without breaking existing workflows.',
     shortDesc: 'A flexible admin app for managing resort and property investment operations, from master data and sales to reporting and companion app integrations.',
     previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp',
     headerDevices: [
@@ -1450,7 +1505,7 @@ export const projects = withPublicAssetBase([
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
     ],
-    challenge: 'The app is used by admins at a Bali-based resort and property investment company, with all operational data stored in an online database. It acts as the main system and connects with several companion applications. The biggest challenge is the sales scheme, which changes often and usually affects the core application flow. Because the platform is still actively evolving, every new feature needs to be added carefully without disrupting existing features that the team already depends on.',
+    challenge: 'The app is used by admins at Revolution Property company, with all operational data stored in an online database. It acts as the main system and connects with several companion applications. The biggest challenge is the sales scheme, which changes often and usually affects the core application flow. Because the platform is still actively evolving, every new feature needs to be added carefully without disrupting existing features that the team already depends on.',
     solution: 'We designed the application to be flexible instead of locking it into a rigid sales flow. The interface and feature structure can keep adapting as the business process grows, while existing workflows remain stable. Accurate data calculations are handled inside the system and presented through dashboards, helping admins monitor sales, assets, payments, and key business activity more easily.',
     features: [
       'Master data management for customers, products, assets, and related records',
