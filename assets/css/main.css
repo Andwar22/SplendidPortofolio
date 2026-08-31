@@ -127,7 +127,6 @@
         }
     }
     .desc {
-        color: var(--txt-secondary);
         font-size: 1rem;
 
         span {
@@ -442,9 +441,10 @@
         content: '';
         position: absolute;
         inset: 0;
-        background: hsl(from var(--main-bg) h s l / .7);
+        background: hsl(from var(--white) h s l / .8);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(20px);
+        border-bottom: 1px solid var(--border);
         z-index: -2;
         
         &.trans {

@@ -54,12 +54,22 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'azure',
     year: '2026',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/sp-project-img-more-screen-placeholder.webp',
-    challenge: '',
-    solution: '',
-    features: [],
+    description: 'An upgraded referral landing page based on RV Membership, built for Revolution Property partners to collect leads from potential investment buyers. It keeps the same core concept, content flow, and dynamic contact function, while introducing updated branding and a new name. The responsive layout helps partners present the offer clearly across devices.',
+    shortDesc: 'An upgraded referral landing page for Revolution Property partners, keeping RV Membership lead capture flow with refreshed branding and responsive design.',
+    previewImg: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp',
+    headerDevices: [
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvp2/sp-img-prj-rvp2-head-tablet.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvp2/sp-img-prj-rvp2-head-hp.webp' } }
+    ],
+    challenge: 'Revolution Property v2 needed to keep the same purpose and functionality as the RV Membership website while presenting the product under refreshed branding and a new name. The challenge was to preserve the familiar content structure, investment explanation, and dynamic contact flow for lead capture, without making the new version feel disconnected from the previous referral landing page experience.',
+    solution: 'We rebuilt the landing page around the same proven referral flow from RV Membership, keeping the product education and dynamic contact section intact. The copy, layout, and visual direction were adjusted to match the updated Revolution Property branding and naming, while the responsive structure ensures referral partners can share the page confidently across desktop and mobile users.',
+    features: [
+      'Static landing page for Revolution Property investment leads',
+      'Updated branding and naming from RV Membership',
+      'Dynamic contact section for lead capture',
+      'Responsive design for desktop and mobile browsing'
+    ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
       { name: 'azure', src: '/images/tools/azure.svg' },
@@ -67,12 +77,36 @@ export const projects = withPublicAssetBase([
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
+    devicePreviews: [
+      {
+        type: 'laptop', label: 'laptop preview', media: {
+          kind: 'video',
+          src: '',
+          poster: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp',
+          muted: true,
+          autoplay: false,
+          preload: 'none',
+          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+        }
+      },
+      {
+        type: 'tablet', label: 'tablet preview', media: {
+          kind: 'img',
+          src: '/images/proj-rvp2/sp-img-prj-rvp2-head-tablet.webp',
+        }
+      },
+      {
+        type: 'hp', label: 'mobile preview', media: {
+          kind: 'img',
+          src: '/images/proj-rvp2/sp-img-prj-rvp2-head-hp.webp',
+        }
+      }
+    ],
     gallery: [],
-    devicePreviews: [],
-    pageFile: null
+    pageFile: 'revolution-property-v2-project'
   },
 
-  // NJP archive
+  // njp archive
   {
     slug: 'njp-archive',
     title: 'NJP archive',
@@ -81,17 +115,24 @@ export const projects = withPublicAssetBase([
     type: 'windows app',
     coreTech: 'maui',
     year: '2026',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A Windows-based MAUI app for NJP owners to manage archived and active data from NJP Admin v2. It synchronizes with the main system while moving selected records into a separate archive database, helping reduce the load on NJP Admin v2. With offline mode, advanced filters, column controls, export tools, dark mode, and auto updates, it stays fast for large datasets.',
+    shortDesc: 'A Windows MAUI archive app for NJP owners, built to sync with NJP Admin v2, manage large datasets, filter records, export reports, and reduce main system load.',
     previewImg: '/images/proj-njparc/sp-img-prj-njparc-02.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-njparc/sp-img-prj-njparc-02.webp' } },
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'NJP Archive needed to stay synchronized with NJP Admin v2 while using a separate database for selected archived records. The goal was to let owners review both active and archived data without forcing NJP Admin v2 to load too many old records. Because the data volume could reach tens of thousands of rows, the app also needed stronger filtering, flexible table views, and reliable export options.',
+    solution: 'We built the app with MAUI for a Windows-based desktop experience and added offline mode to keep large data management fast and responsive. Selected records can be archived into a separate database, reducing the load on NJP Admin v2 while still keeping data accessible for owners. Table controls, page-size settings, advanced filters, export tools, dark mode, and auto update support make the archive workflow easier to maintain.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login for owner access',
+      'View active NJP Admin v2 data and archived records',
+      'Advanced filtering with more search options',
+      'Page-size control for displayed data',
+      'Column visibility settings for custom index views',
+      'Export data to Excel or PDF',
+      'Offline mode for faster large-data access',
+      'Dark mode support',
+      'Automatic application updates'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -133,19 +174,23 @@ export const projects = withPublicAssetBase([
     type: 'website',
     coreTech: 'azure',
     year: '2026',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A resort website for a Triyana property in Carangsari, Bali, built to present rooms, facilities, activities, and services while supporting direct booking from the website. Room availability is planned to stay synchronized with third-party channels such as Cloudbeds and Agoda, while GSAP animations and responsive layouts keep the browsing experience smooth.',
+    shortDesc: 'A responsive resort website with room details, facilities, activities, direct booking, channel availability sync, and GSAP animation touches.',
     previewImg: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Triyana Resort Carangsari needed a website that could present the resort, services, room facilities, and activities clearly while making contact access easy to find. The site also needed direct booking for guests, with room availability synchronized against third-party booking channels such as Cloudbeds, Agoda, and similar platforms to reduce double-booking risk and keep availability data reliable.',
+    solution: 'We designed the website around a clear resort information flow, supported by room details, facilities, activities, and visible booking actions. The direct booking flow is structured to work alongside third-party channel availability synchronization, keeping guest reservations easier to manage. GSAP animation touches add a more polished feel, while responsive design keeps the experience comfortable across desktop and mobile screens.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Direct booking from the website',
+      'Room facility and activity detail sections',
+      'Clear resort service and contact information',
+      'Availability synchronization with third-party booking channels',
+      'GSAP-powered animation touches',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -192,19 +237,22 @@ export const projects = withPublicAssetBase([
     type: 'website',
     coreTech: 'azure',
     year: '2026',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A company profile website built to present the group and its business lines in one clear digital presence. The site introduces the company, showcases projects across its business portfolio, shares company articles, and provides direct contact access through phone, WhatsApp, and email. With a responsive layout, visitors can explore the group comfortably from any device.',
+    shortDesc: 'A responsive company profile website for Triyana Group, presenting business lines, company projects, articles, and clear contact access.',
     previewImg: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Triyana Group needed a company profile website that could explain the company and all of its business lines clearly. The website had to organize project information, company updates, and contact access in a way that felt easy for visitors to scan. A clear contact section was important so potential clients, partners, and customers could quickly reach the team through phone, WhatsApp, or email.',
+    solution: 'We built a structured company profile website with dedicated sections for the company overview, business lines, projects, articles, and contact actions. The content flow helps visitors understand Triyana Group as a whole while still making each project easy to explore. Responsive design keeps the website clear and comfortable to browse across desktop, tablet, and mobile screens.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Company articles and updates',
+      'All company project showcase',
+      'Business line overview for Triyana Group',
+      'Contact section through phone, WhatsApp, and email',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -242,7 +290,7 @@ export const projects = withPublicAssetBase([
     pageFile: 'triyana-group-project'
   },
 
-  // RV referral area
+  // rv referral area
   {
     slug: 'rv-referral-area',
     title: 'RV referral area',
@@ -251,19 +299,26 @@ export const projects = withPublicAssetBase([
     type: 'web app',
     coreTech: 'blazor',
     year: '2026',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A multi role web app for Revolution Property referral partners, CS teams, CS leaders, and admins. It manages leads, downlines, referral links, CS pipelines, queues, articles, news, and user access in one connected workspace. Integrated with RV Membership and RV Referral Partner pages, the app receives lead and partner data, supports dark mode, responsive layouts, and PWA installation.',
+    shortDesc: 'A multi role referral management web app for handling leads, downlines, CS pipelines, queues, content, users, and landing page integrations.',
     previewImg: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'RV Referral Area needed to serve several roles in one application: referral partners managing leads and downlines, CS teams closing incoming leads, CS leaders monitoring queues, and admins overseeing the whole process. The app also had to integrate with the RV Membership and RV Referral Partner landing pages, receiving lead and partner registration data without breaking each role\'s workflow.',
+    solution: 'We built a role-based web app with separate workflows for referral partners, CS, CS leaders, and admins. Lead and partner data from RV Membership and RV Referral Partner pages flows into the system, where it can be managed through database views, referral tools, CS kanban boards, and queue monitoring. The app also supports responsive layouts, dark mode, and PWA installation so teams can use it comfortably across devices.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Login and password recovery',
+      'Multi-role access for referral partners, CS, CS leaders, and admins',
+      'Database, referral view, article, and news update menus',
+      'User management for admin control',
+      'Database entry, My Referral, and share link tools for referral partners',
+      'My Leads and kanban board for CS workflows',
+      'CS queue menu for admins and CS leaders',
+      'Dark mode support',
+      'Responsive design and PWA installation'
     ],
     tools: [
       { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
@@ -307,7 +362,7 @@ export const projects = withPublicAssetBase([
     pageFile: 'rv-referral-area-project'
   },
 
-  // RV referral partner'
+  // rv referral partner
   {
     slug: 'rv-referral-partner',
     title: 'RV referral partner',
@@ -316,19 +371,23 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'azure',
     year: '2026',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A recruitment landing page used by Revolution Property referral partners to invite new partners under their network. The page explains how the partner program works, highlights the benefits of joining, and captures registration data through a dynamic form. Submitted data is sent to RV Referral Area so the new partner can be recorded under the inviting partner.',
+    shortDesc: 'A responsive recruitment landing page for Revolution Property referral partners, with dynamic registration linked to RV Referral Area.',
     previewImg: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Referral partners needed a landing page that could clearly explain how the Revolution Property partner program works and why new partners should join. The page also needed a registration section that could collect new partner data, store it properly, and send it to RV Referral Area. Each submission had to be connected to the inviting partner so the new referral partner could be placed correctly under their network.',
+    solution: 'We built a focused static landing page with clear explanations of the partner workflow, benefit highlights, and a dynamic registration section. The form captures referral partner data and sends it to RV Referral Area, where the new partner is linked under the partner who invited them. The page is also responsive, keeping the program information and registration flow easy to use across devices.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Static landing page for referral partner recruitment',
+      'Partner program workflow and benefit highlights',
+      'Dynamic referral partner registration section',
+      'Registration data submission to RV Referral Area',
+      'Inviting-partner linkage for new referral partners',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -375,19 +434,22 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'azure',
     year: '2025',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A referral landing page used by Revolution Property partners to collect leads from potential investment buyers. The page explains the investment products and benefits in a clear, focused flow, then captures visitor interest through a dynamic contact section. Submitted lead data is stored and sent to RV Referral Area so partners can track prospects more easily.',
+    shortDesc: 'A responsive referral landing page for Revolution Property partners, built to explain investment benefits and send captured leads to RV Referral Area.',
     previewImg: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Referral partners needed a landing page that could explain Revolution Property investment products and their benefits clearly to potential buyers. The page also needed a contact section that did more than display contact details: it had to capture lead information, store it properly, and send the data to RV Referral Area so partners could continue the follow-up process from the referral system.',
+    solution: 'We built a focused static landing page with clear product education, benefit highlights, and a dynamic contact section for lead capture. The contact flow collects prospect data and passes it into RV Referral Area, helping referral partners manage incoming leads in the right system. The page is also responsive, keeping the investment information and lead form easy to access across desktop and mobile screens.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Static landing page for Revolution Property investment products',
+      'Product benefit highlights for potential buyers',
+      'Dynamic contact section for lead capture',
+      'Lead data submission to RV Referral Area',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -434,19 +496,22 @@ export const projects = withPublicAssetBase([
     type: 'landing page',
     coreTech: 'azure',
     year: '2024',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+    description: 'A static landing page for a glamping property sales project in Nusa Penida, Bali. The page presents the glamping concept, unit types, facilities, and contact options in a clear, easy-to-follow flow. GSAP-powered animations add an interactive feel, while the responsive layout keeps the experience smooth across desktop and mobile screens.',
+    shortDesc: 'A responsive landing page for Triyana Glamping Village, presenting Nusa Penida glamping property details, facilities, contact access, and GSAP animations.',
     previewImg: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-hp.webp' } }
     ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+    challenge: 'Triyana Glamping Village needed a landing page that could present its glamping property offer in Nusa Penida clearly. Visitors had to understand the glamping concept, available unit types, and facilities without feeling overwhelmed. Contact access also needed strong visibility, and the website had to feel interactive through animation touches while still keeping the main sales information easy to read.',
+    solution: 'We built a static landing page with a clear structure for the glamping overview, unit types, facilities, and contact actions. GSAP was used to create smooth interactive animations that make the page feel more engaging without distracting from the content. The contact section supports phone, WhatsApp, and email access, while responsive design keeps the layout comfortable across desktop and mobile devices.',
     features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
+      'Static landing page for glamping property sales',
+      'Glamping type and facility information sections',
+      'Contact section through phone, WhatsApp, and email',
+      'GSAP powered interactive animations',
+      'Responsive design for desktop and mobile browsing'
     ],
     tools: [
       { name: 'vs code', src: '/images/tools/vscode.svg' },
@@ -658,7 +723,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-scrt/sp-vid-prj-scrt-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -948,7 +1013,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-msl/sp-vid-prj-msl-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1226,11 +1291,11 @@ export const projects = withPublicAssetBase([
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: '/images/proj-mmbr/sp-img-prj-mmbr-04.webp',
+          poster: '/images/proj-mmbr/sp-img-prj-mmbr-01.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-mmbr/sp-vid-prj-mmbr-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1355,7 +1420,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-hmlnk/sp-vid-prj-hmlnk-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1428,7 +1493,7 @@ export const projects = withPublicAssetBase([
           muted: true,
           autoplay: false,
           preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          sources: [{ src: '/images/proj-hml/sp-vid-prj-hml-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1723,17 +1788,17 @@ export const projects = withPublicAssetBase([
 export const detailedProjects = projects.filter(p => p.pageFile)
 
 export const partners = [
-  { name: 'Leafy', icon: 'leaf' },
-  { name: 'kanba', icon: 'circle' },
-  { name: 'cloudly', icon: 'cloud' },
-  { name: 'Lucid', icon: 'droplet' },
-  { name: 'Sitemark', icon: 'diamond' }
+  { name: 'Triyana Group', icon: 'leaf' },
+  { name: 'Akas', icon: 'circle' },
+  { name: 'Nusa Jaya', icon: 'cloud' },
+  { name: 'Nalanira', icon: 'droplet' },
+  { name: 'Kementerian', icon: 'diamond' }
 ]
 
 export const aboutStats = [
   { icon: 'user', value: '30+', label: 'Projects Completed' },
   { icon: 'monitor', value: '10+', label: 'Happy Clients' },
-  { icon: 'users', value: '8+', label: 'Years Experience' }
+  { icon: 'users', value: '9+', label: 'Years Experience' }
 ]
 
 export const whyItems = [
