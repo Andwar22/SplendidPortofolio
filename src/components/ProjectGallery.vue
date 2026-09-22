@@ -42,9 +42,6 @@ const lightboxItems = computed(() =>
 )
 
 function openAt(index) {
-  if (lightboxRef.value) {
-    lightboxRef.value.openAt(index)
-  }
-  lightboxOpen.value = true
+  lightboxRef.value?.openAt(index)
 }
 </script>

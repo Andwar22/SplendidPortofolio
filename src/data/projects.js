@@ -1792,8 +1792,7 @@ export const partners = [
   { name: 'Akas', icon: 'circle' },
   { name: 'MSL', icon: 'diamond' },
   { name: 'Nusa Jaya Pump', icon: 'cloud' },
-  { name: 'Nalanira', icon: 'droplet' },
-  // { name: 'Kementerian', icon: 'diamond' }
+  { name: 'Nalanira', icon: 'droplet' }
 ]
 
 export const aboutStats = [

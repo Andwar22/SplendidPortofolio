@@ -72,8 +72,13 @@ const currentIndex = ref(0)
 const overlayRef = ref(null)
 
 watch(() => props.modelValue, (val) => {
-  if (val) open(0)
-  else visible.value = false
+  if (val) {
+    // Only auto-open from outside when the lightbox isn't already
+    // opening at a specific index via openAt().
+    if (!visible.value) open(0)
+  } else {
+    visible.value = false
+  }
 })
 
 function open(index = 0) {
