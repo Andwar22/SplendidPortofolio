@@ -744,36 +744,36 @@ export const projects = withPublicAssetBase([
   },
 
   // kemenkumham
-  {
-    slug: 'kemenkumham',
-    title: 'kemenkumham',
-    status: 'finished',
-    statusLabel: 'finished',
-    type: 'backend',
-    coreTech: 'API',
-    year: '2023',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/proj-keuham/sp-img-prj-ham.webp',
-    headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-keuham/sp-img-prj-ham.webp' } }
-    ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
-    features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
-    ],
-    tools: [
-      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
-      { name: 'vs code', src: '/images/tools/vscode.svg' },
-      { name: 'postman', src: '/images/tools/postman.svg' },
-      { name: 'sql server', src: '/images/tools/sql-server.svg' }
-    ],
-    devicePreviews: [],
-    gallery: [],
-    pageFile: 'kemenkumham-project'
-  },
+  // {
+  //   slug: 'kemenkumham',
+  //   title: 'kemenkumham',
+  //   status: 'finished',
+  //   statusLabel: 'finished',
+  //   type: 'backend',
+  //   coreTech: 'API',
+  //   year: '2023',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+  //   shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+  //   previewImg: '/images/proj-keuham/sp-img-prj-ham.webp',
+  //   headerDevices: [
+  //     { type: 'laptop', media: { kind: 'img', src: '/images/proj-keuham/sp-img-prj-ham.webp' } }
+  //   ],
+  //   challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+  //   solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+  //   features: [
+  //     'Lorem ipsum dolor sit amet consectetur.',
+  //     'Lorem ipsum dolor sit amet consectetur adipisicing.'
+  //   ],
+  //   tools: [
+  //     { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+  //     { name: 'vs code', src: '/images/tools/vscode.svg' },
+  //     { name: 'postman', src: '/images/tools/postman.svg' },
+  //     { name: 'sql server', src: '/images/tools/sql-server.svg' }
+  //   ],
+  //   devicePreviews: [],
+  //   gallery: [],
+  //   pageFile: 'kemenkumham-project'
+  // },
 
   // njp admin
   {
@@ -1034,36 +1034,36 @@ export const projects = withPublicAssetBase([
   },
 
   //kemenkeu
-  {
-    slug: 'kemenkeu',
-    title: 'kemenkeu',
-    status: 'finished',
-    statusLabel: 'finished',
-    type: 'backend',
-    coreTech: 'API',
-    year: '2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
-    previewImg: '/images/proj-keuham/sp-img-prj-keu.webp',
-    headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-keuham/sp-img-prj-keu.webp' } }
-    ],
-    challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
-    solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
-    features: [
-      'Lorem ipsum dolor sit amet consectetur.',
-      'Lorem ipsum dolor sit amet consectetur adipisicing.'
-    ],
-    tools: [
-      { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
-      { name: 'vs code', src: '/images/tools/vscode.svg' },
-      { name: 'postman', src: '/images/tools/postman.svg' },
-      { name: 'sql server', src: '/images/tools/sql-server.svg' }
-    ],
-    devicePreviews: [],
-    gallery: [],
-    pageFile: 'kemenkeu-project'
-  },
+  // {
+  //   slug: 'kemenkeu',
+  //   title: 'kemenkeu',
+  //   status: 'finished',
+  //   statusLabel: 'finished',
+  //   type: 'backend',
+  //   coreTech: 'API',
+  //   year: '2022',
+  //   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+  //   shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni atque iure voluptatum dolorum neque laudantium veniam omnis doloremque delectus.',
+  //   previewImg: '/images/proj-keuham/sp-img-prj-keu.webp',
+  //   headerDevices: [
+  //     { type: 'laptop', media: { kind: 'img', src: '/images/proj-keuham/sp-img-prj-keu.webp' } }
+  //   ],
+  //   challenge: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse omnis repellendus quam natus excepturi.',
+  //   solution: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nihil sint cum dolor exercitationem necessitatibus.',
+  //   features: [
+  //     'Lorem ipsum dolor sit amet consectetur.',
+  //     'Lorem ipsum dolor sit amet consectetur adipisicing.'
+  //   ],
+  //   tools: [
+  //     { name: 'visual studio', src: '/images/tools/visual-studio.svg' },
+  //     { name: 'vs code', src: '/images/tools/vscode.svg' },
+  //     { name: 'postman', src: '/images/tools/postman.svg' },
+  //     { name: 'sql server', src: '/images/tools/sql-server.svg' }
+  //   ],
+  //   devicePreviews: [],
+  //   gallery: [],
+  //   pageFile: 'kemenkeu-project'
+  // },
 
   // triyana residence
   {
@@ -1790,13 +1790,14 @@ export const detailedProjects = projects.filter(p => p.pageFile)
 export const partners = [
   { name: 'Triyana Group', icon: 'leaf' },
   { name: 'Akas', icon: 'circle' },
-  { name: 'Nusa Jaya', icon: 'cloud' },
+  { name: 'MSL', icon: 'diamond' },
+  { name: 'Nusa Jaya Pump', icon: 'cloud' },
   { name: 'Nalanira', icon: 'droplet' },
-  { name: 'Kementerian', icon: 'diamond' }
+  // { name: 'Kementerian', icon: 'diamond' }
 ]
 
 export const aboutStats = [
-  { icon: 'user', value: '30+', label: 'Projects Completed' },
+  { icon: 'user', value: '25+', label: 'Projects Completed' },
   { icon: 'monitor', value: '10+', label: 'Happy Clients' },
   { icon: 'users', value: '9+', label: 'Years Experience' }
 ]

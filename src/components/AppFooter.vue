@@ -3,10 +3,10 @@
     <div class="wrapper">
       <div class="logo">
         <SplendidLogo />
-        <span>splendid</span>
+        <span>ITtwo</span>
       </div>
       <p class="copyright">
-        Copyright &copy; {{ year }} Splendid <b>All Rights Reserved.</b>
+        Copyright &copy; {{ year }} ITtwo <b>All Rights Reserved.</b>
       </p>
     </div>
   </footer>

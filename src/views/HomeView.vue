@@ -17,7 +17,7 @@
         </div>
         <div class="hero-img-wrap">
           <div class="hero-glow"></div>
-          <img :src="publicAsset('/images/sp-img-hero-light.webp')" alt="Digital Solutions Mockup" class="hero-img" />
+          <img :src="publicAsset('/images/sp-img-hero.webp')" alt="Digital Solutions Mockup" class="hero-img" />
         </div>
       </div>
     </header>

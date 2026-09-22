@@ -12,7 +12,7 @@
       <div id="menus" class="nav-menu">
         <div class="logo-nav-mobile">
           <SplendidLogo />
-          <div><span>splendid</span></div>
+          <div><span>ITtwo</span></div>
         </div>
 
         <label for="nav-toggle" class="close-menu" @click.prevent="closeMenu">
