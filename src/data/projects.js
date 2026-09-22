@@ -80,13 +80,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp',
+          // poster: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -147,13 +147,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-njparc/sp-img-prj-njparc-01.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-njparc/sp-img-prj-njparc-01.webp',
+          // poster: '/images/proj-njparc/sp-img-prj-njparc-01.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       }
     ],
@@ -202,13 +202,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp',
+          // poster: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -264,13 +264,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp',
+          // poster: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -332,13 +332,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp',
+          // poster: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -399,13 +399,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rpart/sp-vid-prj-rpart-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp',
+          // poster: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rpart/sp-vid-prj-rpart-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -461,13 +461,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp',
+          // poster: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -523,13 +523,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
+          // poster: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -587,13 +587,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-njpppn/sp-img-prj-njpppn-02.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-njpppn/sp-img-prj-njpppn-02.webp',
+          // poster: '/images/proj-njpppn/sp-img-prj-njpppn-02.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
     ],
@@ -649,13 +649,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-njpblz/sp-img-prj-njpblz-04.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-njpblz/sp-img-prj-njpblz-04.webp',
+          // poster: '/images/proj-njpblz/sp-img-prj-njpblz-04.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -811,13 +811,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-njpwf/sp-img-prj-njpwf-02.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-njpwf/sp-img-prj-njpwf-02.webp',
+          // poster: '/images/proj-njpwf/sp-img-prj-njpwf-02.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
     ],
@@ -870,13 +870,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp',
+          // poster: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -942,13 +942,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp',
+          // poster: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1099,13 +1099,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
+          // poster: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1161,13 +1161,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
+          // poster: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
@@ -1223,13 +1223,13 @@ export const projects = withPublicAssetBase([
     devicePreviews: [
       {
         type: 'laptop', label: 'laptop preview', media: {
-          kind: 'video',
-          src: '',
-          poster: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
-          muted: true,
-          autoplay: false,
-          preload: 'none',
-          sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
+          kind: 'img',
+          src: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
+          // poster: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
+          // muted: true,
+          // autoplay: false,
+          // preload: 'none',
+          // sources: [{ src: '/images/proj-rvadm/sp-vid-prj-rvadm-laptop.mp4', type: 'video/mp4' }]
         }
       },
       {
