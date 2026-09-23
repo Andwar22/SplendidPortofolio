@@ -1564,9 +1564,9 @@ export const projects = withPublicAssetBase([
     year: '2022',
     description: 'Revolution Property Admin is the main back-office app for Revolution Property company. It manages online data for customers, products, assets, sales, payments, promotions, dividends, cooperative records, and reports. Since the sales scheme changes often, the app is built to stay flexible, integrate with companion apps, and keep growing without breaking existing workflows.',
     shortDesc: 'A flexible admin app for managing resort and property investment operations, from master data and sales to reporting and companion app integrations.',
-    previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp',
+    previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-04.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-laptop.webp' } },
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-04.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
     ],
@@ -1595,7 +1595,7 @@ export const projects = withPublicAssetBase([
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: '/images/proj-rvadm/sp-img-prj-rvadm-poster-laptop.webp',
+          poster: '/images/proj-rvadm/sp-img-prj-rvadm-01.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
@@ -1615,7 +1615,7 @@ export const projects = withPublicAssetBase([
         }
       }
     ],
-    gallery: Array.from({ length: 2 }, (_, i) => ({
+    gallery: Array.from({ length: 8 }, (_, i) => ({
       src: `/images/proj-rvadm/sp-img-prj-rvadm-${String(i + 1).padStart(2, '0')}.webp`,
       title: '',
       description: ''
@@ -1654,7 +1654,7 @@ export const projects = withPublicAssetBase([
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: Array.from({ length: 9 }, (_, i) => ({
+    gallery: Array.from({ length: 6 }, (_, i) => ({
       src: `/images/proj-sayang/sp-img-prj-sbun-${String(i + 1).padStart(2, '0')}.webp`,
       title: '',
       description: ''
@@ -1696,7 +1696,7 @@ export const projects = withPublicAssetBase([
       { name: 'css', src: '/images/tools/css_old.svg' },
       { name: 'javascript', src: '/images/tools/javascript.svg' }
     ],
-    gallery: Array.from({ length: 9 }, (_, i) => ({
+    gallery: Array.from({ length: 8 }, (_, i) => ({
       src: `/images/proj-imi/sp-img-prj-imi-${String(i + 1).padStart(2, '0')}.webp`,
       title: '',
       description: ''
@@ -1718,7 +1718,7 @@ export const projects = withPublicAssetBase([
     year: '2020',
     description: 'Tree Admin had served the business well as a desktop app, but the team needed a more flexible web-based version. We transformed the legacy system into a responsive platform while preserving its essential features, including multi-user access, notifications, customer data, sales, filtering, and Excel export. By reusing the existing database, all records stayed intact, allowing the team to continue daily operations without interruption.',
     shortDesc: 'A web app upgrade of Tree Admin that brings legacy features to the browser with a responsive interface and preserved existing data.',
-    previewImg: '/images/proj-tav/sp-img-prj-tav-03.webp',
+    previewImg: '/images/proj-tav/sp-img-prj-tav-02.webp',
     challenge: 'Tree Admin had served the business well as a desktop application, but the team needed something more flexible. The task was to upgrade it into a web-based platform, adapting every core function from the legacy system to a different framework. The new version also had to be accessible from any device through a browser, so staff could work comfortably wherever they were.',
     solution: 'We rebuilt the legacy application as a responsive web app while keeping the existing workflow familiar. The interface adapts comfortably to smartphones, tablets, and desktops, and the system continues using the legacy database so existing records carry over cleanly. This helped the team move to the new platform without interrupting daily data entry.',
     features: [
@@ -1737,13 +1737,13 @@ export const projects = withPublicAssetBase([
       { name: 'html', src: '/images/tools/html5.svg' },
       { name: 'css', src: '/images/tools/css_old.svg' }
     ],
-    gallery: Array.from({ length: 3 }, (_, i) => ({
+    gallery: Array.from({ length: 2 }, (_, i) => ({
       src: `/images/proj-tav/sp-img-prj-tav-${String(i + 1).padStart(2, '0')}.webp`,
       title: '',
       description: ''
     })),
     devicePreviews: [
-      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-tav/sp-img-prj-tav-03.webp' } }
+      { type: 'laptop', label: 'desktop screen', media: { kind: 'img', src: '/images/proj-tav/sp-img-prj-tav-01.webp' } }
     ],
     pageFile: 'tav-project'
   },
