@@ -842,7 +842,7 @@ export const projects = withPublicAssetBase([
     shortDesc: 'A sales app for a rice milling and packaging factory, supporting retail and wholesale transactions, inventory sync, receipt printing, and reports.',
     previewImg: '/images/proj-aksfo/sp-img-prj-aksfo-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp' } },
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-02.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp' } }
     ],
@@ -871,7 +871,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp',
+          src: '/images/proj-aksfo/sp-img-prj-aksfo-02.webp',
           // poster: '/images/proj-aksfo/sp-img-prj-aksfo-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -892,7 +892,7 @@ export const projects = withPublicAssetBase([
         }
       }
     ],
-    gallery: Array.from({ length: 1 }, (_, i) => ({
+    gallery: Array.from({ length: 2 }, (_, i) => ({
       src: `/images/proj-aksfo/sp-img-prj-aksfo-${String(i + 1).padStart(2, '0')}.webp`,
       title: '',
       description: ''
@@ -913,7 +913,7 @@ export const projects = withPublicAssetBase([
     shortDesc: 'A back-office app for a rice milling and packaging factory, managing inventory, mixing, production, finance, users, and sales app synchronization.',
     previewImg: '/images/proj-aksbo/sp-img-prj-aksbo-01.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp' } },
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-02.webp' } },
       { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp' } },
       { type: 'hp', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp' } }
     ],
@@ -943,7 +943,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp',
+          src: '/images/proj-aksbo/sp-img-prj-aksbo-02.webp',
           // poster: '/images/proj-aksbo/sp-img-prj-aksbo-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -964,7 +964,7 @@ export const projects = withPublicAssetBase([
         }
       }
     ],
-    gallery: Array.from({ length: 1 }, (_, i) => ({
+    gallery: Array.from({ length: 2 }, (_, i) => ({
       src: `/images/proj-aksbo/sp-img-prj-aksbo-${String(i + 1).padStart(2, '0')}.webp`,
       title: '',
       description: ''
