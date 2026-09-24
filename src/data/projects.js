@@ -56,11 +56,11 @@ export const projects = withPublicAssetBase([
     year: '2026',
     description: 'An upgraded referral landing page based on RV Membership, built for Revolution Property partners to collect leads from potential investment buyers. It keeps the same core concept, content flow, and dynamic contact function, while introducing updated branding and a new name. The responsive layout helps partners present the offer clearly across devices.',
     shortDesc: 'An upgraded referral landing page for Revolution Property partners, keeping RV Membership lead capture flow with refreshed branding and responsive design.',
-    previewImg: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp',
+    previewImg: '/images/proj-rvp2/sp-img-prj-rvp2.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvp2/sp-img-prj-rvp2-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvp2/sp-img-prj-rvp2-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvp2/sp-img-prj-rvp2.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvp2/sp-img-prj-rvp2-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvp2/sp-img-prj-rvp2-hp.webp' } }
     ],
     challenge: 'Revolution Property v2 needed to keep the same purpose and functionality as the RV Membership website while presenting the product under refreshed branding and a new name. The challenge was to preserve the familiar content structure, investment explanation, and dynamic contact flow for lead capture, without making the new version feel disconnected from the previous referral landing page experience.',
     solution: 'We rebuilt the landing page around the same proven referral flow from RV Membership, keeping the product education and dynamic contact section intact. The copy, layout, and visual direction were adjusted to match the updated Revolution Property branding and naming, while the responsive structure ensures referral partners can share the page confidently across desktop and mobile users.',
@@ -81,7 +81,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp',
+          src: '/images/proj-rvp2/sp-img-prj-rvp2.webp',
           // poster: '/images/proj-rvp2/sp-img-prj-rvp2-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -92,13 +92,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-rvp2/sp-img-prj-rvp2-head-tablet.webp',
+          src: '/images/proj-rvp2/sp-img-prj-rvp2-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-rvp2/sp-img-prj-rvp2-head-hp.webp',
+          src: '/images/proj-rvp2/sp-img-prj-rvp2-hp.webp',
         }
       }
     ],
@@ -176,11 +176,11 @@ export const projects = withPublicAssetBase([
     year: '2026',
     description: 'A resort website for a Triyana property in Carangsari, Bali, built to present rooms, facilities, activities, and services while supporting direct booking from the website. Room availability is planned to stay synchronized with third-party channels such as Cloudbeds and Agoda, while GSAP animations and responsive layouts keep the browsing experience smooth.',
     shortDesc: 'A responsive resort website with room details, facilities, activities, direct booking, channel availability sync, and GSAP animation touches.',
-    previewImg: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp',
+    previewImg: '/images/proj-carang/sp-img-prj-carang.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-carang/sp-img-prj-carang-hp.webp' } }
     ],
     challenge: 'Triyana Resort Carangsari needed a website that could present the resort, services, room facilities, and activities clearly while making contact access easy to find. The site also needed direct booking for guests, with room availability synchronized against third-party booking channels such as Cloudbeds, Agoda, and similar platforms to reduce double-booking risk and keep availability data reliable.',
     solution: 'We designed the website around a clear resort information flow, supported by room details, facilities, activities, and visible booking actions. The direct booking flow is structured to work alongside third-party channel availability synchronization, keeping guest reservations easier to manage. GSAP animation touches add a more polished feel, while responsive design keeps the experience comfortable across desktop and mobile screens.',
@@ -203,7 +203,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp',
+          src: '/images/proj-carang/sp-img-prj-carang.webp',
           // poster: '/images/proj-carang/sp-img-prj-carang-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -214,13 +214,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-carang/sp-img-prj-carang-head-tablet.webp',
+          src: '/images/proj-carang/sp-img-prj-carang-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-carang/sp-img-prj-carang-head-hp.webp',
+          src: '/images/proj-carang/sp-img-prj-carang-hp.webp',
         }
       }
     ],
@@ -239,11 +239,11 @@ export const projects = withPublicAssetBase([
     year: '2026',
     description: 'A company profile website built to present the group and its business lines in one clear digital presence. The site introduces the company, showcases projects across its business portfolio, shares company articles, and provides direct contact access through phone, WhatsApp, and email. With a responsive layout, visitors can explore the group comfortably from any device.',
     shortDesc: 'A responsive company profile website for Triyana Group, presenting business lines, company projects, articles, and clear contact access.',
-    previewImg: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp',
+    previewImg: '/images/proj-tgroup/sp-img-prj-tgroup.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-tgroup/sp-img-prj-tgroup-hp.webp' } }
     ],
     challenge: 'Triyana Group needed a company profile website that could explain the company and all of its business lines clearly. The website had to organize project information, company updates, and contact access in a way that felt easy for visitors to scan. A clear contact section was important so potential clients, partners, and customers could quickly reach the team through phone, WhatsApp, or email.',
     solution: 'We built a structured company profile website with dedicated sections for the company overview, business lines, projects, articles, and contact actions. The content flow helps visitors understand Triyana Group as a whole while still making each project easy to explore. Responsive design keeps the website clear and comfortable to browse across desktop, tablet, and mobile screens.',
@@ -265,7 +265,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp',
+          src: '/images/proj-tgroup/sp-img-prj-tgroup.webp',
           // poster: '/images/proj-tgroup/sp-img-prj-tgroup-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -276,13 +276,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-tgroup/sp-img-prj-tgroup-head-tablet.webp',
+          src: '/images/proj-tgroup/sp-img-prj-tgroup-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-tgroup/sp-img-prj-tgroup-head-hp.webp',
+          src: '/images/proj-tgroup/sp-img-prj-tgroup-hp.webp',
         }
       }
     ],
@@ -304,8 +304,8 @@ export const projects = withPublicAssetBase([
     previewImg: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-01.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-head-hp.webp' } }
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rfarea/sp-img-prj-rfarea-hp.webp' } }
     ],
     challenge: 'RV Referral Area needed to serve several roles in one application: referral partners managing leads and downlines, CS teams closing incoming leads, CS leaders monitoring queues, and admins overseeing the whole process. The app also had to integrate with the RV Membership and RV Referral Partner landing pages, receiving lead and partner registration data without breaking each role\'s workflow.',
     solution: 'We built a role-based web app with separate workflows for referral partners, CS, CS leaders, and admins. Lead and partner data from RV Membership and RV Referral Partner pages flows into the system, where it can be managed through database views, referral tools, CS kanban boards, and queue monitoring. The app also supports responsive layouts, dark mode, and PWA installation so teams can use it comfortably across devices.',
@@ -344,13 +344,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-rfarea/sp-img-prj-rfarea-head-tablet.webp',
+          src: '/images/proj-rfarea/sp-img-prj-rfarea-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-rfarea/sp-img-prj-rfarea-head-hp.webp',
+          src: '/images/proj-rfarea/sp-img-prj-rfarea-hp.webp',
         }
       }
     ],
@@ -373,11 +373,11 @@ export const projects = withPublicAssetBase([
     year: '2026',
     description: 'A recruitment landing page used by Revolution Property referral partners to invite new partners under their network. The page explains how the partner program works, highlights the benefits of joining, and captures registration data through a dynamic form. Submitted data is sent to RV Referral Area so the new partner can be recorded under the inviting partner.',
     shortDesc: 'A responsive recruitment landing page for Revolution Property referral partners, with dynamic registration linked to RV Referral Area.',
-    previewImg: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp',
+    previewImg: '/images/proj-rpart/sp-img-prj-rpart.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rpart/sp-img-prj-rpart-hp.webp' } }
     ],
     challenge: 'Referral partners needed a landing page that could clearly explain how the Revolution Property partner program works and why new partners should join. The page also needed a registration section that could collect new partner data, store it properly, and send it to RV Referral Area. Each submission had to be connected to the inviting partner so the new referral partner could be placed correctly under their network.',
     solution: 'We built a focused static landing page with clear explanations of the partner workflow, benefit highlights, and a dynamic registration section. The form captures referral partner data and sends it to RV Referral Area, where the new partner is linked under the partner who invited them. The page is also responsive, keeping the program information and registration flow easy to use across devices.',
@@ -400,7 +400,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp',
+          src: '/images/proj-rpart/sp-img-prj-rpart.webp',
           // poster: '/images/proj-rpart/sp-img-prj-rpart-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -411,13 +411,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-rpart/sp-img-prj-rpart-head-tablet.webp',
+          src: '/images/proj-rpart/sp-img-prj-rpart-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-rpart/sp-img-prj-rpart-head-hp.webp',
+          src: '/images/proj-rpart/sp-img-prj-rpart-hp.webp',
         }
       }
     ],
@@ -436,11 +436,11 @@ export const projects = withPublicAssetBase([
     year: '2025',
     description: 'A referral landing page used by Revolution Property partners to collect leads from potential investment buyers. The page explains the investment products and benefits in a clear, focused flow, then captures visitor interest through a dynamic contact section. Submitted lead data is stored and sent to RV Referral Area so partners can track prospects more easily.',
     shortDesc: 'A responsive referral landing page for Revolution Property partners, built to explain investment benefits and send captured leads to RV Referral Area.',
-    previewImg: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp',
+    previewImg: '/images/proj-rvmbr/sp-img-prj-rvmbr.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvmbr/sp-img-prj-rvmbr-hp.webp' } }
     ],
     challenge: 'Referral partners needed a landing page that could explain Revolution Property investment products and their benefits clearly to potential buyers. The page also needed a contact section that did more than display contact details: it had to capture lead information, store it properly, and send the data to RV Referral Area so partners could continue the follow-up process from the referral system.',
     solution: 'We built a focused static landing page with clear product education, benefit highlights, and a dynamic contact section for lead capture. The contact flow collects prospect data and passes it into RV Referral Area, helping referral partners manage incoming leads in the right system. The page is also responsive, keeping the investment information and lead form easy to access across desktop and mobile screens.',
@@ -462,7 +462,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp',
+          src: '/images/proj-rvmbr/sp-img-prj-rvmbr.webp',
           // poster: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -473,13 +473,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-tablet.webp',
+          src: '/images/proj-rvmbr/sp-img-prj-rvmbr-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-rvmbr/sp-img-prj-rvmbr-head-hp.webp',
+          src: '/images/proj-rvmbr/sp-img-prj-rvmbr-hp.webp',
         }
       }
     ],
@@ -498,11 +498,11 @@ export const projects = withPublicAssetBase([
     year: '2024',
     description: 'A static landing page for a glamping property sales project in Nusa Penida, Bali. The page presents the glamping concept, unit types, facilities, and contact options in a clear, easy-to-follow flow. GSAP-powered animations add an interactive feel, while the responsive layout keeps the experience smooth across desktop and mobile screens.',
     shortDesc: 'A responsive landing page for Triyana Glamping Village, presenting Nusa Penida glamping property details, facilities, contact access, and GSAP animations.',
-    previewImg: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
+    previewImg: '/images/proj-glmp/sp-img-prj-glmp.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-glmp/sp-img-prj-glmp-hp.webp' } }
     ],
     challenge: 'Triyana Glamping Village needed a landing page that could present its glamping property offer in Nusa Penida clearly. Visitors had to understand the glamping concept, available unit types, and facilities without feeling overwhelmed. Contact access also needed strong visibility, and the website had to feel interactive through animation touches while still keeping the main sales information easy to read.',
     solution: 'We built a static landing page with a clear structure for the glamping overview, unit types, facilities, and contact actions. GSAP was used to create smooth interactive animations that make the page feel more engaging without distracting from the content. The contact section supports phone, WhatsApp, and email access, while responsive design keeps the layout comfortable across desktop and mobile devices.',
@@ -524,7 +524,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
+          src: '/images/proj-glmp/sp-img-prj-glmp.webp',
           // poster: '/images/proj-glmp/sp-img-prj-glmp-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -535,13 +535,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-glmp/sp-img-prj-glmp-head-tablet.webp',
+          src: '/images/proj-glmp/sp-img-prj-glmp-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-glmp/sp-img-prj-glmp-head-hp.webp',
+          src: '/images/proj-glmp/sp-img-prj-glmp-hp.webp',
         }
       }
     ],
@@ -619,8 +619,8 @@ export const projects = withPublicAssetBase([
     previewImg: '/images/proj-njpblz/sp-img-prj-njpblz-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-04.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-head-hp.webp' } }
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-njpblz/sp-img-prj-njpblz-hp.webp' } }
     ],
     challenge: 'NJP Admin v2 had to upgrade the previous Windows-based application into a web-based system without breaking the way the team already worked. It needed to use the same database, keep the same menu structure, and preserve the functions and business logic from the desktop version. The new app also had to be installable and usable across different devices, making the workflow more flexible while keeping the transition familiar.',
     solution: 'We rebuilt the application using Blazor WebAssembly as a PWA, allowing it to be installed and used like an app across supported devices. The interface was made responsive while keeping the familiar menu structure and logic from the Windows version. New capabilities such as archive data, offline mode, dark mode, and multi-user support were added to make the upgraded system more flexible for daily operations.',
@@ -661,13 +661,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-njpblz/sp-img-prj-njpblz-head-tablet.webp',
+          src: '/images/proj-njpblz/sp-img-prj-njpblz-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-njpblz/sp-img-prj-njpblz-head-hp.webp',
+          src: '/images/proj-njpblz/sp-img-prj-njpblz-hp.webp',
         }
       }
     ],
@@ -690,11 +690,11 @@ export const projects = withPublicAssetBase([
     year: '2024',
     description: 'A landing page for a tea product with unique flavor variants. The page presents product information, flavor options, pricing, and contact access in a clear and friendly flow. To make the experience feel more lively, GSAP-powered animations add interactive movement while the responsive layout and dark mode keep the page comfortable to browse across devices.',
     shortDesc: 'A responsive tea product landing page for Sinceritea, presenting unique flavors, pricing, contact options, dark mode, and GSAP animations.',
-    previewImg: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp',
+    previewImg: '/images/proj-scrt/sp-img-prj-scrt.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-scrt/sp-img-prj-scrt-hp.webp' } }
     ],
     challenge: 'Sinceritea needed a landing page that could present its tea products and unique flavor variants clearly. Product information, pricing, and contact options had to be easy to find so visitors could understand the offer and reach the team without friction. The website also needed to feel more interactive, with animation touches that made the brand experience more memorable without distracting from the main content.',
     solution: 'We built a static landing page with a clear structure for product details, flavor variants, pricing, and contact actions. GSAP was used to add smooth website animations, giving the page a more interactive and polished feel. The layout keeps contact access through phone, WhatsApp, and email easy to reach, while responsive design and dark mode make the experience comfortable across desktop and mobile screens.',
@@ -719,7 +719,7 @@ export const projects = withPublicAssetBase([
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: '/images/proj-scrt/sp-img-prj-scrt-head-laptop.webp',
+          poster: '/images/proj-scrt/sp-img-prj-scrt.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
@@ -729,13 +729,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-scrt/sp-img-prj-scrt-head-tablet.webp',
+          src: '/images/proj-scrt/sp-img-prj-scrt-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-scrt/sp-img-prj-scrt-head-hp.webp',
+          src: '/images/proj-scrt/sp-img-prj-scrt-hp.webp',
         }
       }
     ],
@@ -843,8 +843,8 @@ export const projects = withPublicAssetBase([
     previewImg: '/images/proj-aksfo/sp-img-prj-aksfo-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-02.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp' } }
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-aksfo/sp-img-prj-aksfo-hp.webp' } }
     ],
     challenge: 'The sales app needed to integrate and synchronize with Akas Admin so sales activity, inventory data, and customer records stayed consistent between both systems. It also had to support two different sales flows: retail transactions and wholesale transactions. On top of that, the team needed a reliable way to print sales notes after each transaction and review sales reports without relying on manual records.',
     solution: 'We built a focused sales workflow that separates retail and wholesale transactions while keeping both connected to the same synchronized data source as Akas Admin. Discount input, inventory visibility, and customer data are handled inside the transaction flow, helping staff work faster at the point of sale. Sales note printing and reporting were added so every transaction can be documented and reviewed clearly.',
@@ -882,13 +882,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-aksfo/sp-img-prj-aksfo-head-tablet.webp',
+          src: '/images/proj-aksfo/sp-img-prj-aksfo-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-aksfo/sp-img-prj-aksfo-head-hp.webp',
+          src: '/images/proj-aksfo/sp-img-prj-aksfo-hp.webp',
         }
       }
     ],
@@ -914,8 +914,8 @@ export const projects = withPublicAssetBase([
     previewImg: '/images/proj-aksbo/sp-img-prj-aksbo-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-02.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp' } }
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-aksbo/sp-img-prj-aksbo-hp.webp' } }
     ],
     challenge: 'The admin app needed to support daily operations at a rice milling and packaging factory while staying integrated and synchronized with the sales application. The system had to include workflows for rice mixing and production, inventory management, receipts, returns, and finance records. It also needed flexible user access, so registered users could work under different roles such as admin, finance, warehouse, and other operational teams.',
     solution: 'We built a centralized back-office system that connects operational data from sales, warehouse, production, and finance into one workflow. Inventory is organized across temporary stock, item-based stock, area-based stock, and good stock, while dedicated modules handle rice mixing and production. Role-based user management keeps each team focused on the menus and responsibilities relevant to their work.',
@@ -954,13 +954,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-aksbo/sp-img-prj-aksbo-head-tablet.webp',
+          src: '/images/proj-aksbo/sp-img-prj-aksbo-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-aksbo/sp-img-prj-aksbo-head-hp.webp',
+          src: '/images/proj-aksbo/sp-img-prj-aksbo-hp.webp',
         }
       }
     ],
@@ -983,11 +983,11 @@ export const projects = withPublicAssetBase([
     year: '2022',
     description: 'A static landing page for a logistics and freight forwarding company serving national and international shipments. The page presents a firm, modern, and professional brand impression while explaining the company profile, service offerings, and clear contact options. With responsive layouts and dark mode support, visitors can explore the services and reach the team easily.',
     shortDesc: 'A professional logistics landing page for PT. MSL, presenting company profile, national and international shipping services, and clear contact access.',
-    previewImg: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp',
+    previewImg: '/images/proj-msl/sp-img-prj-msl.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-msl/sp-img-prj-msl-hp.webp' } }
     ],
     challenge: 'PT. MSL needed a landing page that looked professional, firm, and modern for a logistics company operating at national and international scale. The page had to introduce the company clearly, explain the freight and delivery services offered, and make contact access easy to find. Visitors needed to understand the company\'s credibility and quickly reach the team through phone, WhatsApp, or email.',
     solution: 'We built a static landing page with a clean, confident visual direction and a content flow that moves from company profile to logistics services and contact actions. The layout highlights key service information while keeping the contact section visible and practical. Responsive design and dark mode support help the page feel polished and accessible across desktop and mobile screens.',
@@ -1009,7 +1009,7 @@ export const projects = withPublicAssetBase([
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'video',
           src: '',
-          poster: '/images/proj-msl/sp-img-prj-msl-head-laptop.webp',
+          poster: '/images/proj-msl/sp-img-prj-msl.webp',
           muted: true,
           autoplay: false,
           preload: 'none',
@@ -1019,13 +1019,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-msl/sp-img-prj-msl-head-tablet.webp',
+          src: '/images/proj-msl/sp-img-prj-msl-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-msl/sp-img-prj-msl-head-hp.webp',
+          src: '/images/proj-msl/sp-img-prj-msl-hp.webp',
         }
       }
     ],
@@ -1076,11 +1076,11 @@ export const projects = withPublicAssetBase([
     year: '2022',
     description: 'Triyana Residence is a static landing page for a housing sales company in Kertalangu, close to Sanur Beach. The page presents the residential offer clearly, including three available house types, key specifications, location highlights, and direct contact options. With a responsive layout, visitors can explore the homes and reach the sales team easily by phone, WhatsApp, or email.',
     shortDesc: 'A responsive landing page for Triyana Residence, presenting three house types near Sanur Beach with clear specifications and contact access.',
-    previewImg: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
+    previewImg: '/images/proj-trr/sp-img-prj-trr.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-trr/sp-img-prj-trr-hp.webp' } }
     ],
     challenge: 'Triyana Residence needed a landing page that could present its housing products clearly for potential buyers. The page had to explain the available house types and specifications, highlight the Kertalangu location near Sanur Beach, and make the contact path easy to find. A clear "contact us" section was essential so visitors could quickly reach the sales team after reviewing the offer.',
     solution: 'We built a focused static landing page with a simple flow from project introduction to location, house types, specifications, and contact actions. The layout keeps product information easy to compare while giving strong visibility to phone, WhatsApp, and email options. Responsive design ensures the page stays clear and comfortable to browse across desktop and mobile screens.',
@@ -1100,7 +1100,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
+          src: '/images/proj-trr/sp-img-prj-trr.webp',
           // poster: '/images/proj-trr/sp-img-prj-trr-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -1111,13 +1111,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-trr/sp-img-prj-trr-head-tablet.webp',
+          src: '/images/proj-trr/sp-img-prj-trr-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-trr/sp-img-prj-trr-head-hp.webp',
+          src: '/images/proj-trr/sp-img-prj-trr-hp.webp',
         }
       }
     ],
@@ -1136,11 +1136,11 @@ export const projects = withPublicAssetBase([
     year: '2022',
     description: 'Triyana Villa is a static landing page for a villa investment company offering Joint Ownership villas in Buleleng, near Lovina Beach. The page introduces the company, explains the ownership concept, and presents villa types, specifications, pricing, and contact options clearly. With responsive layouts and dark mode support, it helps potential buyers explore the offer comfortably.',
     shortDesc: 'A responsive landing page for Triyana Villa, presenting Joint Ownership villa investments near Lovina Beach with clear pricing and contact access.',
-    previewImg: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
+    previewImg: '/images/proj-trv/sp-img-prj-trv.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-trv/sp-img-prj-trv-hp.webp' } }
     ],
     challenge: 'Triyana Villa needed a landing page that could present its Joint Ownership villa investment offer clearly. The page had to introduce the company, explain the product, and show villa types, specifications, and pricing in a way that felt easy for potential buyers to understand. Contact access also needed strong visibility, so visitors could quickly reach the team through phone, WhatsApp, or email.',
     solution: 'We built a focused static landing page with a clear flow from company profile to villa product details, specifications, pricing, and contact actions. The layout highlights the information buyers need most, including the villa location near Lovina Beach and the Joint Ownership concept. Dark mode and responsive design help the page stay polished and easy to browse across desktop and mobile screens.',
@@ -1162,7 +1162,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
+          src: '/images/proj-trv/sp-img-prj-trv.webp',
           // poster: '/images/proj-trv/sp-img-prj-trv-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -1173,13 +1173,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-trv/sp-img-prj-trv-head-tablet.webp',
+          src: '/images/proj-trv/sp-img-prj-trv-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-trv/sp-img-prj-trv-head-hp.webp',
+          src: '/images/proj-trv/sp-img-prj-trv-hp.webp',
         }
       }
     ],
@@ -1198,11 +1198,11 @@ export const projects = withPublicAssetBase([
     year: '2022',
     description: 'Revolution Property is a static landing page built to educate potential members and owners about resort property investment products. It presents the product offer, a short company profile, pricing information, and clear contact options in one focused page. With responsive layouts and dark mode support, the page keeps key investment details easy to read across devices.',
     shortDesc: 'A responsive landing page for educating potential Revolution Property members about investment products, pricing, company profile, and contact options.',
-    previewImg: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
+    previewImg: '/images/proj-rvp/sp-img-prj-rvp.webp',
     headerDevices: [
-      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-head-hp.webp' } }
+      { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp.webp' } },
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvp/sp-img-prj-rvp-hp.webp' } }
     ],
     challenge: 'The landing page needed to do more than show product information. It also had to introduce the company briefly, explain the investment offer clearly, and make pricing easy to find for potential members and owners. Contact access was another priority, so visitors could quickly reach the team through phone, WhatsApp, or email after understanding the product.',
     solution: 'We created a static landing page with a clear content flow from company profile to product education, pricing, and contact actions. The layout highlights the most important investment information while keeping the contact section visible and easy to use. Dark mode and responsive design were added so the page stays comfortable to read and navigate across desktop and mobile screens.',
@@ -1224,7 +1224,7 @@ export const projects = withPublicAssetBase([
       {
         type: 'laptop', label: 'laptop preview', media: {
           kind: 'img',
-          src: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
+          src: '/images/proj-rvp/sp-img-prj-rvp.webp',
           // poster: '/images/proj-rvp/sp-img-prj-rvp-head-laptop.webp',
           // muted: true,
           // autoplay: false,
@@ -1235,13 +1235,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-rvp/sp-img-prj-rvp-head-tablet.webp',
+          src: '/images/proj-rvp/sp-img-prj-rvp-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-rvp/sp-img-prj-rvp-head-hp.webp',
+          src: '/images/proj-rvp/sp-img-prj-rvp-hp.webp',
         }
       }
     ],
@@ -1263,8 +1263,8 @@ export const projects = withPublicAssetBase([
     previewImg: '/images/proj-mmbr/sp-img-prj-mmbr-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-04.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-head-hp.webp' } }
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-mmbr/sp-img-prj-mmbr-hp.webp' } }
     ],
     challenge: 'The member area needed to integrate closely with Revolution Property Admin, the main operational system used by the admin team. Every sales input, ownership update, asset change, and related data adjustment from the admin app had to synchronize correctly to each member account. The challenge was making investment information reliable, easy to access, and always aligned with the latest admin-side data.',
     solution: 'We built the member area around synchronized data from Revolution Property Admin, so each member sees only the assets, reports, and updates that belong to them. The dashboard gives owners a clear overview of their investment activity, while supporting property discovery, cooperative registration, RV University learning content, and annual dividend reporting in one accessible portal.',
@@ -1301,13 +1301,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-mmbr/sp-img-prj-mmbr-head-tablet.webp',
+          src: '/images/proj-mmbr/sp-img-prj-mmbr-tab.webp',
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-mmbr/sp-img-prj-mmbr-head-hp.webp',
+          src: '/images/proj-mmbr/sp-img-prj-mmbr-hp.webp',
         }
       }
     ],
@@ -1385,8 +1385,8 @@ export const projects = withPublicAssetBase([
     previewImg: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-01.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-hp.webp' } }
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-hmlnk/sp-img-prj-hmlnk-hp.webp' } }
     ],
     challenge: 'Hamilku Nakes had to support obstetricians, general practitioners, and midwives who serve patients booking through Hamilku. The main challenge was keeping data synchronized and consistent between what providers enter and what patients receive. Providers also needed a complete workflow for entering examination data, pregnancy records, screening and scoring results, ultrasound photos, next control dates, and practice schedules that can be shown to patients.',
     solution: 'We aligned the input parameters needed by both patients and healthcare providers so shared data stays consistent across the ecosystem. Ultrasound photos are compressed and stored with blob storage to keep images lightweight when loaded in the app. We also built practice schedule management for providers, along with QR-based examination data transfer so patients can receive their results quickly and reliably.',
@@ -1426,13 +1426,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-tablet.webp'
+          src: '/images/proj-hmlnk/sp-img-prj-hmlnk-tab.webp'
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-hmlnk/sp-img-prj-hmlnk-head-hp.webp'
+          src: '/images/proj-hmlnk/sp-img-prj-hmlnk-hp.webp'
         }
       }
     ],
@@ -1458,8 +1458,8 @@ export const projects = withPublicAssetBase([
     previewImg: '/images/proj-hml/sp-img-prj-hml-01.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-01.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-head-hp.webp' } }
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-tab.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-hml/sp-img-prj-hml-hp.webp' } }
     ],
     challenge: 'Hamilku was developed as an upgrade from Sayang Bunda, shifting the focus from doctors to patients: pregnant women and women preparing for pregnancy. The app needed to calculate estimated due dates and gestational age automatically from pregnancy data, while also helping users complete screening tables and receive risk scores based on the conditions they experience. The information had to stay clear, practical, and easy to use for non-medical users.',
     solution: 'We built automatic calculations for estimated delivery dates and gestational age based on the patient\'s last menstrual period. Screening tables were created from standard obstetrician references, while risk scoring follows the Poedji Rochyati scoring table. The app also supports independent screening, pregnancy records, educational media, service booking, and QR-based examination data transfer from obstetric specialists.',
@@ -1499,13 +1499,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-hml/sp-img-prj-hml-head-tablet.webp'
+          src: '/images/proj-hml/sp-img-prj-hml-tab.webp'
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-hml/sp-img-prj-hml-head-hp.webp'
+          src: '/images/proj-hml/sp-img-prj-hml-hp.webp'
         }
       }
     ],
@@ -1567,8 +1567,8 @@ export const projects = withPublicAssetBase([
     previewImg: '/images/proj-rvadm/sp-img-prj-rvadm-04.webp',
     headerDevices: [
       { type: 'laptop', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-04.webp' } },
-      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-tablet.webp' } },
-      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-head-hp.webp' } }
+      { type: 'tablet', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-tab-02.webp' } },
+      { type: 'hp', media: { kind: 'img', src: '/images/proj-rvadm/sp-img-prj-rvadm-hp-02.webp' } }
     ],
     challenge: 'The app is used by admins at Revolution Property company, with all operational data stored in an online database. It acts as the main system and connects with several companion applications. The biggest challenge is the sales scheme, which changes often and usually affects the core application flow. Because the platform is still actively evolving, every new feature needs to be added carefully without disrupting existing features that the team already depends on.',
     solution: 'We designed the application to be flexible instead of locking it into a rigid sales flow. The interface and feature structure can keep adapting as the business process grows, while existing workflows remain stable. Accurate data calculations are handled inside the system and presented through dashboards, helping admins monitor sales, assets, payments, and key business activity more easily.',
@@ -1605,13 +1605,13 @@ export const projects = withPublicAssetBase([
       {
         type: 'tablet', label: 'tablet preview', media: {
           kind: 'img',
-          src: '/images/proj-rvadm/sp-img-prj-rvadm-poster-tablet.webp'
+          src: '/images/proj-rvadm/sp-img-prj-rvadm-tab-01.webp'
         }
       },
       {
         type: 'hp', label: 'mobile preview', media: {
           kind: 'img',
-          src: '/images/proj-rvadm/sp-img-prj-rvadm-poster-hp.webp'
+          src: '/images/proj-rvadm/sp-img-prj-rvadm-hp-01.webp'
         }
       }
     ],
